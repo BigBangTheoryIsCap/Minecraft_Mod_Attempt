@@ -1,0 +1,18 @@
+{
+  "values": [
+    "tutorial-mod:pink_garnet_block",
+    "tutorial-mod:raw_pink_garnet_block",
+    "tutorial-mod:pink_garnet_ore",
+    "tutorial-mod:pink_garnet_deepslate_ore",
+    "tutorial-mod:magic_block",
+    "tutorial-mod:pink_garnet_button",
+    "tutorial-mod:pink_garnet_pressure_plate",
+    "tutorial-mod:pink_garnet_door",
+    "tutorial-mod:pink_garnet_trapdoor",
+    "tutorial-mod:pink_garnet_fence",
+    "tutorial-mod:pink_garnet_fence_gate",
+    "tutorial-mod:pink_garnet_wall",
+    "tutorial-mod:pink_garnet_slab",
+    "tutorial-mod:pink_garnet_stairs"
+  ]
+}
