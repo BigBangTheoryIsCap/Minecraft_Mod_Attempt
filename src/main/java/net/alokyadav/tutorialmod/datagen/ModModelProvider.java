@@ -24,16 +24,15 @@ public class ModModelProvider extends FabricModelProvider {
 
         pinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
         pinkGarnetPool.slab(ModBlocks.PINK_GARNET_SLAB);
-
-        pinkGarnetPool.button(ModBlocks.PINK_GARNET_BUTTON);
-        pinkGarnetPool.pressurePlate(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
-
         pinkGarnetPool.fence(ModBlocks.PINK_GARNET_FENCE);
         pinkGarnetPool.fenceGate(ModBlocks.PINK_GARNET_FENCE_GATE);
+        pinkGarnetPool.pressurePlate(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+        pinkGarnetPool.button(ModBlocks.PINK_GARNET_BUTTON);
         pinkGarnetPool.wall(ModBlocks.PINK_GARNET_WALL);
 
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GARNET_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
+
     }
 
     @Override
@@ -41,5 +40,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.MONEY_ITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
     }
 }

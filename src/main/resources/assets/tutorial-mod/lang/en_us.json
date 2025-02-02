@@ -2,6 +2,9 @@
   "item.tutorial-mod.pink_garnet": "Pink Garnet",
   "item.tutorial-mod.raw_pink_garnet": "Raw Pink Garnet",
   "item.tutorial-mod.cash_money":"Money",
+  "item.tutorial-mod.chisel":"Chisel",
+  "item.tutorial-mod.cauliflower": "Cauliflower",
+  "item.tutorial-mod.starlight_ashes": "Starlight Ashes",
 
   "block.tutorial-mod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorial-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -10,7 +13,7 @@
   "block.tutorial-mod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "block.tutorial-mod.pink_garnet_stairs": "Pink Garnet Stairs",
-  "block.tutorial-mod.pink_garnet_slab": "Pink Garne Slab ",
+  "block.tutorial-mod.pink_garnet_slab": "Pink Garnet Slab ",
 
   "block.tutorial-mod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
   "block.tutorial-mod.pink_garnet_door": "Pink Garnet Door",
@@ -20,6 +23,7 @@
   "block.tutorial-mod.pink_garnet_wall": "Pink Garnet Wall",
   "block.tutorial-mod.pink_garnet_button": "Pink Garnet Button",
   "block.tutorial-mod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+
 
   "block.tutorial-mod.magic_block":"Magic Block",
 
