@@ -30,8 +30,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_STAIRS);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.PINK_GARNET_SLAB);
+                        entries.add(ModBlocks.PINK_GARNET_FENCE);
+                        entries.add(ModBlocks.PINK_GARNET_FENCE_GATE);
+                        entries.add(ModBlocks.PINK_GARNET_WALL);
+                        entries.add(ModBlocks.PINK_GARNET_DOOR);
+                        entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
+                        entries.add(ModBlocks.PINK_GARNET_BUTTON);
+                        entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
                     }).build());
-
+    public static final ItemGroup MONEY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"money_item"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.MONEY_ITEM))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.money_item"))
+                    .entries((displayContext, entries) -> {
+                    entries.add(ModItems.MONEY_ITEM);
+                    }).build());
     public static void registerModItemGroups() {
         TutorialMod.LOGGER.info("Registering Mod Item Groups for " + TutorialMod.MOD_ID);
     }
