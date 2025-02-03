@@ -1,5 +1,5 @@
-[23:47:22] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.10
-[23:47:22] [main/INFO] (FabricLoader) Loading 55 mods:
+[11:19:25] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.10
+[11:19:25] [main/INFO] (FabricLoader) Loading 55 mods:
 	- fabric-api 0.102.0+1.21
 	- fabric-api-base 0.4.42+6573ed8cd1
 	- fabric-api-lookup-api-v1 1.6.68+b5597344d1
@@ -55,29 +55,29 @@
 	- minecraft 1.21
 	- mixinextras 0.4.1
 	- tutorial-mod 1.0.0
-[23:47:22] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/alokyadav/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[23:47:22] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[23:47:22] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[23:47:22] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[23:47:24] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23:47:25] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 304 milliseconds
-[23:47:29] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:47:30] [Render thread/INFO] (Minecraft) Setting user: Player785
-[23:47:30] [Render thread/INFO] (tutorial-mod) Registering Mod Item Groups for tutorial-mod
-[23:47:30] [Render thread/INFO] (tutorial-mod) Registering Mod Items for tutorial-mod
-[23:47:30] [Render thread/INFO] (tutorial-mod) Registering Tutorial Mod Blockstutorial-mod
-[23:47:30] [Render thread/WARN] (FuelRegistryImpl) Tried to register an overly high cookTime: 80000 > 32767! (tutorial-mod:starlight_ashes)
-[23:47:30] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[23:47:30] [Render thread/INFO] (FabricDataGenHelper) Running data generator for tutorial-mod
-[23:47:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Tags for minecraft:block
-[23:47:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Tags for minecraft:block finished after 11 ms
-[23:47:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Tags for minecraft:item
-[23:47:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Tags for minecraft:item finished after 0 ms
-[23:47:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Recipes
-[23:47:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Recipes finished after 40 ms
-[23:47:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Block Loot Tables
-[23:47:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Block Loot Tables finished after 11 ms
-[23:47:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Model Definitions
-[23:47:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Model Definitions finished after 47 ms
-[23:47:31] [Render thread/INFO] (Minecraft) All providers took: 114 ms
-[23:47:31] [Render thread/INFO] (Minecraft) Caching: total files: 112, old count: 112, new count: 113, removed stale: 0, written: 0
+[11:19:25] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/alokyadav/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[11:19:25] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[11:19:26] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[11:19:26] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[11:19:27] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11:19:28] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 520 milliseconds
+[11:19:36] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:19:36] [Render thread/INFO] (Minecraft) Setting user: Player764
+[11:19:36] [Render thread/INFO] (tutorial-mod) Registering Mod Item Groups for tutorial-mod
+[11:19:36] [Render thread/INFO] (tutorial-mod) Registering Mod Items for tutorial-mod
+[11:19:36] [Render thread/INFO] (tutorial-mod) Registering Tutorial Mod Blockstutorial-mod
+[11:19:36] [Render thread/WARN] (FuelRegistryImpl) Tried to register an overly high cookTime: 80000 > 32767! (tutorial-mod:starlight_ashes)
+[11:19:36] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[11:19:37] [Render thread/INFO] (FabricDataGenHelper) Running data generator for tutorial-mod
+[11:19:37] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Tags for minecraft:block
+[11:19:37] [Render thread/INFO] (Minecraft) Tutorial Mod/Tags for minecraft:block finished after 9 ms
+[11:19:37] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Tags for minecraft:item
+[11:19:37] [Render thread/INFO] (Minecraft) Tutorial Mod/Tags for minecraft:item finished after 1 ms
+[11:19:37] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Recipes
+[11:19:37] [Render thread/INFO] (Minecraft) Tutorial Mod/Recipes finished after 45 ms
+[11:19:37] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Block Loot Tables
+[11:19:37] [Render thread/INFO] (Minecraft) Tutorial Mod/Block Loot Tables finished after 13 ms
+[11:19:37] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Model Definitions
+[11:19:37] [Render thread/INFO] (Minecraft) Tutorial Mod/Model Definitions finished after 71 ms
+[11:19:37] [Render thread/INFO] (Minecraft) All providers took: 143 ms
+[11:19:37] [Render thread/INFO] (Minecraft) Caching: total files: 136, old count: 132, new count: 137, removed stale: 0, written: 5

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tutorial-mod:block/ruby_block_overlay"
+  },
+  "render_type": "cutout"
+}

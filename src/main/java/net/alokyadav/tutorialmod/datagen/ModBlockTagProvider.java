@@ -21,6 +21,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_ORE)
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE)
                 .add(ModBlocks.MAGIC_BLOCK)
+                .add(ModBlocks.MAGIC_BLOCK)
 
                 .add(ModBlocks.PINK_GARNET_BUTTON)
                 .add(ModBlocks.PINK_GARNET_PRESSURE_PLATE)

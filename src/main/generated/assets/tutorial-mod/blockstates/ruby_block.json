@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "tutorial-mod:block/ruby_block_base"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorial-mod:block/ruby_block_overlay"
+      }
+    }
+  ]
+}

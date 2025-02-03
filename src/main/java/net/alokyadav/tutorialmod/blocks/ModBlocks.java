@@ -41,6 +41,13 @@ public class ModBlocks {
                     requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE)
     ));
+    public static final Block RUBY_BLOCK = registerBlock("ruby_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,7),
+                    AbstractBlock.Settings.create().
+                            strength(5.0f).
+                            requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
     public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
             new StairsBlock(ModBlocks.PINK_GARNET_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block PINK_GARNET_SLAB = registerBlock("pink_garnet_slab",
@@ -67,7 +74,6 @@ public class ModBlocks {
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, name), block);
@@ -98,6 +104,7 @@ public class ModBlocks {
             entries.add(PINK_GARNET_TRAPDOOR);
             entries.add(PINK_GARNET_BUTTON);
             entries.add(PINK_GARNET_PRESSURE_PLATE);
+            entries.add(RUBY_BLOCK);
         });
     }
 }
