@@ -1,10 +1,10 @@
-// 1.21	2025-02-03T11:19:37.587956	Tutorial Mod/Model Definitions
+// 1.21	2025-02-04T20:44:32.021284	Tutorial Mod/Model Definitions
 96e3af71ef7872e1502aa899d934aa1f124682b7 assets/tutorial-mod/models/block/pink_garnet_door_bottom_left.json
 4ff79c79d16a35488414e2031ed9e2221b6fabdd assets/tutorial-mod/models/block/pink_garnet_pressure_plate_down.json
 68259492481899bfabd184801c7f506569a22afa assets/tutorial-mod/models/block/pink_garnet_fence_gate_wall_open.json
 54df026f5582537b764965dc647c50dd8063b932 assets/tutorial-mod/models/block/pink_garnet_stairs_outer.json
-3f88ea5f7f7bc95712998c350b32baaa42719359 assets/tutorial-mod/blockstates/pink_garnet_block.json
 8eca28967718980e1c125dc696239e4c8e195c76 assets/tutorial-mod/blockstates/pink_garnet_wall.json
+3f88ea5f7f7bc95712998c350b32baaa42719359 assets/tutorial-mod/blockstates/pink_garnet_block.json
 c0f6c0d36aedaf795963656b7ca8fc77a1d883dc assets/tutorial-mod/models/block/pink_garnet_stairs.json
 98776e313024a7b066c7d1f04522b9db3026af51 assets/tutorial-mod/models/block/pink_garnet_button_pressed.json
 d63aed6cd6d8888916cf0ee2b1fcf9a82e2571e1 assets/tutorial-mod/blockstates/pink_garnet_button.json
@@ -30,9 +30,9 @@ bbf15c1b3329f7d4b6207c6c2af8a35715eb344f assets/tutorial-mod/blockstates/ruby_bl
 f8e25502f2caa28c5543522cf12d5f474db2c323 assets/tutorial-mod/models/item/pink_garnet_slab.json
 9a973333c811b21702b5fc3827d03d45891c44d6 assets/tutorial-mod/models/item/raw_pink_garnet_block.json
 e536b49682754a8f381dda95f4098f6858080fe8 assets/tutorial-mod/blockstates/pink_garnet_pressure_plate.json
+07f8c96f2968a05d9929c961c75e1afd2fe984d5 assets/tutorial-mod/models/block/raw_pink_garnet_block.json
 8b3baa3c23bdd66feb5ae28235adc810ec482717 assets/tutorial-mod/models/block/magic_block.json
 de2a8e103c480939355e57e6a88b4fa63dd79a64 assets/tutorial-mod/blockstates/raw_pink_garnet_block.json
-07f8c96f2968a05d9929c961c75e1afd2fe984d5 assets/tutorial-mod/models/block/raw_pink_garnet_block.json
 18cc7fe7d32380cfba5042865704877cfd2ce6c3 assets/tutorial-mod/models/item/pink_garnet_button.json
 9684fe1662173240693f6134a3dd0ec44ec29ffb assets/tutorial-mod/models/item/pink_garnet_door.json
 049c86bca7acaf981d8657bcf0ede2301cc01a4d assets/tutorial-mod/models/block/pink_garnet_fence_gate.json
