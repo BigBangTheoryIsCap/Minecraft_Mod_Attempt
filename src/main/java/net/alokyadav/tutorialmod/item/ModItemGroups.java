@@ -43,8 +43,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
                         entries.add(ModBlocks.PINK_GARNET_BUTTON);
                         entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+                    }).build());
+    public static final ItemGroup RUBY_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"ruby_blocks"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModBlocks.RUBY_BLOCK))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.ruby_blocks"))
+                    .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RUBY_BLOCK);
                     }).build());
+
     public static final ItemGroup MONEY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID,"money_item"), FabricItemGroup
                     .builder()

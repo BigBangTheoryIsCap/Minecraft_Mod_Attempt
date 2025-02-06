@@ -1,4 +1,4 @@
-// 1.21	2025-02-04T20:44:32.021284	Tutorial Mod/Model Definitions
+// 1.21	2025-02-05T09:11:31.773103	Tutorial Mod/Model Definitions
 96e3af71ef7872e1502aa899d934aa1f124682b7 assets/tutorial-mod/models/block/pink_garnet_door_bottom_left.json
 4ff79c79d16a35488414e2031ed9e2221b6fabdd assets/tutorial-mod/models/block/pink_garnet_pressure_plate_down.json
 68259492481899bfabd184801c7f506569a22afa assets/tutorial-mod/models/block/pink_garnet_fence_gate_wall_open.json
@@ -59,13 +59,13 @@ da613f8a9883ff7e5468a8d640ba1b2a54be7fee assets/tutorial-mod/models/block/pink_g
 448bfd580c32a7ddf3efca2b28a9b99e89ea7a44 assets/tutorial-mod/models/item/pink_garnet.json
 88af8ca8a284c79938e70df1375b6aa1075c23a9 assets/tutorial-mod/blockstates/pink_garnet_trapdoor.json
 bfe0bed7aa89295e3c70e07c9866e5366fa856e5 assets/tutorial-mod/models/item/pink_garnet_fence_gate.json
-a69b48c132b064143a313c1e4a765ac13569523f assets/tutorial-mod/blockstates/pink_garnet_deepslate_ore.json
 3363eb57e674d5d58e2d85605d8c7f7982060971 assets/tutorial-mod/models/item/pink_garnet_stairs.json
+a69b48c132b064143a313c1e4a765ac13569523f assets/tutorial-mod/blockstates/pink_garnet_deepslate_ore.json
 e5fffe2dc9d742272ab38c8aa07d8baf22f51928 assets/tutorial-mod/models/block/pink_garnet_slab.json
 e7879927dc2cee9b119f7359deb62c7bc01ab7d7 assets/tutorial-mod/models/item/pink_garnet_trapdoor.json
 46e1013feed5c1af7d832c7385de96b0ecbdcc58 assets/tutorial-mod/models/block/pink_garnet_deepslate_ore.json
-82f8ff65ab826607e0371eb59119cd6104e7ab9e assets/tutorial-mod/blockstates/pink_garnet_door.json
 a2df72cf9e5de8264d84749897faef205823608f assets/tutorial-mod/models/item/pink_garnet_fence.json
+82f8ff65ab826607e0371eb59119cd6104e7ab9e assets/tutorial-mod/blockstates/pink_garnet_door.json
 f6bfa555ef970531a9b2db84b4f4b89ffa60eb55 assets/tutorial-mod/blockstates/pink_garnet_fence.json
 9ebdad9fdbe50b13cf00d7d4e4b4bfa9fd5c7a03 assets/tutorial-mod/models/block/pink_garnet_trapdoor_open.json
 863808464c122f2323b722243dfd3d0b826c1e40 assets/tutorial-mod/models/block/pink_garnet_fence_gate_open.json

@@ -1,5 +1,5 @@
-[20:44:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.10
-[20:44:48] [main/INFO] (FabricLoader) Loading 55 mods:
+[09:11:19] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.10
+[09:11:19] [main/INFO] (FabricLoader) Loading 55 mods:
 	- fabric-api 0.102.0+1.21
 	- fabric-api-base 0.4.42+6573ed8cd1
 	- fabric-api-lookup-api-v1 1.6.68+b5597344d1
@@ -55,9 +55,29 @@
 	- minecraft 1.21
 	- mixinextras 0.4.1
 	- tutorial-mod 1.0.0
-[20:44:48] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/alokyadav/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[20:44:48] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[20:44:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[20:44:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[20:44:50] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:44:52] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 430 milliseconds
+[09:11:20] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/alokyadav/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[09:11:20] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[09:11:20] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[09:11:20] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[09:11:21] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:11:22] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 451 milliseconds
+[09:11:30] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:11:30] [Render thread/INFO] (Minecraft) Setting user: Player970
+[09:11:30] [Render thread/INFO] (tutorial-mod) Registering Mod Item Groups for tutorial-mod
+[09:11:30] [Render thread/INFO] (tutorial-mod) Registering Mod Items for tutorial-mod
+[09:11:30] [Render thread/INFO] (tutorial-mod) Registering Tutorial Mod Blockstutorial-mod
+[09:11:30] [Render thread/WARN] (FuelRegistryImpl) Tried to register an overly high cookTime: 80000 > 32767! (tutorial-mod:starlight_ashes)
+[09:11:30] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[09:11:31] [Render thread/INFO] (FabricDataGenHelper) Running data generator for tutorial-mod
+[09:11:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Tags for minecraft:block
+[09:11:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Tags for minecraft:block finished after 10 ms
+[09:11:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Tags for minecraft:item
+[09:11:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Tags for minecraft:item finished after 1 ms
+[09:11:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Recipes
+[09:11:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Recipes finished after 39 ms
+[09:11:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Block Loot Tables
+[09:11:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Block Loot Tables finished after 12 ms
+[09:11:31] [Render thread/INFO] (Minecraft) Starting provider: Tutorial Mod/Model Definitions
+[09:11:31] [Render thread/INFO] (Minecraft) Tutorial Mod/Model Definitions finished after 53 ms
+[09:11:31] [Render thread/INFO] (Minecraft) All providers took: 119 ms
+[09:11:31] [Render thread/INFO] (Minecraft) Caching: total files: 136, old count: 136, new count: 137, removed stale: 0, written: 0
