@@ -1,15 +1,18 @@
 {
   "item.tutorial-mod.pink_garnet": "Pink Garnet",
   "item.tutorial-mod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.tutorial-mod.raw_ruby": "Raw Ruby",
   "item.tutorial-mod.cash_money":"Money",
   "item.tutorial-mod.chisel":"Chisel",
   "item.tutorial-mod.cauliflower": "Cauliflower",
   "item.tutorial-mod.starlight_ashes": "Starlight Ashes",
+  "item.tutorial-mod.ruby": "Ruby",
 
   "block.tutorial-mod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorial-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
   "block.tutorial-mod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.tutorial-mod.ruby_ore_block": "Ruby Ore",
   "block.tutorial-mod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "block.tutorial-mod.pink_garnet_stairs": "Pink Garnet Stairs",
@@ -31,5 +34,6 @@
   "itemgroup.tutorial-mod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.tutorial-mod.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.tutorial-mod.money_item": "Money Items",
-  "itemgroup.tutorial-mod.ruby_blocks": "Ruby Blocks"
+  "itemgroup.tutorial-mod.ruby_blocks": "Ruby Blocks",
+  "itemgroup.tutorial-mod.ruby": "Ruby Items"
 }

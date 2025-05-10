@@ -31,9 +31,15 @@ public class ModBlocks {
             ));
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
-            AbstractBlock.Settings.create().
-            strength(3.0f).
-            requiresTool()
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
             ));
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,7),
@@ -42,13 +48,15 @@ public class ModBlocks {
                     requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE)
     ));
+
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,7),
                     AbstractBlock.Settings.create().
-                            strength(5.0f).
+                            strength(3.0f).
                             requiresTool()
                             .sounds(BlockSoundGroup.DEEPSLATE)
             ));
+
     public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
             new StairsBlock(ModBlocks.PINK_GARNET_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block PINK_GARNET_SLAB = registerBlock("pink_garnet_slab",
@@ -98,9 +106,9 @@ public class ModBlocks {
 
             entries.add(PINK_GARNET_ORE);
             entries.add(PINK_GARNET_DEEPSLATE_ORE);
+            entries.add(RUBY_ORE_BLOCK);
 
             entries.add(PINK_GARNET_STAIRS);
-
             entries.add(MAGIC_BLOCK);
             entries.add(PINK_GARNET_LAMP);
             entries.add(PINK_GARNET_SLAB);
@@ -112,6 +120,7 @@ public class ModBlocks {
             entries.add(PINK_GARNET_BUTTON);
             entries.add(PINK_GARNET_PRESSURE_PLATE);
             entries.add(RUBY_BLOCK);
+
         });
     }
 }

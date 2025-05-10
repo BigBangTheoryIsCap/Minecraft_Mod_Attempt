@@ -14,12 +14,17 @@ import net.minecraft.util.Identifier;
 import static net.alokyadav.tutorialmod.blocks.ModBlocks.PINK_GARNET_STAIRS;
 
 public class ModItems {
+
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
     public static final Item MONEY_ITEM = registerItem("cash_money", new Item(new Item.Settings()));
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFOWER)));
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
+    public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
@@ -34,6 +39,7 @@ public class ModItems {
             entries.add(CHISEL);
             entries.add(CAULIFLOWER);
             entries.add(STARLIGHT_ASHES);
+            entries.add(RUBY);
         });
     }
 }

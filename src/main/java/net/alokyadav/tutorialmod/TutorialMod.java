@@ -20,6 +20,6 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-        FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 80000);
+        FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 32767);
 	}
 }

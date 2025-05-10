@@ -60,7 +60,16 @@ public class ModItemGroups {
                     .icon(()-> new ItemStack(ModItems.MONEY_ITEM))
                     .displayName(Text.translatable("itemgroup.tutorial-mod.money_item"))
                     .entries((displayContext, entries) -> {
-                    entries.add(ModItems.MONEY_ITEM);
+                        entries.add(ModItems.MONEY_ITEM);
+                    }).build());
+    public static final ItemGroup RUBY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"ruby_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.RUBY))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.ruby"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.RAW_RUBY);
                     }).build());
     public static void registerModItemGroups() {
         TutorialMod.LOGGER.info("Registering Mod Item Groups for " + TutorialMod.MOD_ID);
