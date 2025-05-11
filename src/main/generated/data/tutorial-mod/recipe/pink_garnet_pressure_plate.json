@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tutorial-mod:pink_garnet"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "RR "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial-mod:pink_garnet_pressure_plate"
+  }
+}
