@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_pressed",
-  "textures": {
-    "texture": "tutorial-mod:block/pink_garnet_block"
-  }
-}

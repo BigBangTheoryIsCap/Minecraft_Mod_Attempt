@@ -1,6 +1,7 @@
 package net.alokyadav.tutorialmod;
 
 import net.alokyadav.tutorialmod.blocks.ModBlocks;
+import net.alokyadav.tutorialmod.component.ModDataComponentTypes;
 import net.alokyadav.tutorialmod.item.ModItemGroups;
 import net.alokyadav.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,7 +20,7 @@ public class TutorialMod implements ModInitializer {
 		ModItemGroups.registerModItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
+		ModDataComponentTypes.registerDataComponentTypes();
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 32767);
 	}
 }

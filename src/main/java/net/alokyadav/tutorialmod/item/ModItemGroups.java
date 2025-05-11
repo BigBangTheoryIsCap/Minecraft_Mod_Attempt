@@ -52,6 +52,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.tutorial-mod.ruby_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
                     }).build());
 
     public static final ItemGroup MONEY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

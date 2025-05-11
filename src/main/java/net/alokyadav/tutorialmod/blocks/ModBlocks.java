@@ -35,7 +35,7 @@ public class ModBlocks {
                             strength(3.0f).
                             requiresTool()
             ));
-    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
                     AbstractBlock.Settings.create().
                             strength(3.0f).
@@ -106,7 +106,7 @@ public class ModBlocks {
 
             entries.add(PINK_GARNET_ORE);
             entries.add(PINK_GARNET_DEEPSLATE_ORE);
-            entries.add(RUBY_ORE_BLOCK);
+            entries.add(RUBY_ORE);
 
             entries.add(PINK_GARNET_STAIRS);
             entries.add(MAGIC_BLOCK);
