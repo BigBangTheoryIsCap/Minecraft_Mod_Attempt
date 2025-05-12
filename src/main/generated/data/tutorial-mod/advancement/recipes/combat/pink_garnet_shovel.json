@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorial-mod:pink_garnet_shovel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tutorial-mod.pink_garnet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial-mod:pink_garnet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tutorial-mod.pink_garnet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorial-mod:pink_garnet_shovel"
+    ]
+  }
+}

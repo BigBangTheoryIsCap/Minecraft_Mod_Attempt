@@ -23,6 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
 
@@ -54,5 +56,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
+
+
     }
 }

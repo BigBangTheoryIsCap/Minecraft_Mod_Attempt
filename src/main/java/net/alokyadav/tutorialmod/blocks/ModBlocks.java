@@ -26,9 +26,16 @@ public class ModBlocks {
             )));
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
             new Block(AbstractBlock.Settings.create().
-            strength(3.0f).
-            requiresTool()
+                    strength(3.0f).
+                    requiresTool()
             ));
+
+    public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
+            new Block(AbstractBlock.Settings.create().
+                    strength(3.0f).
+                    requiresTool()
+            ));
+
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
                     AbstractBlock.Settings.create().
@@ -119,8 +126,9 @@ public class ModBlocks {
             entries.add(PINK_GARNET_TRAPDOOR);
             entries.add(PINK_GARNET_BUTTON);
             entries.add(PINK_GARNET_PRESSURE_PLATE);
-            entries.add(RUBY_BLOCK);
 
+            entries.add(RUBY_BLOCK);
+            entries.add(RAW_RUBY_BLOCK);
         });
     }
 }

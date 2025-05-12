@@ -1,5 +1,6 @@
 package net.alokyadav.tutorialmod.item;
 
+import com.sun.jna.platform.unix.X11;
 import net.alokyadav.tutorialmod.TutorialMod;
 import net.alokyadav.tutorialmod.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -22,6 +23,12 @@ public class ModItemGroups {
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.STARLIGHT_ASHES);
+
+                        entries.add(ModItems.PINK_GARNET_AXE);
+                        entries.add(ModItems.PINK_GARNET_HOE);
+                        entries.add(ModItems.PINK_GARNET_SHOVEL);
+                        entries.add(ModItems.PINK_GARNET_SWORD);
+                        entries.add(ModItems.PINK_GARNET_PICKAXE);
                     }).build());
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID,"pink_garnet_blocks"), FabricItemGroup
@@ -53,6 +60,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     }).build());
 
     public static final ItemGroup MONEY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -71,6 +79,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+
                     }).build());
     public static void registerModItemGroups() {
         TutorialMod.LOGGER.info("Registering Mod Item Groups for " + TutorialMod.MOD_ID);

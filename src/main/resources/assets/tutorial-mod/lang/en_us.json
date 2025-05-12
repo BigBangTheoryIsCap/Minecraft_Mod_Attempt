@@ -1,18 +1,29 @@
 {
   "item.tutorial-mod.pink_garnet": "Pink Garnet",
   "item.tutorial-mod.raw_pink_garnet": "Raw Pink Garnet",
-  "item.tutorial-mod.raw_ruby": "Raw Ruby",
+
   "item.tutorial-mod.cash_money":"Money",
+
   "item.tutorial-mod.chisel":"Chisel",
+
   "item.tutorial-mod.cauliflower": "Cauliflower",
   "item.tutorial-mod.starlight_ashes": "Starlight Ashes",
+
   "item.tutorial-mod.ruby": "Ruby",
+  "item.tutorial-mod.raw_ruby": "Raw Ruby",
+  "block.tutorial-mod.ruby_ore": "Ruby Ore",
+  "block.tutorial-mod.raw_ruby_block": "Raw Ruby Block",
+
+  "item.tutorial-mod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.tutorial-mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.tutorial-mod.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.tutorial-mod.pink_garnet_axe": "Pink Garnet Axe",
+  "item.tutorial-mod.pink_garnet_hoe": "Pink Garnet Hoe",
 
   "block.tutorial-mod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorial-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
   "block.tutorial-mod.pink_garnet_ore": "Pink Garnet Ore",
-  "block.tutorial-mod.ruby_ore": "Ruby Ore",
   "block.tutorial-mod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "block.tutorial-mod.pink_garnet_stairs": "Pink Garnet Stairs",
@@ -35,5 +46,14 @@
   "itemgroup.tutorial-mod.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.tutorial-mod.money_item": "Money Items",
   "itemgroup.tutorial-mod.ruby_blocks": "Ruby Blocks",
-  "itemgroup.tutorial-mod.ruby": "Ruby Items"
+  "itemgroup.tutorial-mod.ruby": "Ruby Items",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+
+  "tooltip.tutorial-mod.chisel.shift_down": "This item chisels blocks into Bricks!",
+  "tooltip.tutorial-mod.chisel": "Press §eShift§r for more Information!",
+
+  "tooltip.tutorial-mod.cauliflower.tooltip": "This is delicious!"
+
+
 }

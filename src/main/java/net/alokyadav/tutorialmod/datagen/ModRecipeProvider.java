@@ -1,5 +1,6 @@
 package net.alokyadav.tutorialmod.datagen;
 
+import net.alokyadav.tutorialmod.datagen.tool_recipe_provider.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.alokyadav.tutorialmod.TutorialMod;
@@ -10,13 +11,14 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.item.MinecartItem;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+
+import static net.minecraft.data.server.recipe.RecipeProvider.conditionsFromItem;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
     public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
@@ -49,9 +51,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_PINK_GARNET), conditionsFromItem(ModItems.RAW_PINK_GARNET))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_RUBY_BLOCK)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.RAW_RUBY)
+                .criterion(hasItem(ModItems.RAW_RUBY), conditionsFromItem(ModItems.RAW_RUBY))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)
                 .input(ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.RAW_PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_RUBY, 9)
+                .input(ModBlocks.RAW_RUBY_BLOCK)
+                .criterion(hasItem(ModBlocks.RAW_RUBY_BLOCK), conditionsFromItem(ModBlocks.RAW_RUBY_BLOCK))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 32)
@@ -128,6 +143,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK) // Corrected
                 .criterion("has_pink_garnet", conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(exporter);
+
+        SwordRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_SWORD, exporter);
+        AxeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_AXE, exporter);
+        PickaxeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_PICKAXE, exporter);
+        ShovelRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_SHOVEL, exporter);
+        HoeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_HOE, exporter);
 
     }
 }
