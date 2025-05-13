@@ -28,13 +28,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.PINK_GARNET_BLOCK);
         addDrop(ModBlocks.RAW_PINK_GARNET_BLOCK);
+
         addDrop(ModBlocks.MAGIC_BLOCK);
+
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.RAW_RUBY_BLOCK);
+
+        addDrop(ModBlocks.ALEXANDRITE_BLOCK);
+        addDrop(ModBlocks.RAW_ALEXANDRITE_BLOCK);
 
         addDrop(ModBlocks.PINK_GARNET_ORE, oreDrops(ModBlocks.PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
         addDrop(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, ModItems.RAW_PINK_GARNET, 3, 7));
         addDrop(ModBlocks.RUBY_ORE, multipleOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY, 1, 3));
+
+        addDrop(ModBlocks.ALEXANDRITE_ORE, multipleOreDrops(ModBlocks.ALEXANDRITE_ORE, ModItems.RAW_ALEXANDRITE, 1, 3));
+        addDrop(ModBlocks.ALEXANDRITE_END_ORE, multipleOreDrops(ModBlocks.ALEXANDRITE_END_ORE, ModItems.RAW_ALEXANDRITE, 5, 9));
+        addDrop(ModBlocks.ALEXANDRITE_NETHER_ORE, multipleOreDrops(ModBlocks.ALEXANDRITE_NETHER_ORE, ModItems.RAW_ALEXANDRITE, 4, 8));
 
 
 

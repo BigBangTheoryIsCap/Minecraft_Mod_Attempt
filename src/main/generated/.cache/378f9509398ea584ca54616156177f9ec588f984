@@ -1,16 +1,21 @@
-// 1.21	2025-05-11T19:43:50.857348	Tutorial Mod/Block Loot Tables
+// 1.21	2025-05-13T20:05:03.934263	Tutorial Mod/Block Loot Tables
 95473576d92dc7bfa901e88a684b83aa0636185d data/tutorial-mod/loot_table/blocks/raw_pink_garnet_block.json
+f5ca9f1ce103143ff5b40ee971bfda6f51980fae data/tutorial-mod/loot_table/blocks/alexandrite_end_ore.json
 df78b59a040e73d089b4864dd52af362c58294da data/tutorial-mod/loot_table/blocks/pink_garnet_stairs.json
 934db57b19229df6d8863d7493757a8b7b6bf5d1 data/tutorial-mod/loot_table/blocks/magic_block.json
+529aa63c010d54dc82f0fb3bcb911593ae14aee0 data/tutorial-mod/loot_table/blocks/alexandrite_ore.json
 5d0a70e5b44b0a7204ee1cf17badf5b79a8ae8f9 data/tutorial-mod/loot_table/blocks/pink_garnet_slab.json
 93100583763eb94d6d04b8dbee7f279322788a5e data/tutorial-mod/loot_table/blocks/ruby_ore.json
+1efaa48ad0d44c6cbd6ad6459308fd765ae3d52e data/tutorial-mod/loot_table/blocks/alexandrite_nether_ore.json
 bae2fc10fc217b220768cb2142a8360f24a4817e data/tutorial-mod/loot_table/blocks/pink_garnet_door.json
 ab74e081f027ffe02b626f8af8a74b8230d142ac data/tutorial-mod/loot_table/blocks/pink_garnet_button.json
 1ee1d36b92b5a5c20c3c86941b745e7ef16e5748 data/tutorial-mod/loot_table/blocks/pink_garnet_pressure_plate.json
 2ea4eb83e390ca164b2c117407327b4016033757 data/tutorial-mod/loot_table/blocks/ruby_block.json
 ca958cd7893b739e2c7a7d353dfe15ae884c84d8 data/tutorial-mod/loot_table/blocks/pink_garnet_deepslate_ore.json
 011a0bfa3454f44a04ede4895cd1220d02a899da data/tutorial-mod/loot_table/blocks/raw_ruby_block.json
+279d6adc2e3be83df32f0e21034acf525f54edff data/tutorial-mod/loot_table/blocks/raw_alexandrite_block.json
 ad65e1e7a91a1f1c7d02bdb54dd825431bd68a77 data/tutorial-mod/loot_table/blocks/pink_garnet_ore.json
+f1b1b148ceb511f63a9eedc552b4b644dac215b6 data/tutorial-mod/loot_table/blocks/alexandrite_block.json
 3c711ca95522dc1122e918ad2f26239ddd274975 data/tutorial-mod/loot_table/blocks/pink_garnet_fence_gate.json
 1cdf7780f74bf7005e6733512da8043bb1ad78f9 data/tutorial-mod/loot_table/blocks/pink_garnet_trapdoor.json
 9181f2c479e9b7d27a7dc1c618d2e3358ad65f2f data/tutorial-mod/loot_table/blocks/pink_garnet_fence.json

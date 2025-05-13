@@ -14,14 +14,64 @@
   "block.tutorial-mod.ruby_ore": "Ruby Ore",
   "block.tutorial-mod.raw_ruby_block": "Raw Ruby Block",
 
+
+  "item.tutorial-mod.bismuth": "Bismuth",
+  "item.tutorial-mod.raw_bismuth": "Raw Bismuth",
+
+  "item.tutorial-mod.alexandrite": "Alexandrite",
+  "item.tutorial-mod.raw_alexandrite": "Raw Alexandrite",
+
+
+  "item.tutorial-mod.alexandrite_sword": "Alexandrite Sword",
+  "item.tutorial-mod.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.tutorial-mod.alexandrite_shovel": "Alexandrite Shovel",
+  "item.tutorial-mod.alexandrite_axe": "Alexandrite Axe",
+  "item.tutorial-mod.alexandrite_hoe": "Alexandrite Hoe",
+
+  "item.tutorial-mod.alexandrite_hammer": "Alexandrite Hammer",
+
+  "item.tutorial-mod.alexandrite_boots": "Alexandrite Boots",
+  "item.tutorial-mod.alexandrite_leggings": "Alexandrite Leggings",
+  "item.tutorial-mod.alexandrite_helmet": "Alexandrite Helmet",
+  "item.tutorial-mod.alexandrite_chestplate": "Alexandrite Chestplate",
+
+
   "item.tutorial-mod.pink_garnet_sword": "Pink Garnet Sword",
   "item.tutorial-mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
   "item.tutorial-mod.pink_garnet_shovel": "Pink Garnet Shovel",
   "item.tutorial-mod.pink_garnet_axe": "Pink Garnet Axe",
   "item.tutorial-mod.pink_garnet_hoe": "Pink Garnet Hoe",
 
+
+  "item.tutorial-mod.pink_garnet_boots": "Pink Garnet Boots",
+  "item.tutorial-mod.pink_garnet_leggings": "Pink Garnet Leggings",
+  "item.tutorial-mod.pink_garnet_helmet": "Pink Garnet Helmet",
+  "item.tutorial-mod.pink_garnet_chestplate": "Pink Garnet Chestplate",
+
+  "item.tutorial-mod.pink_garnet_hammer": "Pink Garnet Hammer",
+
+  "item.tutorial-mod.pink_garnet_horse_armor" : "Pink Garnet Horse Armor",
+
   "block.tutorial-mod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorial-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+
+  "block.tutorial-mod.alexandrite_block": "Block of Alexandrite",
+  "block.tutorial-mod.raw_alexandrite_block": "Block of Raw Alexandrite",
+
+  "block.tutorial-mod.alexandrite_nether_ore": "Nether Alexandrite Ore",
+  "block.tutorial-mod.alexandrite_end_ore": "End Alexandrite Ore",
+  "block.tutorial-mod.alexandrite_ore": "Alexandrite Ore",
+
+  "item.tutorial-mod.alexandrite_horse_armor" : "Alexandrite Horse Armor",
+
+
+
+
+
+  "item.tutorial-mod.bismuth_horse_armor" : "Bismuth Horse Armor",
+
+
 
   "block.tutorial-mod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorial-mod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
@@ -43,10 +93,9 @@
   "block.tutorial-mod.pink_garnet_lamp":"Pink Garnet Lamp",
 
   "itemgroup.tutorial-mod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorial-mod.pink_garnet_blocks": "Pink Garnet Blocks",
-  "itemgroup.tutorial-mod.money_item": "Money Items",
-  "itemgroup.tutorial-mod.ruby_blocks": "Ruby Blocks",
   "itemgroup.tutorial-mod.ruby": "Ruby Items",
+  "itemgroup.tutorial-mod.alexandrite": "Alexandrite Items",
+  "itemgroup.tutorial-mod.bismuth" : "Bismuth Items",
 
   "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
 
@@ -54,6 +103,7 @@
   "tooltip.tutorial-mod.chisel": "Press §eShift§r for more Information!",
 
   "tooltip.tutorial-mod.cauliflower.tooltip": "This is delicious!"
+
 
 
 }

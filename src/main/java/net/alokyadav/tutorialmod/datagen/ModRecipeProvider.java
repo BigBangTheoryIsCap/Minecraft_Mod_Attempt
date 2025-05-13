@@ -1,6 +1,6 @@
 package net.alokyadav.tutorialmod.datagen;
 
-import net.alokyadav.tutorialmod.datagen.tool_recipe_provider.*;
+import net.alokyadav.tutorialmod.datagen.recipe_provider.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.alokyadav.tutorialmod.TutorialMod;
@@ -9,6 +9,7 @@ import net.alokyadav.tutorialmod.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -32,8 +33,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
         List<ItemConvertible> RUBY_SMELTABLES = List.of(ModItems.RAW_RUBY, ModBlocks.RUBY_ORE);
 
+        List<ItemConvertible> ALEXANDRITE_SMELTABLES = List.of(ModItems.RAW_ALEXANDRITE, ModBlocks.ALEXANDRITE_ORE,
+                ModBlocks.ALEXANDRITE_END_ORE, ModBlocks.ALEXANDRITE_NETHER_ORE);
+        List<ItemConvertible> BISMUTH_SMELTABLES = List.of(ModItems.RAW_ALEXANDRITE, ModBlocks.ALEXANDRITE_ORE,
+                ModBlocks.ALEXANDRITE_END_ORE, ModBlocks.ALEXANDRITE_NETHER_ORE);
+
+
         offerSmelting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_RUBY, 0.25f, 200, "ruby");
         offerBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY, 0.25f, 100, "ruby");
+
+        offerSmelting(exporter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_ALEXANDRITE, 0.25f, 200, "alexandrite");
+        offerBlasting(exporter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE, 0.25f, 100, "alexandrite");
 
 
         offerSmelting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 0.25f, 200, "pink_garnet");
@@ -59,6 +69,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_RUBY), conditionsFromItem(ModItems.RAW_RUBY))
                 .offerTo(exporter);
 
+        BlockRecipeProvider.generate(ModItems.ALEXANDRITE, Item.fromBlock(ModBlocks.ALEXANDRITE_BLOCK), exporter);
+        BlockRecipeProvider.generate(ModItems.RAW_ALEXANDRITE, Item.fromBlock(ModBlocks.RAW_ALEXANDRITE_BLOCK), exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALEXANDRITE, 9)
+                .input(ModBlocks.ALEXANDRITE_BLOCK)
+                .criterion(hasItem(ModBlocks.ALEXANDRITE_BLOCK), conditionsFromItem(ModBlocks.ALEXANDRITE_BLOCK))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)
                 .input(ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.RAW_PINK_GARNET_BLOCK))
@@ -67,6 +85,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_RUBY, 9)
                 .input(ModBlocks.RAW_RUBY_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_RUBY_BLOCK), conditionsFromItem(ModBlocks.RAW_RUBY_BLOCK))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_ALEXANDRITE, 9)
+                .input(ModBlocks.RAW_ALEXANDRITE_BLOCK)
+                .criterion(hasItem(ModBlocks.RAW_ALEXANDRITE_BLOCK), conditionsFromItem(ModBlocks.RAW_ALEXANDRITE_BLOCK))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 32)

@@ -1,5 +1,7 @@
 {
   "values": [
-    "tutorial-mod:pink_garnet_deepslate_ore"
+    "tutorial-mod:pink_garnet_deepslate_ore",
+    "tutorial-mod:alexandrite_nether_ore",
+    "tutorial-mod:alexandrite_end_ore"
   ]
 }

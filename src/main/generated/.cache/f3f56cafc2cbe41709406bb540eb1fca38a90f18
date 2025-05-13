@@ -1,7 +1,8 @@
-// 1.21	2025-05-11T19:43:50.854016	Tutorial Mod/Tags for minecraft:item
-37ffc6b963dfaf0e7d7a17613d8ea0b3b6b32ff8 data/minecraft/tags/item/pickaxes.json
-521b391a1fd03b7329a5f7066dc451f52efa2dfc data/minecraft/tags/item/shovels.json
-e7c3af7e92e675ed331a32ceff78f1fb06f4cc6a data/minecraft/tags/item/hoes.json
-ffb05c273aadd5957c6a583904b567b142bacc24 data/minecraft/tags/item/swords.json
+// 1.21	2025-05-13T20:05:03.932661	Tutorial Mod/Tags for minecraft:item
+a7f248519dd84458e88a8a78b83f112ed48945c9 data/minecraft/tags/item/pickaxes.json
+27eedf5ef5dc34af3992117ff5f1c5423545d9b5 data/minecraft/tags/item/trimmable_armor.json
+22fa15bbaa72e5f01be44875448077cbf576ef02 data/minecraft/tags/item/shovels.json
+a766a1dacd1cd742fde70d16ec4da5663f0be3a9 data/minecraft/tags/item/swords.json
+bece6ff0678bf29a380168a162b07535ddd5486e data/minecraft/tags/item/hoes.json
 9a36f165dbebb915a148b9b75fffcef5427ad5cd data/tutorial-mod/tags/item/transformable_items.json
-4090f3158f30e578dc7e68ea92e9020283f590ed data/minecraft/tags/item/axes.json
+05b504d97addbcb1956d942ab175f35586eac467 data/minecraft/tags/item/axes.json

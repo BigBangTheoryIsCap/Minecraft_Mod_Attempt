@@ -42,6 +42,7 @@ public class ModBlocks {
                             strength(3.0f).
                             requiresTool()
             ));
+
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
                     AbstractBlock.Settings.create().
@@ -62,6 +63,38 @@ public class ModBlocks {
                             strength(3.0f).
                             requiresTool()
                             .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+    public static final Block ALEXANDRITE_NETHER_ORE = registerBlock("alexandrite_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+    public static final Block ALEXANDRITE_END_ORE = registerBlock("alexandrite_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+    public static final Block ALEXANDRITE_BLOCK = registerBlock("alexandrite_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+
+    public static final Block RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
             ));
 
     public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
@@ -129,6 +162,13 @@ public class ModBlocks {
 
             entries.add(RUBY_BLOCK);
             entries.add(RAW_RUBY_BLOCK);
+
+            entries.add(ALEXANDRITE_BLOCK);
+            entries.add(RAW_ALEXANDRITE_BLOCK);
+            entries.add(ALEXANDRITE_ORE);
+            entries.add(ALEXANDRITE_NETHER_ORE);
+            entries.add(ALEXANDRITE_END_ORE);
+
         });
     }
 }

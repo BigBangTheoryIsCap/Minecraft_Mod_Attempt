@@ -1,0 +1,8 @@
+{
+  "values": [
+    "tutorial-mod:magic_block",
+    "#minecraft:needs_iron_tool",
+    "tutorial-mod:magic_block",
+    "#minecraft:needs_iron_tool"
+  ]
+}
