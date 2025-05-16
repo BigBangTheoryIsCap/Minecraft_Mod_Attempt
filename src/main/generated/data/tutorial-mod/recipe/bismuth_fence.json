@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tutorial-mod:bismuth"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RSR",
+    "RSR",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial-mod:bismuth_fence"
+  }
+}

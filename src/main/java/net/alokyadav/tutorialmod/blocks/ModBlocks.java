@@ -1,11 +1,11 @@
 package net.alokyadav.tutorialmod.blocks;
 
 import net.alokyadav.tutorialmod.TutorialMod;
-import net.alokyadav.tutorialmod.TutorialModClient;
+import net.alokyadav.tutorialmod.blocks.custom.AlexandriteLampBlock;
+import net.alokyadav.tutorialmod.blocks.custom.BismuthLampBlock;
 import net.alokyadav.tutorialmod.blocks.custom.MagicBlock;
 import net.alokyadav.tutorialmod.blocks.custom.PinkGarnetLampBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -83,12 +83,46 @@ public class ModBlocks {
                             strength(3.0f).
                             requiresTool()
             ));
+
+    public static final Block BISMUTH_ORE = registerBlock("bismuth_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+
+    public static final Block BISMUTH_DEEPSLATE_ORE = registerBlock("bismuth_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+    public static final Block BISMUTH_NETHER_ORE = registerBlock("bismuth_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+    public static final Block BISMUTH_END_ORE = registerBlock("bismuth_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+
     public static final Block ALEXANDRITE_BLOCK = registerBlock("alexandrite_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
                     AbstractBlock.Settings.create().
                             strength(3.0f).
                             requiresTool()
             ));
+    public static final Block BISMUTH_BLOCK = registerBlock("bismuth_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().
+                            strength(3.0f).
+                            requiresTool()
+            ));
+
 
     public static final Block RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
@@ -121,9 +155,66 @@ public class ModBlocks {
     public static final Block PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
 
+
+    public static final Block ALEXANDRITE_STAIRS = registerBlock("alexandrite_stairs",
+            new StairsBlock(ModBlocks.ALEXANDRITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ALEXANDRITE_SLAB = registerBlock("alexandrite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block ALEXANDRITE_BUTTON = registerBlock("alexandrite_button",
+            new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block ALEXANDRITE_PRESSURE_PLATE = registerBlock("alexandrite_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block ALEXANDRITE_FENCE = registerBlock("alexandrite_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ALEXANDRITE_FENCE_GATE = registerBlock("alexandrite_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ALEXANDRITE_WALL = registerBlock("alexandrite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block ALEXANDRITE_DOOR = registerBlock("alexandrite_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
+    public static final Block ALEXANDRITE_TRAPDOOR = registerBlock("alexandrite_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
+
+
+    public static final Block BISMUTH_STAIRS = registerBlock("bismuth_stairs",
+            new StairsBlock(ModBlocks.BISMUTH_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BISMUTH_SLAB = registerBlock("bismuth_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block BISMUTH_BUTTON = registerBlock("bismuth_button",
+            new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block BISMUTH_PRESSURE_PLATE = registerBlock("bismuth_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block BISMUTH_FENCE = registerBlock("bismuth_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BISMUTH_FENCE_GATE = registerBlock("bismuth_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BISMUTH_WALL = registerBlock("bismuth_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block BISMUTH_DOOR = registerBlock("bismuth_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
+    public static final Block BISMUTH_TRAPDOOR = registerBlock("bismuth_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
+
     public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
             new PinkGarnetLampBlock(AbstractBlock.Settings.create()
                     .strength(1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final Block ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
+            new AlexandriteLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(AlexandriteLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final Block BISMUTH_LAMP = registerBlock("bismuth_lamp",
+            new BismuthLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(BismuthLampBlock.CLICKED) ? 15 : 0)));
+
+
+
 
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
@@ -151,6 +242,9 @@ public class ModBlocks {
             entries.add(PINK_GARNET_STAIRS);
             entries.add(MAGIC_BLOCK);
             entries.add(PINK_GARNET_LAMP);
+            entries.add(ALEXANDRITE_LAMP);
+            entries.add(BISMUTH_LAMP);
+
             entries.add(PINK_GARNET_SLAB);
             entries.add(PINK_GARNET_FENCE);
             entries.add(PINK_GARNET_FENCE_GATE);

@@ -53,6 +53,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
                         entries.add(ModBlocks.PINK_GARNET_LAMP);
 
+                        entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
+
                         entries.add(ModItems.PINK_GARNET_HORSE_ARMOR);
                     }).build());
 
@@ -98,6 +100,20 @@ public class ModItemGroups {
 
                         entries.add(ModItems.ALEXANDRITE_HORSE_ARMOR);
 
+                        entries.add(ModBlocks.ALEXANDRITE_SLAB);
+                        entries.add(ModBlocks.ALEXANDRITE_FENCE);
+                        entries.add(ModBlocks.ALEXANDRITE_FENCE_GATE);
+                        entries.add(ModBlocks.ALEXANDRITE_WALL);
+                        entries.add(ModBlocks.ALEXANDRITE_DOOR);
+                        entries.add(ModBlocks.ALEXANDRITE_TRAPDOOR);
+                        entries.add(ModBlocks.ALEXANDRITE_BUTTON);
+                        entries.add(ModBlocks.ALEXANDRITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ALEXANDRITE_STAIRS);
+
+                        entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
+
+                        entries.add(ModBlocks.ALEXANDRITE_LAMP);
+
 
 
 
@@ -112,6 +128,40 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.BISMUTH);
                         entries.add(ModItems.RAW_BISMUTH);
+                        entries.add(BISMUTH_BLOCK);
+                        entries.add(BISMUTH_ORE);
+                        entries.add(BISMUTH_NETHER_ORE);
+                        entries.add(BISMUTH_DEEPSLATE_ORE);
+                        entries.add(BISMUTH_END_ORE);
+
+                        entries.add(ModItems.BISMUTH_PICKAXE);
+                        entries.add(ModItems.BISMUTH_AXE);
+                        entries.add(ModItems.BISMUTH_SHOVEL);
+                        entries.add(ModItems.BISMUTH_SWORD);
+                        entries.add(ModItems.BISMUTH_HOE);
+                        entries.add(ModItems.BISMUTH_HAMMER);
+
+                        entries.add(ModItems.BISMUTH_CHESTPLATE);
+                        entries.add(ModItems.BISMUTH_HELMET);
+                        entries.add(ModItems.BISMUTH_BOOTS);
+                        entries.add(ModItems.BISMUTH_LEGGINGS);
+
+                        entries.add(ModItems.BISMUTH_HORSE_ARMOR);
+
+                        entries.add(ModBlocks.BISMUTH_SLAB);
+                        entries.add(ModBlocks.BISMUTH_FENCE);
+                        entries.add(ModBlocks.BISMUTH_FENCE_GATE);
+                        entries.add(ModBlocks.BISMUTH_WALL);
+                        entries.add(ModBlocks.BISMUTH_DOOR);
+                        entries.add(ModBlocks.BISMUTH_TRAPDOOR);
+                        entries.add(ModBlocks.BISMUTH_BUTTON);
+                        entries.add(ModBlocks.BISMUTH_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BISMUTH_STAIRS);
+
+                        entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
+
+                        entries.add(ModBlocks.BISMUTH_LAMP);
+
 
 
 

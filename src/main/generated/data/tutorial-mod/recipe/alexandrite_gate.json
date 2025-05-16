@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "tutorial-mod:alexandrite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SRS",
+    "SRS",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial-mod:alexandrite_gate"
+  }
+}

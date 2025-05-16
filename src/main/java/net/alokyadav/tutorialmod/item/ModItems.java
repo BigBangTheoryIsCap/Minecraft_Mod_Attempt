@@ -9,6 +9,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -69,6 +70,31 @@ public class ModItems {
             new AxeItem(ModToolMaterials.ALEXANDRITE, new Item.Settings()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ALEXANDRITE, 0, -3f))));
 
+    public static final Item BISMUTH_SWORD = registerItem("bismuth_sword",
+            new SwordItem(ModToolMaterials.BISMUTH, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BISMUTH, 3, -2.4f))));
+
+    public static final Item BISMUTH_PICKAXE = registerItem("bismuth_pickaxe",
+            new PickaxeItem(ModToolMaterials.BISMUTH, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BISMUTH, 1, -2.8f))));
+
+    public static final Item BISMUTH_SHOVEL = registerItem("bismuth_shovel",
+            new ShovelItem(ModToolMaterials.BISMUTH, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.BISMUTH, 1.5f, -3.0f))));
+
+    public static final Item BISMUTH_HOE = registerItem("bismuth_hoe",
+            new HoeItem(ModToolMaterials.BISMUTH, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BISMUTH, 6, -3.2f))));
+
+    public static final Item BISMUTH_AXE = registerItem("bismuth_axe",
+            new AxeItem(ModToolMaterials.BISMUTH, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BISMUTH, 0, -3f))));
+
+    public static final Item BISMUTH_HAMMER = registerItem("bismuth_hammer",
+            new Hammeritem(ModToolMaterials.BISMUTH, new Item.Settings()
+                    .attributeModifiers(Hammeritem.createAttributeModifiers(ModToolMaterials.BISMUTH, 5, -3.4f))));
+
+
     public static final Item PINK_GARNET_HAMMER = registerItem("pink_garnet_hammer",
             new Hammeritem(ModToolMaterials.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 7, -3.4f))));
@@ -103,6 +129,19 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
+    public static final Item BISMUTH_HELMET = registerItem("bismuth_helmet",
+            new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item BISMUTH_CHESTPLATE = registerItem("bismuth_chestplate",
+            new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item BISMUTH_LEGGINGS = registerItem("bismuth_leggings",
+            new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BISMUTH_BOOTS = registerItem("bismuth_boots",
+            new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
 
     public static final Item PINK_GARNET_HORSE_ARMOR = registerItem("pink_garnet_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
@@ -111,6 +150,8 @@ public class ModItems {
     public static final Item BISMUTH_HORSE_ARMOR = registerItem("bismuth_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
 
+    public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(TutorialMod.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
 
 
 

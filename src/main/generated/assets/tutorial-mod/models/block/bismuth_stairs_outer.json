@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tutorial-mod:block/bismuth_block",
+    "side": "tutorial-mod:block/bismuth_block",
+    "top": "tutorial-mod:block/bismuth_block"
+  }
+}

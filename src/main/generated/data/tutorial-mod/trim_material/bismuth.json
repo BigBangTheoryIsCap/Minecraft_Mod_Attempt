@@ -1,0 +1,9 @@
+{
+  "asset_name": "bismuth",
+  "description": {
+    "color": "#B03FE0",
+    "translate": "trim_material.tutorial-mod.bismuth"
+  },
+  "ingredient": "tutorial-mod:bismuth",
+  "item_model_index": 1.0
+}

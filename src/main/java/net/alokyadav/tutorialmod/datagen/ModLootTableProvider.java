@@ -37,6 +37,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ALEXANDRITE_BLOCK);
         addDrop(ModBlocks.RAW_ALEXANDRITE_BLOCK);
 
+        addDrop(ModBlocks.BISMUTH_BLOCK);
+
+
         addDrop(ModBlocks.PINK_GARNET_ORE, oreDrops(ModBlocks.PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
         addDrop(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, ModItems.RAW_PINK_GARNET, 3, 7));
         addDrop(ModBlocks.RUBY_ORE, multipleOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY, 1, 3));
@@ -56,6 +59,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PINK_GARNET_PRESSURE_PLATE, doorDrops(ModBlocks.PINK_GARNET_DOOR));
         addDrop(ModBlocks.PINK_GARNET_SLAB, slabDrops(ModBlocks.PINK_GARNET_SLAB));
+
+        addDrop(ModBlocks.ALEXANDRITE_BUTTON);
+        addDrop(ModBlocks.ALEXANDRITE_DOOR);
+        addDrop(ModBlocks.ALEXANDRITE_TRAPDOOR);
+        addDrop(ModBlocks.ALEXANDRITE_FENCE);
+        addDrop(ModBlocks.ALEXANDRITE_FENCE_GATE);
+        addDrop(ModBlocks.ALEXANDRITE_STAIRS);
+
+        addDrop(ModBlocks.ALEXANDRITE_PRESSURE_PLATE, doorDrops(ModBlocks.ALEXANDRITE_DOOR));
+        addDrop(ModBlocks.ALEXANDRITE_SLAB, slabDrops(ModBlocks.ALEXANDRITE_SLAB));
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

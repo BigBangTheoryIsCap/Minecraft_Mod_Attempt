@@ -35,8 +35,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         List<ItemConvertible> ALEXANDRITE_SMELTABLES = List.of(ModItems.RAW_ALEXANDRITE, ModBlocks.ALEXANDRITE_ORE,
                 ModBlocks.ALEXANDRITE_END_ORE, ModBlocks.ALEXANDRITE_NETHER_ORE);
-        List<ItemConvertible> BISMUTH_SMELTABLES = List.of(ModItems.RAW_ALEXANDRITE, ModBlocks.ALEXANDRITE_ORE,
-                ModBlocks.ALEXANDRITE_END_ORE, ModBlocks.ALEXANDRITE_NETHER_ORE);
+
+        List<ItemConvertible> BISMUTH_SMELTABLES = List.of(ModItems.RAW_BISMUTH);
 
 
         offerSmelting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_RUBY, 0.25f, 200, "ruby");
@@ -49,9 +49,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 0.25f, 200, "pink_garnet");
         offerBlasting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 0.25f, 100, "pink_garnet");
 
+        offerSmelting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH, 0.25f, 200, "bismuth");
+        offerBlasting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH, 0.25f, 100, "bismuth");
+
+
+
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.PINK_GARNET_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.DECORATIONS, ModBlocks.RUBY_BLOCK);
 
+
+        offerSmithingTrimRecipe(exporter, ModItems.KAUPEN_SMITHING_TEMPLATE, Identifier.of(TutorialMod.MOD_ID, "kaupen"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .pattern("RRR")
@@ -71,6 +78,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         BlockRecipeProvider.generate(ModItems.ALEXANDRITE, Item.fromBlock(ModBlocks.ALEXANDRITE_BLOCK), exporter);
         BlockRecipeProvider.generate(ModItems.RAW_ALEXANDRITE, Item.fromBlock(ModBlocks.RAW_ALEXANDRITE_BLOCK), exporter);
+
+        BlockRecipeProvider.generate(ModItems.BISMUTH, Item.fromBlock(ModBlocks.BISMUTH_BLOCK), exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALEXANDRITE, 9)
                 .input(ModBlocks.ALEXANDRITE_BLOCK)
@@ -96,6 +105,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.MAGIC_BLOCK)
                 .criterion(hasItem(ModBlocks.MAGIC_BLOCK), conditionsFromItem(ModBlocks.MAGIC_BLOCK))
                 .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "raw_pink_garnet_from_magic_block"));
+
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_GARNET_STAIRS)
                 .pattern("R  ")
                 .pattern("RR ")
@@ -172,6 +183,43 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         PickaxeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_PICKAXE, exporter);
         ShovelRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_SHOVEL, exporter);
         HoeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_HOE, exporter);
+
+        SwordRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_SWORD, exporter);
+        AxeRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_AXE, exporter);
+        PickaxeRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_PICKAXE, exporter);
+        ShovelRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_SHOVEL, exporter);
+        HoeRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_HOE, exporter);
+
+        SwordRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_SWORD, exporter);
+        AxeRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_AXE, exporter);
+        PickaxeRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_PICKAXE, exporter);
+        ShovelRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_SHOVEL, exporter);
+        HoeRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_HOE,exporter);
+
+
+
+                NonBlockBlockRecipeProvider.generateButton(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_BUTTON, exporter);
+        NonBlockBlockRecipeProvider.generateFence(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_FENCE, exporter);
+        NonBlockBlockRecipeProvider.generateFenceGate(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_FENCE_GATE, exporter);
+        NonBlockBlockRecipeProvider.generateSlab(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_SLAB, exporter);
+        NonBlockBlockRecipeProvider.generateTrapdoor(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_TRAPDOOR,exporter);
+        NonBlockBlockRecipeProvider.generateDoor(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_DOOR, exporter);
+        NonBlockBlockRecipeProvider.generateStairs(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_STAIRS, exporter);
+        NonBlockBlockRecipeProvider.generateWall(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_WALL, exporter);
+        NonBlockBlockRecipeProvider.generatePressurePlate(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_PRESSURE_PLATE, exporter);
+
+
+        NonBlockBlockRecipeProvider.generateButton(ModItems.BISMUTH, ModBlocks.BISMUTH_BUTTON, exporter);
+        NonBlockBlockRecipeProvider.generateFence(ModItems.BISMUTH, ModBlocks.BISMUTH_FENCE, exporter);
+        NonBlockBlockRecipeProvider.generateFenceGate(ModItems.BISMUTH, ModBlocks.BISMUTH_FENCE_GATE, exporter);
+        NonBlockBlockRecipeProvider.generateSlab(ModItems.BISMUTH, ModBlocks.BISMUTH_SLAB, exporter);
+        NonBlockBlockRecipeProvider.generateTrapdoor(ModItems.BISMUTH, ModBlocks.BISMUTH_TRAPDOOR, exporter);
+        NonBlockBlockRecipeProvider.generateDoor(ModItems.BISMUTH, ModBlocks.BISMUTH_DOOR, exporter);
+        NonBlockBlockRecipeProvider.generateStairs(ModItems.BISMUTH, ModBlocks.BISMUTH_STAIRS, exporter);
+        NonBlockBlockRecipeProvider.generateWall(ModItems.BISMUTH, ModBlocks.BISMUTH_WALL, exporter);
+        NonBlockBlockRecipeProvider.generatePressurePlate(ModItems.BISMUTH, ModBlocks.BISMUTH_PRESSURE_PLATE, exporter);
+
+
 
     }
 }

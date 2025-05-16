@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "tutorial-mod:alexandrite"
+    }
+  },
+  "pattern": [
+    "RR ",
+    "RR ",
+    "RR "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial-mod:alexandrite_door"
+  }
+}

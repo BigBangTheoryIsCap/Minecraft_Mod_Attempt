@@ -1,5 +1,7 @@
 package net.alokyadav.tutorialmod.datagen;
 
+import net.alokyadav.tutorialmod.blocks.custom.AlexandriteLampBlock;
+import net.alokyadav.tutorialmod.blocks.custom.BismuthLampBlock;
 import net.alokyadav.tutorialmod.blocks.custom.PinkGarnetLampBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -19,6 +21,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         BlockStateModelGenerator.BlockTexturePool pinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_GARNET_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool alexandritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ALEXANDRITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool bismuthPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BISMUTH_BLOCK);
+
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
@@ -28,7 +34,10 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ALEXANDRITE_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_END_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_NETHER_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_DEEPSLATE_ORE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_NETHER_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_END_ORE);
@@ -48,10 +57,44 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GARNET_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
 
-        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.PINK_GARNET_LAMP, blockStateModelGenerator.modelCollector);
-        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.PINK_GARNET_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        alexandritePool.stairs(ModBlocks.ALEXANDRITE_STAIRS);
+        alexandritePool.slab(ModBlocks.ALEXANDRITE_SLAB);
+        alexandritePool.fence(ModBlocks.ALEXANDRITE_FENCE);
+        alexandritePool.fenceGate(ModBlocks.ALEXANDRITE_FENCE_GATE);
+        alexandritePool.pressurePlate(ModBlocks.ALEXANDRITE_PRESSURE_PLATE);
+        alexandritePool.button(ModBlocks.ALEXANDRITE_BUTTON);
+        alexandritePool.wall(ModBlocks.ALEXANDRITE_WALL);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.ALEXANDRITE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ALEXANDRITE_TRAPDOOR);
+
+        bismuthPool.stairs(ModBlocks.BISMUTH_STAIRS);
+        bismuthPool.slab(ModBlocks.BISMUTH_SLAB);
+        bismuthPool.fence(ModBlocks.BISMUTH_FENCE);
+        bismuthPool.fenceGate(ModBlocks.BISMUTH_FENCE_GATE);
+        bismuthPool.pressurePlate(ModBlocks.BISMUTH_PRESSURE_PLATE);
+        bismuthPool.button(ModBlocks.BISMUTH_BUTTON);
+        bismuthPool.wall(ModBlocks.BISMUTH_WALL);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.BISMUTH_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.BISMUTH_TRAPDOOR);
+
+
+        Identifier lampOffIdentifier =
+                                        TexturedModel.CUBE_ALL.upload(ModBlocks.PINK_GARNET_LAMP, blockStateModelGenerator.modelCollector);
+                                         TexturedModel.CUBE_ALL.upload(ModBlocks.ALEXANDRITE_LAMP, blockStateModelGenerator.modelCollector);
+                                        TexturedModel.CUBE_ALL.upload(ModBlocks.BISMUTH_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier =
+                                    blockStateModelGenerator.createSubModel(ModBlocks.PINK_GARNET_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+                                    blockStateModelGenerator.createSubModel(ModBlocks.ALEXANDRITE_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+                                    blockStateModelGenerator.createSubModel(ModBlocks.BISMUTH_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.PINK_GARNET_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(PinkGarnetLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.ALEXANDRITE_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(AlexandriteLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.BISMUTH_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(BismuthLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
 
     }
 
@@ -89,6 +132,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ALEXANDRITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ALEXANDRITE_HAMMER, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.BISMUTH_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_HAMMER, Models.HANDHELD);
+
+
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_LEGGINGS));
@@ -99,11 +150,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALEXANDRITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALEXANDRITE_BOOTS));
 
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BISMUTH_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BISMUTH_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BISMUTH_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BISMUTH_BOOTS));
+
+
+
+
         itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.ALEXANDRITE_HORSE_ARMOR, Models.GENERATED);
-
-
         itemModelGenerator.register(ModItems.BISMUTH_HORSE_ARMOR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.KAUPEN_SMITHING_TEMPLATE, Models.GENERATED);
 
 
 

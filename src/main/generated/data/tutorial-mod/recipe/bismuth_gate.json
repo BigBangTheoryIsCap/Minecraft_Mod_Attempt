@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "tutorial-mod:bismuth"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SRS",
+    "SRS",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial-mod:bismuth_gate"
+  }
+}

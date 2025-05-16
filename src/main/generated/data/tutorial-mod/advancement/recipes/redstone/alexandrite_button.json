@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item.tutorial-mod.alexandrite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial-mod:alexandrite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorial-mod:alexandrite_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_item.tutorial-mod.alexandrite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorial-mod:alexandrite_button"
+    ]
+  }
+}

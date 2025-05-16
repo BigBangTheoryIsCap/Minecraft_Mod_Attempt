@@ -29,20 +29,26 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.PINK_GARNET_SWORD)
-                .add(ModItems.ALEXANDRITE_SWORD);
+                .add(ModItems.ALEXANDRITE_SWORD)
+                .add(ModItems.BISMUTH_SWORD);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.PINK_GARNET_PICKAXE)
-                .add(ModItems.ALEXANDRITE_PICKAXE);
+                .add(ModItems.ALEXANDRITE_PICKAXE)
+                .add(ModItems.BISMUTH_PICKAXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.PINK_GARNET_SHOVEL)
-                .add(ModItems.ALEXANDRITE_SHOVEL);
+                .add(ModItems.ALEXANDRITE_SHOVEL)
+                .add(ModItems.BISMUTH_SHOVEL);
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.PINK_GARNET_AXE)
-                .add(ModItems.ALEXANDRITE_AXE);
+                .add(ModItems.ALEXANDRITE_AXE)
+                .add(ModItems.BISMUTH_AXE);
 
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.PINK_GARNET_HOE)
-                .add(ModItems.ALEXANDRITE_HOE);
+                .add(ModItems.ALEXANDRITE_HOE)
+                .add(ModItems.BISMUTH_HOE);
+
 
 
 
@@ -53,10 +59,22 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.ALEXANDRITE_CHESTPLATE)
                 .add(ModItems.ALEXANDRITE_LEGGINGS)
                 .add(ModItems.ALEXANDRITE_BOOTS)
+                .add(ModItems.BISMUTH_HELMET)
+                .add(ModItems.BISMUTH_CHESTPLATE)
+                .add(ModItems.BISMUTH_LEGGINGS)
+                .add(ModItems.BISMUTH_BOOTS)
                 .add(ModItems.PINK_GARNET_HELMET)
                 .add(ModItems.PINK_GARNET_CHESTPLATE)
                 .add(ModItems.PINK_GARNET_LEGGINGS)
                 .add(ModItems.PINK_GARNET_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.PINK_GARNET)
+                .add(ModItems.BISMUTH)
+                .add(ModItems.ALEXANDRITE);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.KAUPEN_SMITHING_TEMPLATE);
 
 
     }
