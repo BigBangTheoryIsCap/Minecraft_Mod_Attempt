@@ -28,6 +28,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.APPLE);
 
         //hi
+        //whatttt
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.PINK_GARNET_SWORD)
                 .add(ModItems.ALEXANDRITE_SWORD)
