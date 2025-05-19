@@ -1,4 +1,4 @@
-// 1.21	2025-05-15T14:54:24.731002	Tutorial Mod/Recipes
+// 1.21	2025-05-19T14:57:58.48332	Tutorial Mod/Recipes
 8dfba9274665ce73149d59ceaccef9bf4a2f986d data/tutorial-mod/advancement/recipes/decorations/ruby_block.json
 bbfb7b6781b0d5a215675da9c3f9928787024146 data/tutorial-mod/advancement/recipes/building_blocks/bismuth_stairs.json
 012b9b6a85d8ec69335e74fe52b275894ef0c4ae data/tutorial-mod/advancement/recipes/combat/alexandrite_block.json
@@ -12,8 +12,8 @@ ec653933ea1a520d8e4aa8fb2076a672442e2cea data/tutorial-mod/recipe/alexandrite_ax
 04f5835ad0e1c281305dbef63d3beaea2a138db7 data/tutorial-mod/recipe/raw_ruby_from_smelting_ruby_ore.json
 3fe75182047551c2c6f93709345df0f9acd66c86 data/tutorial-mod/advancement/recipes/misc/raw_alexandrite.json
 c2505cd36d76f7885fcf85a60e8c246526e10623 data/tutorial-mod/advancement/recipes/redstone/bismuth_plate.json
-5eaf643902396b2d3477f98c7e162f9d5c93b809 data/tutorial-mod/recipe/raw_alexandrite_from_smelting_alexandrite_end_ore.json
 414885844f99000cd9434bb1a510deaae2b26598 data/tutorial-mod/advancement/recipes/misc/raw_ruby_from_smelting_ruby_ore.json
+5eaf643902396b2d3477f98c7e162f9d5c93b809 data/tutorial-mod/recipe/raw_alexandrite_from_smelting_alexandrite_end_ore.json
 989f88bd5bb5fa7cfe8bb19ee61471f6b33bd06c data/tutorial-mod/recipe/pink_garnet_fence.json
 5cf23550161d997bdde2f08c0e0584184ec7238f data/tutorial-mod/advancement/recipes/misc/ruby_from_blasting_ruby_ore.json
 4c70cd0b1dc9f55df41b86653d3517c75ea504a1 data/tutorial-mod/advancement/recipes/redstone/alexandrite_button.json

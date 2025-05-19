@@ -26,9 +26,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.COAL)
                 .add(Items.STICK)
                 .add(Items.APPLE);
-
-        //hi
-        //whatttt
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.PINK_GARNET_SWORD)
                 .add(ModItems.ALEXANDRITE_SWORD)
@@ -45,17 +42,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PINK_GARNET_AXE)
                 .add(ModItems.ALEXANDRITE_AXE)
                 .add(ModItems.BISMUTH_AXE);
-
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.PINK_GARNET_HOE)
                 .add(ModItems.ALEXANDRITE_HOE)
                 .add(ModItems.BISMUTH_HOE);
-
-
-
-
-
-
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ALEXANDRITE_HELMET)
                 .add(ModItems.ALEXANDRITE_CHESTPLATE)
@@ -69,12 +59,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PINK_GARNET_CHESTPLATE)
                 .add(ModItems.PINK_GARNET_LEGGINGS)
                 .add(ModItems.PINK_GARNET_BOOTS);
-
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(ModItems.PINK_GARNET)
                 .add(ModItems.BISMUTH)
                 .add(ModItems.ALEXANDRITE);
-
         getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.KAUPEN_SMITHING_TEMPLATE);
 

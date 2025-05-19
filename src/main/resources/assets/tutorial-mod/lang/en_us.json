@@ -159,10 +159,10 @@
 
   "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
 
-  "tooltip.tutorial-mod.chisel.shift_down": "This item chisels blocks into Bricks!",
-  "tooltip.tutorial-mod.chisel": "Press §eShift§r for more Information!",
+  "tooltip.tutorialmod.chisel.shift_down": "This item chisels blocks into Bricks!",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information!",
 
-  "tooltip.tutorial-mod.cauliflower.tooltip": "This is delicious!",
+  "tooltip.tutorialmod.cauliflower.tooltip": "This is delicious!",
 
   "trim_material.tutorial-mod.pink_garnet": "Pink Garnet Material",
   "trim_material.tutorial-mod.alexandrite": "Alexandrite Material",

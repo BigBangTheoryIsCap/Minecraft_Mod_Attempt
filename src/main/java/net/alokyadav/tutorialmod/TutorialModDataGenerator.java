@@ -4,6 +4,8 @@ import net.alokyadav.tutorialmod.blocks.ModBlocks;
 import net.alokyadav.tutorialmod.datagen.*;
 import net.alokyadav.tutorialmod.trim.ModTrimMaterials;
 import net.alokyadav.tutorialmod.trim.ModTrimPatterns;
+import net.alokyadav.tutorialmod.world.ModConfiguredFeatures;
+import net.alokyadav.tutorialmod.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -26,5 +28,10 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+
+
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+
 	}
 }

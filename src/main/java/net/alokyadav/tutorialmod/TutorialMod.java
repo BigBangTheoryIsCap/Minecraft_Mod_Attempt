@@ -6,6 +6,7 @@ import net.alokyadav.tutorialmod.item.ModItemGroups;
 import net.alokyadav.tutorialmod.item.ModItems;
 import net.alokyadav.tutorialmod.item.custom.Hammeritem;
 import net.alokyadav.tutorialmod.util.HammerUsageEvent;
+import net.alokyadav.tutorialmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
@@ -26,5 +27,7 @@ public class TutorialMod implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 32767);
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
