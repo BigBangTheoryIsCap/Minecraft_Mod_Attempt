@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorial-mod:fluorite_axe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tutorial-mod.fluorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial-mod:fluorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tutorial-mod.fluorite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorial-mod:fluorite_axe"
+    ]
+  }
+}

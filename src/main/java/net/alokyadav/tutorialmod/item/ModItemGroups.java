@@ -56,6 +56,9 @@ public class ModItemGroups {
                         entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
 
                         entries.add(ModItems.PINK_GARNET_HORSE_ARMOR);
+
+                        entries.add(ModItems.KAUPEN_BOW);
+
                     }).build());
 
     public static final ItemGroup RUBY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -69,6 +72,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries      .add(ModItems.RUBY_CHESTPLATE);
+                        entries     .add(ModItems.RUBY_LEGGINGS);
+                        entries     .add(ModItems.RUBY_BOOTS);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_HOE);
+
+
 
                     }).build());
     public static final ItemGroup ALEXANDRITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -114,10 +128,211 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.ALEXANDRITE_LAMP);
 
+                        entries.add(ModItems.KAUPEN_BOW);
+
 
 
 
                     }).build());
+
+    public static final ItemGroup BLACK_OPAL_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"black_opal_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.BLACK_OPAL))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.black_opal"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.BLACK_OPAL);
+                        entries.add(ModItems.RAW_BLACK_OPAL);
+                        entries                .add(ModItems.BLACK_OPAL_HELMET);
+                        entries         .add(ModItems.BLACK_OPAL_CHESTPLATE);
+                        entries         .add(ModItems.BLACK_OPAL_LEGGINGS);
+                        entries        .add(ModItems.BLACK_OPAL_BOOTS);
+                        entries.add(ModItems.BLACK_OPAL_PICKAXE);
+                        entries.add(ModItems.BLACK_OPAL_AXE);
+                        entries.add(ModItems.BLACK_OPAL_SHOVEL);
+                        entries.add(ModItems.BLACK_OPAL_SWORD);
+                        entries.add(ModItems.BLACK_OPAL_HOE);
+                    }).build());
+
+    public static final ItemGroup AZURITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"azurite_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.AZURITE))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.azurite"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.AZURITE);
+                        entries.add(ModItems.RAW_AZURITE);
+                        entries                .add(ModItems.AZURITE_HELMET);
+                        entries         .add(ModItems.AZURITE_CHESTPLATE);
+                        entries      .add(ModItems.AZURITE_LEGGINGS);
+                        entries    .add(ModItems.AZURITE_BOOTS);
+
+                        entries.add(ModItems.AZURITE_PICKAXE);
+                        entries.add(ModItems.AZURITE_AXE);
+                        entries.add(ModItems.AZURITE_SHOVEL);
+                        entries.add(ModItems.AZURITE_SWORD);
+                        entries.add(ModItems.AZURITE_HOE);
+
+                    }).build());
+
+    public static final ItemGroup MYTHRIL_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"mythril_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.MAGIC_MYTHRIL_DUST))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.mythril"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MAGIC_MYTHRIL_DUST);
+                        entries.add(ModItems.MYTHRIL_INGOT);
+                        entries.add(ModItems.RAW_MYTHRIL);
+                        entries                .add(ModItems.MYTHRIL_HELMET);
+                        entries    .add(ModItems.MYTHRIL_CHESTPLATE);
+                        entries    .add(ModItems.MYTHRIL_LEGGINGS);
+                        entries    .add(ModItems.MYTHRIL_BOOTS);
+
+                    }).build());
+    public static final ItemGroup FLUORITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"fluorite_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.FLUORITE))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.fluorite"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.FLUORITE);
+                        entries.add(ModItems.RAW_FLUORITE);
+
+                        entries                .add(ModItems.FLUORITE_HELMET);
+                        entries  .add(ModItems.FLUORITE_CHESTPLATE);
+                        entries   .add(ModItems.FLUORITE_LEGGINGS);
+                        entries    .add(ModItems.FLUORITE_BOOTS);
+                        entries.add(ModItems.FLUORITE_PICKAXE);
+                        entries.add(ModItems.FLUORITE_AXE);
+                        entries.add(ModItems.FLUORITE_SHOVEL);
+                        entries.add(ModItems.FLUORITE_SWORD);
+                        entries.add(ModItems.FLUORITE_HOE);
+                    }).build());
+
+    public static final ItemGroup TANZANITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"tanzanite_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.TANZANITE))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.tanzanite"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.TANZANITE);
+                        entries.add(ModItems.RAW_TANZANITE);
+
+                        entries.add(ModItems.TANZANITE_HELMET);
+                                entries.add(ModItems.TANZANITE_CHESTPLATE);
+                                entries.add(ModItems.TANZANITE_LEGGINGS);
+                                entries.add(ModItems.TANZANITE_BOOTS);
+                        entries.add(ModItems.TANZANITE_PICKAXE);
+                        entries.add(ModItems.TANZANITE_AXE);
+                        entries.add(ModItems.TANZANITE_SHOVEL);
+                        entries.add(ModItems.TANZANITE_SWORD);
+                        entries.add(ModItems.TANZANITE_HOE);
+
+
+                    }).build());
+    public static final ItemGroup TITANIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"titanium_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.TITANIUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.titanium"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.TITANIUM_INGOT);
+                        entries.add(ModItems.RAW_TITANIUM);
+
+                            entries            .add(ModItems.TITANIUM_HELMET);
+                          entries      .add(ModItems.TITANIUM_CHESTPLATE);
+                          entries      .add(ModItems.TITANIUM_LEGGINGS);
+                           entries     .add(ModItems.TITANIUM_BOOTS);
+
+                        entries.add(ModItems.TITANIUM_PICKAXE);
+                        entries.add(ModItems.TITANIUM_AXE);
+                        entries.add(ModItems.TITANIUM_SHOVEL);
+                        entries.add(ModItems.TITANIUM_SWORD);
+                        entries.add(ModItems.TITANIUM_HOE);
+
+
+                    }).build());
+    public static final ItemGroup ZIRCON_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"zircon_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.ZIRCON))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.zircon"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.ZIRCON);
+                        entries.add(ModItems.RAW_ZIRCON);
+
+                         entries       .add(ModItems.ZIRCON_HELMET);
+                           entries     .add(ModItems.ZIRCON_CHESTPLATE);
+                            entries    .add(ModItems.ZIRCON_LEGGINGS);
+                             entries   .add(ModItems.ZIRCON_BOOTS);
+
+                        entries.add(ModItems.ZIRCON_PICKAXE);
+                        entries.add(ModItems.ZIRCON_AXE);
+                        entries.add(ModItems.ZIRCON_SHOVEL);
+                        entries.add(ModItems.ZIRCON_SWORD);
+                        entries.add(ModItems.ZIRCON_HOE);
+
+
+                    }).build());
+    public static final ItemGroup SAPPHIRE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"sapphire_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.SAPPHIRE))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.sapphire"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.SAPPHIRE);
+                        entries.add(ModItems.RAW_SAPPHIRE);
+                                        entries.add(ModItems.SAPPHIRE_HELMET);
+                                entries.add(ModItems.SAPPHIRE_CHESTPLATE);
+                               entries .add(ModItems.SAPPHIRE_LEGGINGS);
+                               entries .add(ModItems.SAPPHIRE_BOOTS);
+                        entries.add(ModItems.SAPPHIRE_PICKAXE);
+                        entries.add(ModItems.SAPPHIRE_AXE);
+                        entries.add(ModItems.SAPPHIRE_SHOVEL);
+                        entries.add(ModItems.SAPPHIRE_SWORD);
+                        entries.add(ModItems.SAPPHIRE_HOE);
+
+                    }).build());
+    public static final ItemGroup LITHIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"lithium_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.LITHIUM))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.lithium"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.LITHIUM);
+                        entries.add(ModItems.RAW_LITHIUM);
+                        entries                .add(ModItems.LITHIUM_HELMET);
+                        entries   .add(ModItems.LITHIUM_CHESTPLATE);
+                        entries    .add(ModItems.LITHIUM_LEGGINGS);
+                        entries   .add(ModItems.LITHIUM_BOOTS);
+                        entries.add(ModItems.LITHIUM_PICKAXE);
+                        entries.add(ModItems.LITHIUM_AXE);
+                        entries.add(ModItems.LITHIUM_SHOVEL);
+                        entries.add(ModItems.LITHIUM_SWORD);
+                        entries.add(ModItems.LITHIUM_HOE);
+
+
+                    }).build());
+    public static final ItemGroup CITRINE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID,"citrine_items"), FabricItemGroup
+                    .builder()
+                    .icon(()-> new ItemStack(ModItems.CITRINE))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.citrine"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CITRINE);
+                        entries.add(ModItems.RAW_CITRINE);
+                        entries                .add(ModItems.CITRINE_HELMET);
+                        entries  .add(ModItems.CITRINE_CHESTPLATE);
+                        entries      .add(ModItems.CITRINE_LEGGINGS);
+                        entries     .add(ModItems.CITRINE_BOOTS);
+                        entries.add(ModItems.CITRINE_PICKAXE);
+                        entries.add(ModItems.CITRINE_AXE);
+                        entries.add(ModItems.CITRINE_SHOVEL);
+                        entries.add(ModItems.CITRINE_SWORD);
+                        entries.add(ModItems.CITRINE_HOE);
+                    }).build());
+
 
 
     public static final ItemGroup BISMUTH_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -162,6 +377,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.BISMUTH_LAMP);
 
+                        entries.add(ModItems.KAUPEN_BOW);
+
 
 
 
@@ -172,3 +389,52 @@ public class ModItemGroups {
         TutorialMod.LOGGER.info("Registering Mod Item Groups for " + TutorialMod.MOD_ID);
     }
 }
+
+
+// Azurite
+
+// Bismuth
+
+// Black Opal
+
+// Citrine
+
+// Fluorite
+
+// Lithium
+
+// Mythril
+
+// Pink Garnet
+
+// Ruby
+
+// Sapphire
+
+// Tanzanite
+
+// Titanium
+
+// Zircon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

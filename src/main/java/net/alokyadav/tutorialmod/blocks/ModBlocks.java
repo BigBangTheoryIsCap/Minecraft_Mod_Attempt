@@ -217,6 +217,7 @@ public class ModBlocks {
 
 
 
+
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     private static Block registerBlock(String name, Block block) {

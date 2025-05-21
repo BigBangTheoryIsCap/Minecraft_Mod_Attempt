@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "tutorial-mod:fluorite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial-mod:fluorite_axe"
+  }
+}

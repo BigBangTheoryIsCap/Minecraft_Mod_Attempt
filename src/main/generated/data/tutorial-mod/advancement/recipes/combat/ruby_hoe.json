@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorial-mod:ruby_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tutorial-mod.ruby": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial-mod:ruby"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tutorial-mod.ruby"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorial-mod:ruby_hoe"
+    ]
+  }
+}

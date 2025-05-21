@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorial-mod:sapphire_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tutorial-mod.sapphire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial-mod:sapphire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tutorial-mod.sapphire"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorial-mod:sapphire_hoe"
+    ]
+  }
+}

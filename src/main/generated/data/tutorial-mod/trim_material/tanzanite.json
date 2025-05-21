@@ -1,0 +1,9 @@
+{
+  "asset_name": "tanzanite",
+  "description": {
+    "color": "#B03FE0",
+    "translate": "trim_material.tutorial-mod.tanzanite"
+  },
+  "ingredient": "tutorial-mod:tanzanite",
+  "item_model_index": 1.0
+}

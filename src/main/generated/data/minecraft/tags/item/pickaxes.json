@@ -2,6 +2,16 @@
   "values": [
     "tutorial-mod:pink_garnet_pickaxe",
     "tutorial-mod:alexandrite_pickaxe",
-    "tutorial-mod:bismuth_pickaxe"
+    "tutorial-mod:bismuth_pickaxe",
+    "tutorial-mod:azurite_pickaxe",
+    "tutorial-mod:black_opal_pickaxe",
+    "tutorial-mod:citrine_pickaxe",
+    "tutorial-mod:lithium_pickaxe",
+    "tutorial-mod:fluorite_pickaxe",
+    "tutorial-mod:zircon_pickaxe",
+    "tutorial-mod:sapphire_pickaxe",
+    "tutorial-mod:tanzanite_pickaxe",
+    "tutorial-mod:ruby_pickaxe",
+    "tutorial-mod:titanium_pickaxe"
   ]
 }

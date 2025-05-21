@@ -116,6 +116,41 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGIC_BLOCK)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
 
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_BLACK_OPAL_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_AZURITE_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TANZANITE_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_LITHIUM_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_CITRINE_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_RUBY_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_FLUORITE_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_MYTHRIL_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_ZIRCON_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+
 
     }
 

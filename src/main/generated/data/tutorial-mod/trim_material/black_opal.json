@@ -1,0 +1,9 @@
+{
+  "asset_name": "black_opal",
+  "description": {
+    "color": "#B03FE0",
+    "translate": "trim_material.tutorial-mod.black_opal"
+  },
+  "ingredient": "tutorial-mod:black_opal",
+  "item_model_index": 1.0
+}

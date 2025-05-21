@@ -12,9 +12,33 @@ import java.util.function.Supplier;
 public enum ModToolMaterials implements ToolMaterial {
     PINK_GARNET(ModTags.Blocks.INCORRECT_FOR_PINK_GARNET_TOOL,
             1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.PINK_GARNET)),
-    ALEXANDRITE(ModTags.Blocks.INCORRECT_FOR_ALEXANDRITE_TOOL, 1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.ALEXANDRITE)),
+    ALEXANDRITE(ModTags.Blocks.INCORRECT_FOR_ALEXANDRITE_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.ALEXANDRITE)),
     BISMUTH(ModTags.Blocks.INCORRECT_FOR_BISMUTH_TOOL,
-            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.PINK_GARNET));
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.BISMUTH)),
+    AZURITE(ModTags.Blocks.INCORRECT_FOR_AZURITE_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.AZURITE)),
+    TITANIUM(ModTags.Blocks.INCORRECT_FOR_TITANIUM_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT)),
+    LITHIUM(ModTags.Blocks.INCORRECT_FOR_LITHIUM_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.LITHIUM)),
+    TANZANITE(ModTags.Blocks.INCORRECT_FOR_TANZANITE_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.TANZANITE)),
+    MYTHRIL(ModTags.Blocks.INCORRECT_FOR_MYTHRIL_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT)),
+    SAPPHIRE(ModTags.Blocks.INCORRECT_FOR_SAPPHIRE_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
+    FLUORITE(ModTags.Blocks.INCORRECT_FOR_FLUORITE_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.FLUORITE)),
+    RUBY(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.RUBY)),
+    CITRINE(ModTags.Blocks.INCORRECT_FOR_CITRINE_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.CITRINE)),
+    ZIRCON(ModTags.Blocks.INCORRECT_FOR_ZIRCON_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.ZIRCON)),
+
+    BLACK_OPAL(ModTags.Blocks.INCORRECT_FOR_BLACK_OPAL_TOOL,
+            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.BLACK_OPAL));
 
 
 

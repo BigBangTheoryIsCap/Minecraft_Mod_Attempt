@@ -2,6 +2,16 @@
   "values": [
     "tutorial-mod:pink_garnet_shovel",
     "tutorial-mod:alexandrite_shovel",
-    "tutorial-mod:bismuth_shovel"
+    "tutorial-mod:bismuth_shovel",
+    "tutorial-mod:azurite_shovel",
+    "tutorial-mod:black_opal_shovel",
+    "tutorial-mod:citrine_shovel",
+    "tutorial-mod:lithium_shovel",
+    "tutorial-mod:fluorite_shovel",
+    "tutorial-mod:zircon_shovel",
+    "tutorial-mod:sapphire_shovel",
+    "tutorial-mod:tanzanite_shovel",
+    "tutorial-mod:ruby_shovel",
+    "tutorial-mod:titanium_shovel"
   ]
 }

@@ -2,6 +2,16 @@
   "values": [
     "tutorial-mod:pink_garnet_axe",
     "tutorial-mod:alexandrite_axe",
-    "tutorial-mod:bismuth_axe"
+    "tutorial-mod:bismuth_axe",
+    "tutorial-mod:azurite_axe",
+    "tutorial-mod:black_opal_axe",
+    "tutorial-mod:citrine_axe",
+    "tutorial-mod:lithium_axe",
+    "tutorial-mod:fluorite_axe",
+    "tutorial-mod:zircon_axe",
+    "tutorial-mod:sapphire_axe",
+    "tutorial-mod:tanzanite_axe",
+    "tutorial-mod:ruby_axe",
+    "tutorial-mod:titanium_axe"
   ]
 }

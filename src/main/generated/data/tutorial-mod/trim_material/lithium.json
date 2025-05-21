@@ -1,0 +1,9 @@
+{
+  "asset_name": "lithium",
+  "description": {
+    "color": "#B03FE0",
+    "translate": "trim_material.tutorial-mod.lithium"
+  },
+  "ingredient": "tutorial-mod:lithium",
+  "item_model_index": 1.0
+}

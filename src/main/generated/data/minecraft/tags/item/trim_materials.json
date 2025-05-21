@@ -1,7 +1,18 @@
 {
   "values": [
-    "tutorial-mod:pink_garnet",
+    "tutorial-mod:alexandrite",
+    "tutorial-mod:azurite",
     "tutorial-mod:bismuth",
-    "tutorial-mod:alexandrite"
+    "tutorial-mod:black_opal",
+    "tutorial-mod:citrine",
+    "tutorial-mod:fluorite",
+    "tutorial-mod:lithium",
+    "tutorial-mod:mythril_ingot",
+    "tutorial-mod:pink_garnet",
+    "tutorial-mod:ruby",
+    "tutorial-mod:sapphire",
+    "tutorial-mod:tanzanite",
+    "tutorial-mod:titanium_ingot",
+    "tutorial-mod:zircon"
   ]
 }

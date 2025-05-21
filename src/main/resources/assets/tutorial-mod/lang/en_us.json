@@ -22,6 +22,39 @@
   "item.tutorial-mod.ruby": "Ruby",
   "item.tutorial-mod.raw_ruby": "Raw Ruby",
 
+  "item.tutorial-mod.black_opal": "Black Opal",
+  "item.tutorial-mod.raw_black_opal": "Raw Black Opal",
+
+  "item.tutorial-mod.azurite": "Azurite",
+  "item.tutorial-mod.raw_azurite": "Raw Azurite",
+
+  "item.tutorial-mod.magic_mythril_dust": "Mythril Powder",
+  "item.tutorial-mod.mythril_ingot": "Mythril Ingot",
+  "item.tutorial-mod.raw_mythril": "Raw Mythril",
+
+  "item.tutorial-mod.citrine": "Citrine",
+  "item.tutorial-mod.raw_citrine": "Raw Citrine",
+
+  "item.tutorial-mod.lithium": "Lithium",
+  "item.tutorial-mod.raw_lithium": "Raw Lithium",
+
+  "item.tutorial-mod.zircon": "Zircon",
+  "item.tutorial-mod.raw_zircon": "Raw Zircon",
+
+  "item.tutorial-mod.tanzanite": "Tanzanite",
+  "item.tutorial-mod.raw_tanzanite": "Raw Tanzanite",
+
+  "item.tutorial-mod.titanium": "Titanium",
+  "item.tutorial-mod.raw_titanium": "Raw Titanium",
+
+  "item.tutorial-mod.sapphire": "Sapphire",
+  "item.tutorial-mod.raw_sapphire": "Raw Sapphire",
+
+
+  "item.tutorial-mod.fluorite": "Fluorite",
+  "item.tutorial-mod.raw_fluorite": "Raw Fluorite",
+
+
 
 
   "block.tutorial-mod.bismuth_ore": "Bismuth Ore",
@@ -39,20 +72,11 @@
   "block.tutorial-mod.ruby_ore": "Ruby Ore",
 
 
-  "item.tutorial-mod.bismuth_sword": "Bismuth Sword",
-  "item.tutorial-mod.bismuth_pickaxe": "Bismuth Pickaxe",
-  "item.tutorial-mod.bismuth_shovel": "Bismuth Shovel",
-  "item.tutorial-mod.bismuth_axe": "Bismuth Axe",
-  "item.tutorial-mod.bismuth_hoe": "Bismuth Hoe",
-
-  "item.tutorial-mod.bismuth_boots": "Bismuth Boots",
-  "item.tutorial-mod.bismuth_leggings": "Bismuth Leggings",
-  "item.tutorial-mod.bismuth_helmet": "Bismuth Helmet",
-  "item.tutorial-mod.bismuth_chestplate": "Bismuth Chestplate",
-
   "item.tutorial-mod.bismuth_hammer": "Bismuth Hammer",
 
   "item.tutorial-mod.bismuth_horse_armor" : "Bismuth Horse Armor",
+
+  "item.tutorial-mod.kaupen_bow" : "Kapuen Bow",
 
   "block.tutorial-mod.bismuth_block": "Block of Bismuth",
 
@@ -81,6 +105,141 @@
   "item.tutorial-mod.pink_garnet_shovel": "Pink Garnet Shovel",
   "item.tutorial-mod.pink_garnet_axe": "Pink Garnet Axe",
   "item.tutorial-mod.pink_garnet_hoe": "Pink Garnet Hoe",
+
+  "item.tutorial-mod.azurite_sword": "Azurite Sword",
+  "item.tutorial-mod.azurite_pickaxe": "Azurite Pickaxe",
+  "item.tutorial-mod.azurite_shovel": "Azurite Shovel",
+  "item.tutorial-mod.azurite_axe": "Azurite Axe",
+  "item.tutorial-mod.azurite_hoe": "Azurite Hoe",
+
+  "item.tutorial-mod.bismuth_sword": "Bismuth Sword",
+  "item.tutorial-mod.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.tutorial-mod.bismuth_shovel": "Bismuth Shovel",
+  "item.tutorial-mod.bismuth_axe": "Bismuth Axe",
+  "item.tutorial-mod.bismuth_hoe": "Bismuth Hoe",
+
+  "item.tutorial-mod.black_opal_sword": "Black Opal Sword",
+  "item.tutorial-mod.black_opal_pickaxe": "Black Opal Pickaxe",
+  "item.tutorial-mod.black_opal_shovel": "Black Opal Shovel",
+  "item.tutorial-mod.black_opal_axe": "Black Opal Axe",
+  "item.tutorial-mod.black_opal_hoe": "Black Opal Hoe",
+
+  "item.tutorial-mod.citrine_sword": "Citrine Sword",
+  "item.tutorial-mod.citrine_pickaxe": "Citrine Pickaxe",
+  "item.tutorial-mod.citrine_shovel": "Citrine Shovel",
+  "item.tutorial-mod.citrine_axe": "Citrine Axe",
+  "item.tutorial-mod.citrine_hoe": "Citrine Hoe",
+
+  "item.tutorial-mod.fluorite_sword": "Fluorite Sword",
+  "item.tutorial-mod.fluorite_pickaxe": "Fluorite Pickaxe",
+  "item.tutorial-mod.fluorite_shovel": "Fluorite Shovel",
+  "item.tutorial-mod.fluorite_axe": "Fluorite Axe",
+  "item.tutorial-mod.fluorite_hoe": "Fluorite Hoe",
+
+  "item.tutorial-mod.lithium_sword": "Lithium Sword",
+  "item.tutorial-mod.lithium_pickaxe": "Lithium Pickaxe",
+  "item.tutorial-mod.lithium_shovel": "Lithium Shovel",
+  "item.tutorial-mod.lithium_axe": "Lithium Axe",
+  "item.tutorial-mod.lithium_hoe": "Lithium Hoe",
+
+  "item.tutorial-mod.mythril_sword": "Mythril Sword",
+  "item.tutorial-mod.mythril_pickaxe": "Mythril Pickaxe",
+  "item.tutorial-mod.mythril_shovel": "Mythril Shovel",
+  "item.tutorial-mod.mythril_axe": "Mythril Axe",
+  "item.tutorial-mod.mythril_hoe": "Mythril Hoe",
+
+
+  "item.tutorial-mod.ruby_sword": "Ruby Sword",
+  "item.tutorial-mod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.tutorial-mod.ruby_shovel": "Ruby Shovel",
+  "item.tutorial-mod.ruby_axe": "Ruby Axe",
+  "item.tutorial-mod.ruby_hoe": "Ruby Hoe",
+
+  "item.tutorial-mod.sapphire_sword": "Sapphire Sword",
+  "item.tutorial-mod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.tutorial-mod.sapphire_shovel": "Sapphire Shovel",
+  "item.tutorial-mod.sapphire_axe": "Sapphire Axe",
+  "item.tutorial-mod.sapphire_hoe": "Sapphire Hoe",
+
+  "item.tutorial-mod.tanzanite_sword": "Tanzanite Sword",
+  "item.tutorial-mod.tanzanite_pickaxe": "Tanzanite Pickaxe",
+  "item.tutorial-mod.tanzanite_shovel": "Tanzanite Shovel",
+  "item.tutorial-mod.tanzanite_axe": "Tanzanite Axe",
+  "item.tutorial-mod.tanzanite_hoe": "Tanzanite Hoe",
+
+  "item.tutorial-mod.titanium_sword": "Titanium Sword",
+  "item.tutorial-mod.titanium_pickaxe": "Titanium Pickaxe",
+  "item.tutorial-mod.titanium_shovel": "Titanium Shovel",
+  "item.tutorial-mod.titanium_axe": "Titanium Axe",
+  "item.tutorial-mod.titanium_hoe": "Titanium Hoe",
+
+  "item.tutorial-mod.zircon_sword": "Zircon Sword",
+  "item.tutorial-mod.zircon_pickaxe": "Zircon Pickaxe",
+  "item.tutorial-mod.zircon_shovel": "Zircon Shovel",
+  "item.tutorial-mod.zircon_axe": "Zircon Axe",
+  "item.tutorial-mod.zircon_hoe": "Zircon Hoe",
+
+  "item.tutorial-mod.azurite_helmet": "Azurite Helmet",
+  "item.tutorial-mod.azurite_chestplate": "Azurite Chestplate",
+  "item.tutorial-mod.azurite_leggings": "Azurite Leggings",
+  "item.tutorial-mod.azurite_boots": "Azurite Boots",
+
+  "item.tutorial-mod.bismuth_helmet": "Bismuth Helmet",
+  "item.tutorial-mod.bismuth_chestplate": "Bismuth Chestplate",
+  "item.tutorial-mod.bismuth_leggings": "Bismuth Leggings",
+  "item.tutorial-mod.bismuth_boots": "Bismuth Boots",
+
+  "item.tutorial-mod.black_opal_helmet": "Black Opal Helmet",
+  "item.tutorial-mod.black_opal_chestplate": "Black Opal Chestplate",
+  "item.tutorial-mod.black_opal_leggings": "Black Opal Leggings",
+  "item.tutorial-mod.black_opal_boots": "Black Opal Boots",
+
+  "item.tutorial-mod.citrine_helmet": "Citrine Helmet",
+  "item.tutorial-mod.citrine_chestplate": "Citrine Chestplate",
+  "item.tutorial-mod.citrine_leggings": "Citrine Leggings",
+  "item.tutorial-mod.citrine_boots": "Citrine Boots",
+
+  "item.tutorial-mod.fluorite_helmet": "Fluorite Helmet",
+  "item.tutorial-mod.fluorite_chestplate": "Fluorite Chestplate",
+  "item.tutorial-mod.fluorite_leggings": "Fluorite Leggings",
+  "item.tutorial-mod.fluorite_boots": "Fluorite Boots",
+
+  "item.tutorial-mod.lithium_helmet": "Lithium Helmet",
+  "item.tutorial-mod.lithium_chestplate": "Lithium Chestplate",
+  "item.tutorial-mod.lithium_leggings": "Lithium Leggings",
+  "item.tutorial-mod.lithium_boots": "Lithium Boots",
+
+  "item.tutorial-mod.mythril_helmet": "Mythril Helmet",
+  "item.tutorial-mod.mythril_chestplate": "Mythril Chestplate",
+  "item.tutorial-mod.mythril_leggings": "Mythril Leggings",
+  "item.tutorial-mod.mythril_boots": "Mythril Boots",
+
+  "item.tutorial-mod.ruby_helmet": "Ruby Helmet",
+  "item.tutorial-mod.ruby_chestplate": "Ruby Chestplate",
+  "item.tutorial-mod.ruby_leggings": "Ruby Leggings",
+  "item.tutorial-mod.ruby_boots": "Ruby Boots",
+
+  "item.tutorial-mod.sapphire_helmet": "Sapphire Helmet",
+  "item.tutorial-mod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.tutorial-mod.sapphire_leggings": "Sapphire Leggings",
+  "item.tutorial-mod.sapphire_boots": "Sapphire Boots",
+
+  "item.tutorial-mod.tanzanite_helmet": "Tanzanite Helmet",
+  "item.tutorial-mod.tanzanite_chestplate": "Tanzanite Chestplate",
+  "item.tutorial-mod.tanzanite_leggings": "Tanzanite Leggings",
+  "item.tutorial-mod.tanzanite_boots": "Tanzanite Boots",
+
+  "item.tutorial-mod.titanium_helmet": "Titanium Helmet",
+  "item.tutorial-mod.titanium_chestplate": "Titanium Chestplate",
+  "item.tutorial-mod.titanium_leggings": "Titanium Leggings",
+  "item.tutorial-mod.titanium_boots": "Titanium Boots",
+
+  "item.tutorial-mod.zircon_helmet": "Zircon Helmet",
+  "item.tutorial-mod.zircon_chestplate": "Zircon Chestplate",
+  "item.tutorial-mod.zircon_leggings": "Zircon Leggings",
+  "item.tutorial-mod.zircon_boots": "Zircon Boots",
+
+
 
 
   "item.tutorial-mod.pink_garnet_boots": "Pink Garnet Boots",
@@ -156,6 +315,18 @@
   "itemgroup.tutorial-mod.ruby": "Ruby Items",
   "itemgroup.tutorial-mod.alexandrite": "Alexandrite Items",
   "itemgroup.tutorial-mod.bismuth" : "Bismuth Items",
+  "itemgroup.tutorial-mod.black_opal" : "Black Opal Items",
+  "itemgroup.tutorial-mod.azurite" : "Azurite Items",
+  "itemgroup.tutorial-mod.mythril" : "Mythril Items",
+  "itemgroup.tutorial-mod.fluorite" : "Fluorite Items",
+
+  "itemgroup.tutorial-mod.sapphire" : "Sapphire Items",
+  "itemgroup.tutorial-mod.lithium" : "Lithium Items",
+  "itemgroup.tutorial-mod.citrine" : "Citrine Items",
+  "itemgroup.tutorial-mod.zircon" : "Zircon Items",
+  "itemgroup.tutorial-mod.titanium" : "Titanium Items",
+  "itemgroup.tutorial-mod.tanzanite" : "Tanzanite Items",
+
 
   "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
 
@@ -166,7 +337,19 @@
 
   "trim_material.tutorial-mod.pink_garnet": "Pink Garnet Material",
   "trim_material.tutorial-mod.alexandrite": "Alexandrite Material",
+  "trim_material.tutorial-mod.azurite": "Azurite Material",
   "trim_material.tutorial-mod.bismuth": "Bismuth Material",
+  "trim_material.tutorial-mod.black_opal": "Black Opal Material",
+  "trim_material.tutorial-mod.citrine": "Citrine Material",
+  "trim_material.tutorial-mod.fluorite": "Fluorite Material",
+  "trim_material.tutorial-mod.lithium": "Lithium Material",
+  "trim_material.tutorial-mod.mythril": "Mythril Material",
+  "trim_material.tutorial-mod.ruby": "Ruby Material",
+  "trim_material.tutorial-mod.sapphire": "Sapphire Material",
+  "trim_material.tutorial-mod.tanzanite": "Tanzanite Material",
+  "trim_material.tutorial-mod.titanium": "Titanium Material",
+  "trim_material.tutorial-mod.zircon": "Zircon Material",
+
 
   "trim_pattern.tutorial-mod.kaupen": "Kaupen Armor Pattern"
 

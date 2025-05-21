@@ -2,6 +2,16 @@
   "values": [
     "tutorial-mod:pink_garnet_sword",
     "tutorial-mod:alexandrite_sword",
-    "tutorial-mod:bismuth_sword"
+    "tutorial-mod:bismuth_sword",
+    "tutorial-mod:azurite_sword",
+    "tutorial-mod:black_opal_sword",
+    "tutorial-mod:citrine_sword",
+    "tutorial-mod:lithium_sword",
+    "tutorial-mod:fluorite_sword",
+    "tutorial-mod:zircon_sword",
+    "tutorial-mod:sapphire_sword",
+    "tutorial-mod:tanzanite_sword",
+    "tutorial-mod:ruby_sword",
+    "tutorial-mod:titanium_sword"
   ]
 }

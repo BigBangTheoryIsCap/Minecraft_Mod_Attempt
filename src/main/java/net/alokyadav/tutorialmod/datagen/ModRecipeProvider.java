@@ -178,27 +178,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_pink_garnet", conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(exporter);
 
-        SwordRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_SWORD, exporter);
-        AxeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_AXE, exporter);
-        PickaxeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_PICKAXE, exporter);
-        ShovelRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_SHOVEL, exporter);
-        HoeRecipeProvider.generate(ModItems.PINK_GARNET, ModItems.PINK_GARNET_HOE, exporter);
-
-        SwordRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_SWORD, exporter);
-        AxeRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_AXE, exporter);
-        PickaxeRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_PICKAXE, exporter);
-        ShovelRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_SHOVEL, exporter);
-        HoeRecipeProvider.generate(ModItems.ALEXANDRITE, ModItems.ALEXANDRITE_HOE, exporter);
-
-        SwordRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_SWORD, exporter);
-        AxeRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_AXE, exporter);
-        PickaxeRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_PICKAXE, exporter);
-        ShovelRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_SHOVEL, exporter);
-        HoeRecipeProvider.generate(ModItems.BISMUTH, ModItems.BISMUTH_HOE,exporter);
+        ToolRecipeProvider.generateAllForMaterial("ALEXANDRITE", exporter);
+        ToolRecipeProvider.generateAllForMaterial("AZURITE", exporter);
+        ToolRecipeProvider.generateAllForMaterial("BLACK_OPAL", exporter);
+        ToolRecipeProvider.generateAllForMaterial("BISMUTH", exporter);
+        ToolRecipeProvider.generateAllForMaterial("CITRINE", exporter);
+        ToolRecipeProvider.generateAllForMaterial("LITHIUM", exporter);
+        ToolRecipeProvider.generateAllForMaterial("FLUORITE", exporter);
+        ToolRecipeProvider.generateAllForMaterial("ZIRCON", exporter);
+        ToolRecipeProvider.generateAllForMaterial("PINK_GARNET", exporter);
+        ToolRecipeProvider.generateAllForMaterial("SAPPHIRE", exporter);
+        ToolRecipeProvider.generateAllForMaterial("TANZANITE", exporter);
+        ToolRecipeProvider.generateAllForMaterial("RUBY", exporter);
 
 
 
-                NonBlockBlockRecipeProvider.generateButton(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_BUTTON, exporter);
+        NonBlockBlockRecipeProvider.generateButton(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_BUTTON, exporter);
         NonBlockBlockRecipeProvider.generateFence(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_FENCE, exporter);
         NonBlockBlockRecipeProvider.generateFenceGate(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_FENCE_GATE, exporter);
         NonBlockBlockRecipeProvider.generateSlab(ModItems.ALEXANDRITE, ModBlocks.ALEXANDRITE_SLAB, exporter);
@@ -219,6 +214,131 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         NonBlockBlockRecipeProvider.generateWall(ModItems.BISMUTH, ModBlocks.BISMUTH_WALL, exporter);
         NonBlockBlockRecipeProvider.generatePressurePlate(ModItems.BISMUTH, ModBlocks.BISMUTH_PRESSURE_PLATE, exporter);
 
+// Alexandrite
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.ALEXANDRITE,
+                ModItems.ALEXANDRITE_HELMET,
+                ModItems.ALEXANDRITE_CHESTPLATE,
+                ModItems.ALEXANDRITE_LEGGINGS,
+                ModItems.ALEXANDRITE_BOOTS
+        );
+
+// Azurite
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.AZURITE,
+                ModItems.AZURITE_HELMET,
+                ModItems.AZURITE_CHESTPLATE,
+                ModItems.AZURITE_LEGGINGS,
+                ModItems.AZURITE_BOOTS
+        );
+
+// Bismuth
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.BISMUTH,
+                ModItems.BISMUTH_HELMET,
+                ModItems.BISMUTH_CHESTPLATE,
+                ModItems.BISMUTH_LEGGINGS,
+                ModItems.BISMUTH_BOOTS
+        );
+
+// Black Opal
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.BLACK_OPAL,
+                ModItems.BLACK_OPAL_HELMET,
+                ModItems.BLACK_OPAL_CHESTPLATE,
+                ModItems.BLACK_OPAL_LEGGINGS,
+                ModItems.BLACK_OPAL_BOOTS
+        );
+
+// Citrine
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.CITRINE,
+                ModItems.CITRINE_HELMET,
+                ModItems.CITRINE_CHESTPLATE,
+                ModItems.CITRINE_LEGGINGS,
+                ModItems.CITRINE_BOOTS
+        );
+
+// Fluorite
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.FLUORITE,
+                ModItems.FLUORITE_HELMET,
+                ModItems.FLUORITE_CHESTPLATE,
+                ModItems.FLUORITE_LEGGINGS,
+                ModItems.FLUORITE_BOOTS
+        );
+
+// Lithium
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.LITHIUM,
+                ModItems.LITHIUM_HELMET,
+                ModItems.LITHIUM_CHESTPLATE,
+                ModItems.LITHIUM_LEGGINGS,
+                ModItems.LITHIUM_BOOTS
+        );
+
+// Mythril
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.MYTHRIL_INGOT,
+                ModItems.MYTHRIL_HELMET,
+                ModItems.MYTHRIL_CHESTPLATE,
+                ModItems.MYTHRIL_LEGGINGS,
+                ModItems.MYTHRIL_BOOTS
+        );
+
+// Pink Garnet
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.PINK_GARNET,
+                ModItems.PINK_GARNET_HELMET,
+                ModItems.PINK_GARNET_CHESTPLATE,
+                ModItems.PINK_GARNET_LEGGINGS,
+                ModItems.PINK_GARNET_BOOTS
+        );
+
+// Ruby
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.RAW_RUBY,
+                ModItems.RUBY_HELMET,
+                ModItems.RUBY_CHESTPLATE,
+                ModItems.RUBY_LEGGINGS,
+                ModItems.RUBY_BOOTS
+        );
+
+// Sapphire
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.SAPPHIRE,
+                ModItems.SAPPHIRE_HELMET,
+                ModItems.SAPPHIRE_CHESTPLATE,
+                ModItems.SAPPHIRE_LEGGINGS,
+                ModItems.SAPPHIRE_BOOTS
+        );
+
+// Tanzanite
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.TANZANITE,
+                ModItems.TANZANITE_HELMET,
+                ModItems.TANZANITE_CHESTPLATE,
+                ModItems.TANZANITE_LEGGINGS,
+                ModItems.TANZANITE_BOOTS
+        );
+
+// Titanium
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.TITANIUM_INGOT,
+                ModItems.TITANIUM_HELMET,
+                ModItems.TITANIUM_CHESTPLATE,
+                ModItems.TITANIUM_LEGGINGS,
+                ModItems.TITANIUM_BOOTS
+        );
+
+// Zircon
+        ArmorRecipeProvider.offerArmorRecipes(exporter,
+                ModItems.ZIRCON,
+                ModItems.ZIRCON_HELMET,
+                ModItems.ZIRCON_CHESTPLATE,
+                ModItems.ZIRCON_LEGGINGS,
+                ModItems.ZIRCON_BOOTS
+        );
 
 
     }

@@ -2,6 +2,16 @@
   "values": [
     "tutorial-mod:pink_garnet_hoe",
     "tutorial-mod:alexandrite_hoe",
-    "tutorial-mod:bismuth_hoe"
+    "tutorial-mod:bismuth_hoe",
+    "tutorial-mod:azurite_hoe",
+    "tutorial-mod:black_opal_hoe",
+    "tutorial-mod:citrine_hoe",
+    "tutorial-mod:lithium_hoe",
+    "tutorial-mod:fluorite_hoe",
+    "tutorial-mod:zircon_hoe",
+    "tutorial-mod:sapphire_hoe",
+    "tutorial-mod:tanzanite_hoe",
+    "tutorial-mod:ruby_hoe",
+    "tutorial-mod:titanium_hoe"
   ]
 }
