@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/fluorite_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/fluorite_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/fluorite_slab_top"
+    }
+  }
+}

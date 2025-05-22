@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/azurite_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/azurite_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/azurite_slab_top"
+    }
+  }
+}
