@@ -1,0 +1,7 @@
+{
+  "parent": "mythicmetals:block/anvil_base",
+  "textures": {
+    "body": "mythicmetals:block/star_platinum_anvil",
+    "particle": "mythicmetals:block/star_platinum_block"
+  }
+}

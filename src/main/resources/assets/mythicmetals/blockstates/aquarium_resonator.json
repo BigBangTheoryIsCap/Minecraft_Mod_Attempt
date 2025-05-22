@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "mythicmetals:block/aquarium_resonator_deactivated"
+    },
+    "active=true": {
+      "model": "mythicmetals:block/aquarium_resonator"
+    }
+  }
+}

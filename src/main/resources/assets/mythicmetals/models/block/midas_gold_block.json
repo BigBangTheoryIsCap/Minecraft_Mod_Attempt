@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mythicmetals:block/midas_gold_block_top",
+    "side": "mythicmetals:block/midas_gold_block"
+  }
+}

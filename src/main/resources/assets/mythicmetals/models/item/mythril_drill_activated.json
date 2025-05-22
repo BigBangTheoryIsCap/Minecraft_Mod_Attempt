@@ -1,0 +1,16 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mythicmetals:item/tools/mythril_drill_deactivated"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, -25],
+      "translation": [0, -2, -3.25]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, 25],
+      "translation": [0, -2, -3.25]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "mythicmetals:block/banglum_tnt_top",
+    "bottom": "mythicmetals:block/banglum_tnt_bottom",
+    "side": "mythicmetals:block/banglum_tnt_side"
+  }
+}

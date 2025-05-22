@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mythicmetals:item/unobtainium"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mythicmetals:funny_day": 1
+      },
+      "model": "mythicmetals:item/obamium"
+    }
+  ]
+}
