@@ -82,6 +82,17 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_SWORD);
                         entries.add(ModItems.RUBY_HOE);
 
+                        entries.add(ModBlocks.RUBY_SLAB);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_FENCE_GATE);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RUBY_STAIRS);
+
+
 
 
                     }).build());
@@ -152,6 +163,21 @@ public class ModItemGroups {
                         entries.add(ModItems.BLACK_OPAL_SHOVEL);
                         entries.add(ModItems.BLACK_OPAL_SWORD);
                         entries.add(ModItems.BLACK_OPAL_HOE);
+
+                        entries.add(ModBlocks.BLACK_OPAL_BLOCK);
+                        entries.add(ModBlocks.BLACK_OPAL_ORE);
+
+                        entries.add(ModBlocks.BLACK_OPAL_SLAB);
+                        entries.add(ModBlocks.BLACK_OPAL_FENCE);
+                        entries.add(ModBlocks.BLACK_OPAL_FENCE_GATE);
+                        entries.add(ModBlocks.BLACK_OPAL_WALL);
+                        entries.add(ModBlocks.BLACK_OPAL_DOOR);
+                        entries.add(ModBlocks.BLACK_OPAL_TRAPDOOR);
+                        entries.add(ModBlocks.BLACK_OPAL_BUTTON);
+                        entries.add(ModBlocks.BLACK_OPAL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BLACK_OPAL_STAIRS);
+
+
                     }).build());
 
     public static final ItemGroup AZURITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -173,6 +199,19 @@ public class ModItemGroups {
                         entries.add(ModItems.AZURITE_SWORD);
                         entries.add(ModItems.AZURITE_HOE);
 
+                        entries.add(ModBlocks.AZURITE_ORE);
+                        entries.add(ModBlocks.AZURITE_BLOCK);
+                        entries.add(ModBlocks.AZURITE_SLAB);
+                        entries.add(ModBlocks.AZURITE_FENCE);
+                        entries.add(ModBlocks.AZURITE_FENCE_GATE);
+                        entries.add(ModBlocks.AZURITE_WALL);
+                        entries.add(ModBlocks.AZURITE_DOOR);
+                        entries.add(ModBlocks.AZURITE_TRAPDOOR);
+                        entries.add(ModBlocks.AZURITE_BUTTON);
+                        entries.add(ModBlocks.AZURITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.AZURITE_STAIRS);
+
+
                     }).build());
 
     public static final ItemGroup MYTHRIL_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -184,10 +223,27 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGIC_MYTHRIL_DUST);
                         entries.add(ModItems.MYTHRIL_INGOT);
                         entries.add(ModItems.RAW_MYTHRIL);
-                        entries                .add(ModItems.MYTHRIL_HELMET);
+
+                        entries    .add(ModItems.MYTHRIL_HELMET);
                         entries    .add(ModItems.MYTHRIL_CHESTPLATE);
                         entries    .add(ModItems.MYTHRIL_LEGGINGS);
                         entries    .add(ModItems.MYTHRIL_BOOTS);
+
+                        entries.add(ModBlocks.MYTHRIL_BLOCK);
+                        entries.add(ModBlocks.MYTHRIL_ORE);
+
+                        entries.add(ModBlocks.MYTHRIL_SLAB);
+                        entries.add(ModBlocks.MYTHRIL_FENCE);
+                        entries.add(ModBlocks.MYTHRIL_FENCE_GATE);
+                        entries.add(ModBlocks.MYTHRIL_WALL);
+                        entries.add(ModBlocks.MYTHRIL_DOOR);
+                        entries.add(ModBlocks.MYTHRIL_TRAPDOOR);
+                        entries.add(ModBlocks.MYTHRIL_BUTTON);
+                        entries.add(ModBlocks.MYTHRIL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MYTHRIL_STAIRS);
+
+
+
 
                     }).build());
     public static final ItemGroup FLUORITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -208,6 +264,20 @@ public class ModItemGroups {
                         entries.add(ModItems.FLUORITE_SHOVEL);
                         entries.add(ModItems.FLUORITE_SWORD);
                         entries.add(ModItems.FLUORITE_HOE);
+
+                        entries.add(ModBlocks.FLUORITE_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_ORE);
+
+                        entries.add(ModBlocks.FLUORITE_SLAB);
+                        entries.add(ModBlocks.FLUORITE_FENCE);
+                        entries.add(ModBlocks.FLUORITE_FENCE_GATE);
+                        entries.add(ModBlocks.FLUORITE_WALL);
+                        entries.add(ModBlocks.FLUORITE_DOOR);
+                        entries.add(ModBlocks.FLUORITE_TRAPDOOR);
+                        entries.add(ModBlocks.FLUORITE_BUTTON);
+                        entries.add(ModBlocks.FLUORITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.FLUORITE_STAIRS);
+
                     }).build());
 
     public static final ItemGroup TANZANITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -228,6 +298,20 @@ public class ModItemGroups {
                         entries.add(ModItems.TANZANITE_SHOVEL);
                         entries.add(ModItems.TANZANITE_SWORD);
                         entries.add(ModItems.TANZANITE_HOE);
+
+                        entries.add(ModBlocks.TANZANITE_BLOCK);
+                        entries.add(ModBlocks.TANZANITE_ORE);
+
+                        entries.add(ModBlocks.TANZANITE_SLAB);
+                        entries.add(ModBlocks.TANZANITE_FENCE);
+                        entries.add(ModBlocks.TANZANITE_FENCE_GATE);
+                        entries.add(ModBlocks.TANZANITE_WALL);
+                        entries.add(ModBlocks.TANZANITE_DOOR);
+                        entries.add(ModBlocks.TANZANITE_TRAPDOOR);
+                        entries.add(ModBlocks.TANZANITE_BUTTON);
+                        entries.add(ModBlocks.TANZANITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.TANZANITE_STAIRS);
+
 
 
                     }).build());
@@ -251,6 +335,20 @@ public class ModItemGroups {
                         entries.add(ModItems.TITANIUM_SWORD);
                         entries.add(ModItems.TITANIUM_HOE);
 
+                        entries.add(ModBlocks.TITANIUM_BLOCK);
+                        entries.add(ModBlocks.TITANIUM_ORE);
+
+                        entries.add(ModBlocks.TITANIUM_SLAB);
+                        entries.add(ModBlocks.TITANIUM_FENCE);
+                        entries.add(ModBlocks.TITANIUM_FENCE_GATE);
+                        entries.add(ModBlocks.TITANIUM_WALL);
+                        entries.add(ModBlocks.TITANIUM_DOOR);
+                        entries.add(ModBlocks.TITANIUM_TRAPDOOR);
+                        entries.add(ModBlocks.TITANIUM_BUTTON);
+                        entries.add(ModBlocks.TITANIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.TITANIUM_STAIRS);
+
+
 
                     }).build());
     public static final ItemGroup ZIRCON_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -262,16 +360,21 @@ public class ModItemGroups {
                         entries.add(ModItems.ZIRCON);
                         entries.add(ModItems.RAW_ZIRCON);
 
-                         entries       .add(ModItems.ZIRCON_HELMET);
-                           entries     .add(ModItems.ZIRCON_CHESTPLATE);
-                            entries    .add(ModItems.ZIRCON_LEGGINGS);
-                             entries   .add(ModItems.ZIRCON_BOOTS);
-
                         entries.add(ModItems.ZIRCON_PICKAXE);
-                        entries.add(ModItems.ZIRCON_AXE);
-                        entries.add(ModItems.ZIRCON_SHOVEL);
-                        entries.add(ModItems.ZIRCON_SWORD);
-                        entries.add(ModItems.ZIRCON_HOE);
+
+
+                        entries.add(ModBlocks.ZIRCON_BLOCK);
+                        entries.add(ModBlocks.ZIRCON_ORE);
+
+                        entries.add(ModBlocks.ZIRCON_SLAB);
+                        entries.add(ModBlocks.ZIRCON_FENCE);
+                        entries.add(ModBlocks.ZIRCON_FENCE_GATE);
+                        entries.add(ModBlocks.ZIRCON_WALL);
+                        entries.add(ModBlocks.ZIRCON_DOOR);
+                        entries.add(ModBlocks.ZIRCON_TRAPDOOR);
+                        entries.add(ModBlocks.ZIRCON_BUTTON);
+                        entries.add(ModBlocks.ZIRCON_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ZIRCON_STAIRS);
 
 
                     }).build());
@@ -293,6 +396,20 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE_SWORD);
                         entries.add(ModItems.SAPPHIRE_HOE);
 
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
+
+                        entries.add(ModBlocks.SAPPHIRE_SLAB);
+                        entries.add(ModBlocks.SAPPHIRE_FENCE);
+                        entries.add(ModBlocks.SAPPHIRE_FENCE_GATE);
+                        entries.add(ModBlocks.SAPPHIRE_WALL);
+                        entries.add(ModBlocks.SAPPHIRE_DOOR);
+                        entries.add(ModBlocks.SAPPHIRE_TRAPDOOR);
+                        entries.add(ModBlocks.SAPPHIRE_BUTTON);
+                        entries.add(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SAPPHIRE_STAIRS);
+
+
                     }).build());
     public static final ItemGroup LITHIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID,"lithium_items"), FabricItemGroup
@@ -301,16 +418,23 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.tutorial-mod.lithium"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.LITHIUM);
-                        entries.add(ModItems.RAW_LITHIUM);
-                        entries                .add(ModItems.LITHIUM_HELMET);
-                        entries   .add(ModItems.LITHIUM_CHESTPLATE);
-                        entries    .add(ModItems.LITHIUM_LEGGINGS);
-                        entries   .add(ModItems.LITHIUM_BOOTS);
+                        entries.add(ModItems.RAW_LITHIUM);;
                         entries.add(ModItems.LITHIUM_PICKAXE);
-                        entries.add(ModItems.LITHIUM_AXE);
-                        entries.add(ModItems.LITHIUM_SHOVEL);
-                        entries.add(ModItems.LITHIUM_SWORD);
-                        entries.add(ModItems.LITHIUM_HOE);
+
+
+                        entries.add(ModBlocks.LITHIUM_BLOCK);
+                        entries.add(ModBlocks.LITHIUM_ORE);
+
+                        entries.add(ModBlocks.LITHIUM_SLAB);
+                        entries.add(ModBlocks.LITHIUM_FENCE);
+                        entries.add(ModBlocks.LITHIUM_FENCE_GATE);
+                        entries.add(ModBlocks.LITHIUM_WALL);
+                        entries.add(ModBlocks.LITHIUM_DOOR);
+                        entries.add(ModBlocks.LITHIUM_TRAPDOOR);
+                        entries.add(ModBlocks.LITHIUM_BUTTON);
+                        entries.add(ModBlocks.LITHIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.LITHIUM_STAIRS);
+
 
 
                     }).build());
@@ -331,6 +455,21 @@ public class ModItemGroups {
                         entries.add(ModItems.CITRINE_SHOVEL);
                         entries.add(ModItems.CITRINE_SWORD);
                         entries.add(ModItems.CITRINE_HOE);
+
+                        entries.add(ModBlocks.CITRINE_BLOCK);
+                        entries.add(ModBlocks.CITRINE_ORE);
+
+
+                        entries.add(ModBlocks.CITRINE_SLAB);
+                        entries.add(ModBlocks.CITRINE_FENCE);
+                        entries.add(ModBlocks.CITRINE_FENCE_GATE);
+                        entries.add(ModBlocks.CITRINE_WALL);
+                        entries.add(ModBlocks.CITRINE_DOOR);
+                        entries.add(ModBlocks.CITRINE_TRAPDOOR);
+                        entries.add(ModBlocks.CITRINE_BUTTON);
+                        entries.add(ModBlocks.CITRINE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CITRINE_STAIRS);
+
                     }).build());
 
 
@@ -416,6 +555,26 @@ public class ModItemGroups {
 // Titanium
 
 // Zircon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

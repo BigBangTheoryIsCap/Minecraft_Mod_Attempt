@@ -3,10 +3,12 @@ package net.alokyadav.tutorialmod.datagen;
 import net.alokyadav.tutorialmod.blocks.custom.AlexandriteLampBlock;
 import net.alokyadav.tutorialmod.blocks.custom.BismuthLampBlock;
 import net.alokyadav.tutorialmod.blocks.custom.PinkGarnetLampBlock;
+import net.alokyadav.tutorialmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.alokyadav.tutorialmod.blocks.ModBlocks;
 import net.alokyadav.tutorialmod.item.ModItems;
+import net.minecraft.block.Block;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.*;
@@ -22,7 +24,97 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         BlockStateModelGenerator.BlockTexturePool pinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_GARNET_BLOCK);
         BlockStateModelGenerator.BlockTexturePool alexandritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ALEXANDRITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool azuritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AZURITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool rubyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUBY_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool zirconPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCON_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool titaniumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TITANIUM_BLOCK);
         BlockStateModelGenerator.BlockTexturePool bismuthPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BISMUTH_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool blackOpalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLACK_OPAL_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool citrinePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CITRINE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool fluoritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FLUORITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool lithiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LITHIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool mythrilPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MYTHRIL_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool sapphirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAPPHIRE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool tanzanitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TANZANITE_BLOCK);
+
+
+        registerAll(blockStateModelGenerator, azuritePool,
+                ModBlocks.AZURITE_DOOR, ModBlocks.AZURITE_TRAPDOOR,
+                ModBlocks.AZURITE_STAIRS, ModBlocks.AZURITE_SLAB,
+                ModBlocks.AZURITE_FENCE, ModBlocks.AZURITE_FENCE_GATE,
+                ModBlocks.AZURITE_PRESSURE_PLATE, ModBlocks.AZURITE_BUTTON,
+                ModBlocks.AZURITE_WALL);
+
+        registerAll(blockStateModelGenerator, rubyPool,
+                ModBlocks.RUBY_DOOR, ModBlocks.RUBY_TRAPDOOR,
+                ModBlocks.RUBY_STAIRS, ModBlocks.RUBY_SLAB,
+                ModBlocks.RUBY_FENCE, ModBlocks.RUBY_FENCE_GATE,
+                ModBlocks.RUBY_PRESSURE_PLATE, ModBlocks.RUBY_BUTTON,
+                ModBlocks.RUBY_WALL);
+
+        registerAll(blockStateModelGenerator, zirconPool,
+                ModBlocks.ZIRCON_DOOR, ModBlocks.ZIRCON_TRAPDOOR,
+                ModBlocks.ZIRCON_STAIRS, ModBlocks.ZIRCON_SLAB,
+                ModBlocks.ZIRCON_FENCE, ModBlocks.ZIRCON_FENCE_GATE,
+                ModBlocks.ZIRCON_PRESSURE_PLATE, ModBlocks.ZIRCON_BUTTON,
+                ModBlocks.ZIRCON_WALL);
+
+        registerAll(blockStateModelGenerator, titaniumPool,
+                ModBlocks.TITANIUM_DOOR, ModBlocks.TITANIUM_TRAPDOOR,
+                ModBlocks.TITANIUM_STAIRS, ModBlocks.TITANIUM_SLAB,
+                ModBlocks.TITANIUM_FENCE, ModBlocks.TITANIUM_FENCE_GATE,
+                ModBlocks.TITANIUM_PRESSURE_PLATE, ModBlocks.TITANIUM_BUTTON,
+                ModBlocks.TITANIUM_WALL);
+
+
+        registerAll(blockStateModelGenerator, blackOpalPool,
+                ModBlocks.BLACK_OPAL_DOOR, ModBlocks.BLACK_OPAL_TRAPDOOR,
+                ModBlocks.BLACK_OPAL_STAIRS, ModBlocks.BLACK_OPAL_SLAB,
+                ModBlocks.BLACK_OPAL_FENCE, ModBlocks.BLACK_OPAL_FENCE_GATE,
+                ModBlocks.BLACK_OPAL_PRESSURE_PLATE, ModBlocks.BLACK_OPAL_BUTTON,
+                ModBlocks.BLACK_OPAL_WALL);
+
+        registerAll(blockStateModelGenerator, citrinePool,
+                ModBlocks.CITRINE_DOOR, ModBlocks.CITRINE_TRAPDOOR,
+                ModBlocks.CITRINE_STAIRS, ModBlocks.CITRINE_SLAB,
+                ModBlocks.CITRINE_FENCE, ModBlocks.CITRINE_FENCE_GATE,
+                ModBlocks.CITRINE_PRESSURE_PLATE, ModBlocks.CITRINE_BUTTON,
+                ModBlocks.CITRINE_WALL);
+
+        registerAll(blockStateModelGenerator, fluoritePool,
+                ModBlocks.FLUORITE_DOOR, ModBlocks.FLUORITE_TRAPDOOR,
+                ModBlocks.FLUORITE_STAIRS, ModBlocks.FLUORITE_SLAB,
+                ModBlocks.FLUORITE_FENCE, ModBlocks.FLUORITE_FENCE_GATE,
+                ModBlocks.FLUORITE_PRESSURE_PLATE, ModBlocks.FLUORITE_BUTTON,
+                ModBlocks.FLUORITE_WALL);
+
+        registerAll(blockStateModelGenerator, lithiumPool,
+                ModBlocks.LITHIUM_DOOR, ModBlocks.LITHIUM_TRAPDOOR,
+                ModBlocks.LITHIUM_STAIRS, ModBlocks.LITHIUM_SLAB,
+                ModBlocks.LITHIUM_FENCE, ModBlocks.LITHIUM_FENCE_GATE,
+                ModBlocks.LITHIUM_PRESSURE_PLATE, ModBlocks.LITHIUM_BUTTON,
+                ModBlocks.LITHIUM_WALL);
+
+        registerAll(blockStateModelGenerator, mythrilPool,
+                ModBlocks.MYTHRIL_DOOR, ModBlocks.MYTHRIL_TRAPDOOR,
+                ModBlocks.MYTHRIL_STAIRS, ModBlocks.MYTHRIL_SLAB,
+                ModBlocks.MYTHRIL_FENCE, ModBlocks.MYTHRIL_FENCE_GATE,
+                ModBlocks.MYTHRIL_PRESSURE_PLATE, ModBlocks.MYTHRIL_BUTTON,
+                ModBlocks.MYTHRIL_WALL);
+
+        registerAll(blockStateModelGenerator, sapphirePool,
+                ModBlocks.SAPPHIRE_DOOR, ModBlocks.SAPPHIRE_TRAPDOOR,
+                ModBlocks.SAPPHIRE_STAIRS, ModBlocks.SAPPHIRE_SLAB,
+                ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_FENCE_GATE,
+                ModBlocks.SAPPHIRE_PRESSURE_PLATE, ModBlocks.SAPPHIRE_BUTTON,
+                ModBlocks.SAPPHIRE_WALL);
+
+        registerAll(blockStateModelGenerator, tanzanitePool,
+                ModBlocks.TANZANITE_DOOR, ModBlocks.TANZANITE_TRAPDOOR,
+                ModBlocks.TANZANITE_STAIRS, ModBlocks.TANZANITE_SLAB,
+                ModBlocks.TANZANITE_FENCE, ModBlocks.TANZANITE_FENCE_GATE,
+                ModBlocks.TANZANITE_PRESSURE_PLATE, ModBlocks.TANZANITE_BUTTON,
+                ModBlocks.TANZANITE_WALL);
 
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
@@ -44,7 +136,40 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_ORE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
+
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AZURITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AZURITE_ORE);
+
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_OPAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_OPAL_ORE);
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CITRINE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CITRINE_ORE);
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_ORE);
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LITHIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LITHIUM_ORE);
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_ORE);
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_ORE);
+
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TANZANITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TANZANITE_ORE);
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TITANIUM_ORE);
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ZIRCON_ORE);
+
 
         pinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
         pinkGarnetPool.slab(ModBlocks.PINK_GARNET_SLAB);
@@ -67,6 +192,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.ALEXANDRITE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.ALEXANDRITE_TRAPDOOR);
+
+
+
+
 
         bismuthPool.stairs(ModBlocks.BISMUTH_STAIRS);
         bismuthPool.slab(ModBlocks.BISMUTH_SLAB);
@@ -96,6 +225,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.BISMUTH_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(BismuthLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
 
+    }
+
+    private void registerAll(BlockStateModelGenerator generator, BlockStateModelGenerator.BlockTexturePool pool,
+                             Block door, Block trapdoor, Block stairs, Block slab, Block fence, Block fenceGate,
+                             Block pressurePlate, Block button, Block wall) {
+
+        pool.stairs(stairs);
+        pool.slab(slab);
+        pool.fence(fence);
+        pool.fenceGate(fenceGate);
+        pool.pressurePlate(pressurePlate);
+        pool.button(button);
+        pool.wall(wall);
+
+        generator.registerDoor(door);
+        generator.registerTrapdoor(trapdoor);
     }
 
     @Override

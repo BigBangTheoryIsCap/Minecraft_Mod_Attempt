@@ -2,6 +2,17 @@
   "values": [
     "tutorial-mod:alexandrite_wall",
     "tutorial-mod:pink_garnet_wall",
-    "tutorial-mod:bismuth_wall"
+    "tutorial-mod:bismuth_wall",
+    "tutorial-mod:azurite_wall",
+    "tutorial-mod:ruby_wall",
+    "tutorial-mod:zircon_wall",
+    "tutorial-mod:titanium_wall",
+    "tutorial-mod:black_opal_wall",
+    "tutorial-mod:citrine_wall",
+    "tutorial-mod:fluorite_wall",
+    "tutorial-mod:lithium_wall",
+    "tutorial-mod:mythril_wall",
+    "tutorial-mod:sapphire_wall",
+    "tutorial-mod:tanzanite_wall"
   ]
 }

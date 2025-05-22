@@ -2,6 +2,17 @@
   "values": [
     "tutorial-mod:alexandrite_gate",
     "tutorial-mod:pink_garnet_fence_gate",
-    "tutorial-mod:bismuth_gate"
+    "tutorial-mod:bismuth_gate",
+    "tutorial-mod:azurite_gate",
+    "tutorial-mod:ruby_gate",
+    "tutorial-mod:zircon_gate",
+    "tutorial-mod:titanium_gate",
+    "tutorial-mod:black_opal_gate",
+    "tutorial-mod:citrine_gate",
+    "tutorial-mod:fluorite_gate",
+    "tutorial-mod:lithium_gate",
+    "tutorial-mod:mythril_gate",
+    "tutorial-mod:sapphire_gate",
+    "tutorial-mod:tanzanite_gate"
   ]
 }
