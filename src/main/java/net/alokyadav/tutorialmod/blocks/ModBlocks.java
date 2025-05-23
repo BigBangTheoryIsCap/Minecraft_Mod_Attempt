@@ -49,6 +49,89 @@ public class ModBlocks {
                             strength(3.0f).
                             requiresTool()
             ));
+
+    public static final Block ADAMANTITE_ORE = registerBlock("adamantite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block AQUARIUM_ORE = registerBlock("aquarium_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block BANGLUM_ORE = registerBlock("banglum_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block CARMOT_ORE = registerBlock("carmot_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block KYBER_ORE = registerBlock("kyber_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block MANGANESE_ORE = registerBlock("manganese_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block MIDAS_GOLD_ORE = registerBlock("midas_gold_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block MORKITE_ORE = registerBlock("morkite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+
+    public static final Block ORICHALCUM_ORE = registerBlock("orichalcum_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block OSMIUM_ORE = registerBlock("osmium_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block PALLADIUM_ORE = registerBlock("palladium_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block PROMETHEUM_ORE = registerBlock("prometheum_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block QUADRILLUM_ORE = registerBlock("quadrillum_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block RUNITE_ORE = registerBlock("runite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block SILVER_ORE = registerBlock("silver_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block STARRITE_ORE = registerBlock("starrite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block STORMYX_ORE = registerBlock("stormyx_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block UNOBTAINIUM_ORE = registerBlock("unobtainium_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,7),
             AbstractBlock.Settings.create().

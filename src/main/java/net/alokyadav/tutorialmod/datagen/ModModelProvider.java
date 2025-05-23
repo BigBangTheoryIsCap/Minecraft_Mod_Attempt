@@ -171,6 +171,29 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ZIRCON_ORE);
 
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADAMANTITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AQUARIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BANGLUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CARMOT_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KYBER_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MANGANESE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MIDAS_GOLD_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MORKITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORICHALCUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OSMIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALLADIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PLATINUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PROMETHEUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.QUADRILLUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUNITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVER_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STARRITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STORMYX_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.UNOBTAINIUM_ORE);
+
+
+
         pinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
         pinkGarnetPool.slab(ModBlocks.PINK_GARNET_SLAB);
         pinkGarnetPool.fence(ModBlocks.PINK_GARNET_FENCE);
@@ -288,6 +311,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_SAPPHIRE, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.ADAMANTITE_DUST, Models.GENERATED);
 
 
 

@@ -524,6 +524,215 @@ public class ModItemGroups {
 
                     }).build());
 
+
+
+    public static final ItemGroup ADAMANTITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "adamantite_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.ADAMANTITE_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.adamantite"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.ADAMANTITE_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup AQUARIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "aquarium_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.AQUARIUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.aquarium"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.AQUARIUM_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup BANGLUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "banglum_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.BANGLUM_DUST))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.banglum"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.BANGLUM_DUST);
+                    }).build());
+
+
+    public static final ItemGroup CARMOT_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "carmot_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.CARMOT_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.carmot"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CARMOT_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup KYBER_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "kyber_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.KYBER_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.kyber"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.KYBER_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup MANGANESE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "manganese_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.MANGANESE_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.manganese"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MANGANESE_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup MIDAS_GOLD_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "midas_gold_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.MIDAS_GOLD_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.midas_gold"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MIDAS_GOLD_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup MORKITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "morkite_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.MORKITE_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.morkite"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MORKITE_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup ORICHALCUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "orichalcum_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.ORICHALCUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.orichalcum"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.ORICHALCUM_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup OSMIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "osmium_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.OSMIUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.osmium"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.OSMIUM_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup PALLADIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "palladium_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.PALLADIUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.palladium"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.PALLADIUM_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup PLATINUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "platinum_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.PLATINUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.platinum"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.PLATINUM_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup PROMETHEUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "prometheum_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.PROMETHEUM_DUST))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.prometheum"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.PROMETHEUM_DUST);
+                    }).build());
+
+
+    public static final ItemGroup QUADRILLUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "quadrillum_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.QUADRILLUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.quadrillum"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.QUADRILLUM_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup RUNITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "runite_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.RUNITE_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.runite"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RUNITE_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup SILVER_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "silver_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.SILVER_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.silver"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.SILVER_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup STARRITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "starrite_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.STARRITE_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.starrite"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.STARRITE_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup STORMYX_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "stormyx_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.STORMYX_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.stormyx"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.STORMYX_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup TIN_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "tin_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.TIN_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.tin"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.TIN_INGOT);
+                    }).build());
+
+
+    public static final ItemGroup UNOBTAINIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "unobtainium_items"), FabricItemGroup
+                    .builder()
+                    .icon(() -> new ItemStack(ModItems.UNOBTAINIUM_INGOT))
+                    .displayName(Text.translatable("itemgroup.tutorial-mod.unobtainium"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.UNOBTAINIUM_INGOT);
+                    }).build());
+
+
+
+
+
+
+
+
+
     public static void registerModItemGroups() {
         TutorialMod.LOGGER.info("Registering Mod Item Groups for " + TutorialMod.MOD_ID);
     }

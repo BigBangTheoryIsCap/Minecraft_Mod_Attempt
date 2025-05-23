@@ -1,7 +1,0 @@
-{
-  "credit": "Made with Blockbench, thanks Iffy!",
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "mythicmetals:item/tools/durasteel_axe"
-  }
-}

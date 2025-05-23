@@ -1,4 +1,4 @@
-// 1.21	2025-05-23T10:08:25.970951	Tutorial Mod/
+// 1.21	2025-05-23T11:40:16.251774	Tutorial Mod/
 adfeef1d2d78cdc2f7e41e1a2e0fc526f294e588 data/tutorial-mod/trim_pattern/kaupen.json
 05bda828eefb05af6edd8afa47d09a4827c18df0 data/tutorial-mod/trim_material/tanzanite.json
 3f1404fe41e7bedbe963feb035bcba21e6e137f1 data/tutorial-mod/trim_material/fluorite.json
@@ -7,8 +7,8 @@ a014b9fbc2a1269022a750507bbbe57eabf063b3 data/tutorial-mod/trim_material/black_o
 d9118501782412a0712a2dcaa68d41aa792f7bea data/tutorial-mod/trim_material/ruby.json
 0d7f254b489c28645c60ca3b95f77bf3794ccea8 data/tutorial-mod/trim_material/zircon.json
 eee664cc82cd0f5169271292782825b2c1f8ced4 data/tutorial-mod/trim_material/titanium.json
-ca62c18df3d920e2e8bc1cc4101ef8173aff5c00 data/tutorial-mod/trim_material/azurite.json
 f25674453184e789f48220bd4cf489d4a753268f data/tutorial-mod/trim_material/mythril.json
+ca62c18df3d920e2e8bc1cc4101ef8173aff5c00 data/tutorial-mod/trim_material/azurite.json
 e2fc3fa7a9011d48c720c16381b8135c64b20938 data/tutorial-mod/trim_material/sapphire.json
 4d1b2e83ba707123614a35d066a552f1de00d8da data/tutorial-mod/trim_material/pink_garnet.json
 5fe1872b931208bf8b3a83846db18641e7b54ba9 data/tutorial-mod/trim_material/bismuth.json

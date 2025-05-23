@@ -1,4 +1,4 @@
-// 1.21	2025-05-22T19:34:52.01508	Tutorial Mod/Tags for minecraft:block
+// 1.21	2025-05-23T11:40:16.255608	Tutorial Mod/Tags for minecraft:block
 14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_fluorite_tool.json
 90660565368dbbb91748455f34736349629372ee data/minecraft/tags/block/walls.json
 14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_citrine_tool.json
@@ -16,6 +16,6 @@ ae4bd3426ed10473f05cb6ff3f489077a0b2c01a data/minecraft/tags/block/needs_iron_to
 70716318425b39cee96469138fdbde543e03ff1a data/minecraft/tags/block/needs_diamond_tool.json
 14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_lithium_tool.json
 14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_ruby_tool.json
-14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_azurite_tool.json
 14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_black_opal_tool.json
+14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_azurite_tool.json
 14c1569c6d2380f95a6ce123c2be676e740459e7 data/tutorial-mod/tags/block/needs_titanium_tool.json

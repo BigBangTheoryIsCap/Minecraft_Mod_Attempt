@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "mythicmetals:block/metallurgium_block_top",
-    "side": "mythicmetals:block/metallurgium_block"
-  }
-}
