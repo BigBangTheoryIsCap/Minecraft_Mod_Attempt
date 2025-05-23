@@ -11,16 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "tutorial-mod:zircon_door",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "half": "lower"
-              }
-            }
-          ],
-          "name": "tutorial-mod:zircon_door"
+          "name": "tutorial-mod:zircon_plate"
         }
       ],
       "rolls": 1.0

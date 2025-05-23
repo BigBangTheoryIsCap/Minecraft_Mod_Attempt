@@ -131,6 +131,221 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
 
+    public static final Block ADAMANTITE_BLOCK = registerBlock("adamantite_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block AQUARIUM_BLOCK = registerBlock("aquarium_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BANGLUM_BLOCK = registerBlock("banglum_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block CARMOT_BLOCK = registerBlock("carmot_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block KYBER_BLOCK = registerBlock("kyber_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MANGANESE_BLOCK = registerBlock("manganese_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MIDAS_GOLD_BLOCK = registerBlock("midas_gold_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MORKITE_BLOCK = registerBlock("morkite_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ORICHALCUM_BLOCK = registerBlock("orichalcum_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block OSMIUM_BLOCK = registerBlock("osmium_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PALLADIUM_BLOCK = registerBlock("palladium_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PROMETHEUM_BLOCK = registerBlock("prometheum_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block QUADRILLUM_BLOCK = registerBlock("quadrillum_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block RUNITE_BLOCK = registerBlock("runite_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block SILVER_BLOCK = registerBlock("silver_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STARRITE_BLOCK = registerBlock("starrite_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STORMYX_BLOCK = registerBlock("stormyx_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block TIN_BLOCK = registerBlock("tin_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block UNOBTAINIUM_BLOCK = registerBlock("unobtainium_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+    public static final Block ADAMANTITE_STAIRS = registerBlock("adamantite_stairs", new StairsBlock(ModBlocks.ADAMANTITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ADAMANTITE_SLAB = registerBlock("adamantite_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ADAMANTITE_BUTTON = registerBlock("adamantite_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block ADAMANTITE_PRESSURE_PLATE = registerBlock("adamantite_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ADAMANTITE_FENCE = registerBlock("adamantite_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ADAMANTITE_FENCE_GATE = registerBlock("adamantite_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ADAMANTITE_WALL = registerBlock("adamantite_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block AQUARIUM_STAIRS = registerBlock("aquarium_stairs", new StairsBlock(ModBlocks.AQUARIUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block AQUARIUM_SLAB = registerBlock("aquarium_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block AQUARIUM_BUTTON = registerBlock("aquarium_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block AQUARIUM_PRESSURE_PLATE = registerBlock("aquarium_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block AQUARIUM_FENCE = registerBlock("aquarium_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block AQUARIUM_FENCE_GATE = registerBlock("aquarium_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block AQUARIUM_WALL = registerBlock("aquarium_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BANGLUM_STAIRS = registerBlock("banglum_stairs", new StairsBlock(ModBlocks.BANGLUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BANGLUM_SLAB = registerBlock("banglum_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BANGLUM_BUTTON = registerBlock("banglum_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block BANGLUM_PRESSURE_PLATE = registerBlock("banglum_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BANGLUM_FENCE = registerBlock("banglum_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BANGLUM_FENCE_GATE = registerBlock("banglum_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block BANGLUM_WALL = registerBlock("banglum_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block CARMOT_STAIRS = registerBlock("carmot_stairs", new StairsBlock(ModBlocks.CARMOT_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block CARMOT_SLAB = registerBlock("carmot_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block CARMOT_BUTTON = registerBlock("carmot_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block CARMOT_PRESSURE_PLATE = registerBlock("carmot_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block CARMOT_FENCE = registerBlock("carmot_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block CARMOT_FENCE_GATE = registerBlock("carmot_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block CARMOT_WALL = registerBlock("carmot_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block KYBER_STAIRS = registerBlock("kyber_stairs", new StairsBlock(ModBlocks.KYBER_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block KYBER_SLAB = registerBlock("kyber_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block KYBER_BUTTON = registerBlock("kyber_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block KYBER_PRESSURE_PLATE = registerBlock("kyber_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block KYBER_FENCE = registerBlock("kyber_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block KYBER_FENCE_GATE = registerBlock("kyber_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block KYBER_WALL = registerBlock("kyber_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MANGANESE_STAIRS = registerBlock("manganese_stairs", new StairsBlock(ModBlocks.MANGANESE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MANGANESE_SLAB = registerBlock("manganese_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MANGANESE_BUTTON = registerBlock("manganese_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block MANGANESE_PRESSURE_PLATE = registerBlock("manganese_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MANGANESE_FENCE = registerBlock("manganese_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MANGANESE_FENCE_GATE = registerBlock("manganese_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MANGANESE_WALL = registerBlock("manganese_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MIDAS_GOLD_STAIRS = registerBlock("midas_gold_stairs", new StairsBlock(ModBlocks.MIDAS_GOLD_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MIDAS_GOLD_SLAB = registerBlock("midas_gold_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MIDAS_GOLD_BUTTON = registerBlock("midas_gold_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block MIDAS_GOLD_PRESSURE_PLATE = registerBlock("midas_gold_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MIDAS_GOLD_FENCE = registerBlock("midas_gold_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MIDAS_GOLD_FENCE_GATE = registerBlock("midas_gold_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MIDAS_GOLD_WALL = registerBlock("midas_gold_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+  public static final Block MORKITE_STAIRS = registerBlock("morkite_stairs", new StairsBlock(ModBlocks.MORKITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MORKITE_SLAB = registerBlock("morkite_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MORKITE_BUTTON = registerBlock("morkite_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block MORKITE_PRESSURE_PLATE = registerBlock("morkite_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MORKITE_FENCE = registerBlock("morkite_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MORKITE_FENCE_GATE = registerBlock("morkite_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block MORKITE_WALL = registerBlock("morkite_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+ public static final Block ORICHALCUM_STAIRS = registerBlock("orichalcum_stairs", new StairsBlock(ModBlocks.ORICHALCUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ORICHALCUM_SLAB = registerBlock("orichalcum_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ORICHALCUM_BUTTON = registerBlock("orichalcum_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block ORICHALCUM_PRESSURE_PLATE = registerBlock("orichalcum_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ORICHALCUM_FENCE = registerBlock("orichalcum_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ORICHALCUM_FENCE_GATE = registerBlock("orichalcum_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block ORICHALCUM_WALL = registerBlock("orichalcum_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+public static final Block OSMIUM_STAIRS = registerBlock("osmium_stairs", new StairsBlock(ModBlocks.OSMIUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block OSMIUM_SLAB = registerBlock("osmium_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block OSMIUM_BUTTON = registerBlock("osmium_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block OSMIUM_PRESSURE_PLATE = registerBlock("osmium_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block OSMIUM_FENCE = registerBlock("osmium_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block OSMIUM_FENCE_GATE = registerBlock("osmium_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block OSMIUM_WALL = registerBlock("osmium_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+ public static final Block PALLADIUM_STAIRS = registerBlock("palladium_stairs", new StairsBlock(ModBlocks.PALLADIUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PALLADIUM_SLAB = registerBlock("palladium_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PALLADIUM_BUTTON = registerBlock("palladium_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block PALLADIUM_PRESSURE_PLATE = registerBlock("palladium_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PALLADIUM_FENCE = registerBlock("palladium_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PALLADIUM_FENCE_GATE = registerBlock("palladium_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PALLADIUM_WALL = registerBlock("palladium_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+public static final Block PLATINUM_STAIRS = registerBlock("platinum_stairs", new StairsBlock(ModBlocks.PLATINUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PLATINUM_SLAB = registerBlock("platinum_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PLATINUM_BUTTON = registerBlock("platinum_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block PLATINUM_PRESSURE_PLATE = registerBlock("platinum_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PLATINUM_FENCE = registerBlock("platinum_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PLATINUM_FENCE_GATE = registerBlock("platinum_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PLATINUM_WALL = registerBlock("platinum_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+public static final Block RUNITE_STAIRS = registerBlock("runite_stairs", new StairsBlock(ModBlocks.RUNITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block RUNITE_SLAB = registerBlock("runite_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block RUNITE_BUTTON = registerBlock("runite_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block RUNITE_PRESSURE_PLATE = registerBlock("runite_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block RUNITE_FENCE = registerBlock("runite_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block RUNITE_FENCE_GATE = registerBlock("runite_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block RUNITE_WALL = registerBlock("runite_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+ public static final Block QUADRILLUM_STAIRS = registerBlock("quadrillum_stairs", new StairsBlock(ModBlocks.QUADRILLUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block QUADRILLUM_SLAB = registerBlock("quadrillum_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block QUADRILLUM_BUTTON = registerBlock("quadrillum_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block QUADRILLUM_PRESSURE_PLATE = registerBlock("quadrillum_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block QUADRILLUM_FENCE = registerBlock("quadrillum_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block QUADRILLUM_FENCE_GATE = registerBlock("quadrillum_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block QUADRILLUM_WALL = registerBlock("quadrillum_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+ public static final Block PROMETHEUM_STAIRS = registerBlock("prometheum_stairs", new StairsBlock(ModBlocks.PROMETHEUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PROMETHEUM_SLAB = registerBlock("prometheum_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PROMETHEUM_BUTTON = registerBlock("prometheum_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block PROMETHEUM_PRESSURE_PLATE = registerBlock("prometheum_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PROMETHEUM_FENCE = registerBlock("prometheum_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PROMETHEUM_FENCE_GATE = registerBlock("prometheum_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block PROMETHEUM_WALL = registerBlock("prometheum_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+public static final Block SILVER_STAIRS = registerBlock("silver_stairs", new StairsBlock(ModBlocks.SILVER_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block SILVER_SLAB = registerBlock("silver_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block SILVER_BUTTON = registerBlock("silver_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block SILVER_PRESSURE_PLATE = registerBlock("silver_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block SILVER_FENCE = registerBlock("silver_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block SILVER_FENCE_GATE = registerBlock("silver_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block SILVER_WALL = registerBlock("silver_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+ public static final Block STARRITE_STAIRS = registerBlock("starrite_stairs", new StairsBlock(ModBlocks.STARRITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STARRITE_SLAB = registerBlock("starrite_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STARRITE_BUTTON = registerBlock("starrite_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block STARRITE_PRESSURE_PLATE = registerBlock("starrite_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STARRITE_FENCE = registerBlock("starrite_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STARRITE_FENCE_GATE = registerBlock("starrite_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STARRITE_WALL = registerBlock("starrite_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STORMYX_STAIRS = registerBlock("stormyx_stairs", new StairsBlock(ModBlocks.STORMYX_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STORMYX_SLAB = registerBlock("stormyx_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STORMYX_BUTTON = registerBlock("stormyx_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block STORMYX_PRESSURE_PLATE = registerBlock("stormyx_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STORMYX_FENCE = registerBlock("stormyx_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STORMYX_FENCE_GATE = registerBlock("stormyx_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block STORMYX_WALL = registerBlock("stormyx_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block UNOBTAINIUM_STAIRS = registerBlock("unobtainium_stairs", new StairsBlock(ModBlocks.UNOBTAINIUM_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block UNOBTAINIUM_SLAB = registerBlock("unobtainium_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block UNOBTAINIUM_BUTTON = registerBlock("unobtainium_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block UNOBTAINIUM_PRESSURE_PLATE = registerBlock("unobtainium_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block UNOBTAINIUM_FENCE = registerBlock("unobtainium_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block UNOBTAINIUM_FENCE_GATE = registerBlock("unobtainium_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block UNOBTAINIUM_WALL = registerBlock("unobtainium_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block TIN_STAIRS = registerBlock("tin_stairs", new StairsBlock(ModBlocks.TIN_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block TIN_SLAB = registerBlock("tin_slab", new SlabBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block TIN_BUTTON = registerBlock("tin_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(3.0f).requiresTool().noCollision()));
+    public static final Block TIN_PRESSURE_PLATE = registerBlock("tin_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block TIN_FENCE = registerBlock("tin_fence", new FenceBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block TIN_FENCE_GATE = registerBlock("tin_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+    public static final Block TIN_WALL = registerBlock("tin_wall", new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,7),
@@ -538,10 +753,6 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block ZIRCON_WALL = registerBlock("zircon_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
-    public static final Block ZIRCON_DOOR = registerBlock("zircon_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
-    public static final Block ZIRCON_TRAPDOOR = registerBlock("zircon_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
 
     // TITANIUM
     public static final Block TITANIUM_STAIRS = registerBlock("titanium_stairs",
@@ -598,10 +809,6 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block CITRINE_WALL = registerBlock("citrine_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
-    public static final Block CITRINE_DOOR = registerBlock("citrine_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
-    public static final Block CITRINE_TRAPDOOR = registerBlock("citrine_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
 
     // FLUORITE
     public static final Block FLUORITE_STAIRS = registerBlock("fluorite_stairs",
@@ -638,11 +845,7 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block LITHIUM_WALL = registerBlock("lithium_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
-    public static final Block LITHIUM_DOOR = registerBlock("lithium_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
-    public static final Block LITHIUM_TRAPDOOR = registerBlock("lithium_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
-    // MYTHRIL
+
     public static final Block MYTHRIL_STAIRS = registerBlock("mythril_stairs",
             new StairsBlock(ModBlocks.MYTHRIL_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block MYTHRIL_SLAB = registerBlock("mythril_slab",
@@ -657,10 +860,6 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block MYTHRIL_WALL = registerBlock("mythril_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
-    public static final Block MYTHRIL_DOOR = registerBlock("mythril_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
-    public static final Block MYTHRIL_TRAPDOOR = registerBlock("mythril_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
 
     // SAPPHIRE
     public static final Block SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
@@ -697,11 +896,6 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
     public static final Block TANZANITE_WALL = registerBlock("tanzanite_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3.0f).requiresTool()));
-    public static final Block TANZANITE_DOOR = registerBlock("tanzanite_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
-    public static final Block TANZANITE_TRAPDOOR = registerBlock("tanzanite_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.0f).requiresTool().nonOpaque()));
-
 
     public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
             new PinkGarnetLampBlock(AbstractBlock.Settings.create()

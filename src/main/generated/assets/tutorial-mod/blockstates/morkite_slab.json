@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/morkite_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/morkite_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/morkite_slab_top"
+    }
+  }
+}

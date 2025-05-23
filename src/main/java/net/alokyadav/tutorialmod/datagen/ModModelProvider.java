@@ -36,6 +36,26 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool mythrilPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MYTHRIL_BLOCK);
         BlockStateModelGenerator.BlockTexturePool sapphirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAPPHIRE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool tanzanitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TANZANITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool adamantitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ADAMANTITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool aquariumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AQUARIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool banglumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BANGLUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool carmotPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CARMOT_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool kyberPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.KYBER_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool manganesePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MANGANESE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool midasGoldPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MIDAS_GOLD_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool morkitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MORKITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool orichalcumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORICHALCUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool osmiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OSMIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool palladiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PALLADIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool platinumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PLATINUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool prometheumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PROMETHEUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool quadrillumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.QUADRILLUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool runitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUNITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool silverPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SILVER_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool starritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STARRITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool stormyxPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STORMYX_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool tinPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TIN_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool unobtainiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.UNOBTAINIUM_BLOCK);
 
 
         registerAll(blockStateModelGenerator, azuritePool,
@@ -52,12 +72,13 @@ public class ModModelProvider extends FabricModelProvider {
                 ModBlocks.RUBY_PRESSURE_PLATE, ModBlocks.RUBY_BUTTON,
                 ModBlocks.RUBY_WALL);
 
-        registerAll(blockStateModelGenerator, zirconPool,
-                ModBlocks.ZIRCON_DOOR, ModBlocks.ZIRCON_TRAPDOOR,
-                ModBlocks.ZIRCON_STAIRS, ModBlocks.ZIRCON_SLAB,
-                ModBlocks.ZIRCON_FENCE, ModBlocks.ZIRCON_FENCE_GATE,
-                ModBlocks.ZIRCON_PRESSURE_PLATE, ModBlocks.ZIRCON_BUTTON,
-                ModBlocks.ZIRCON_WALL);
+        zirconPool.stairs(ModBlocks.ZIRCON_STAIRS);
+        zirconPool.slab(ModBlocks.ZIRCON_SLAB);
+        zirconPool.fence(ModBlocks.ZIRCON_FENCE);
+        zirconPool.fenceGate(ModBlocks.ZIRCON_FENCE_GATE);
+        zirconPool.pressurePlate(ModBlocks.ZIRCON_PRESSURE_PLATE);
+        zirconPool.button(ModBlocks.ZIRCON_BUTTON);
+        zirconPool.wall(ModBlocks.ZIRCON_WALL);
 
         registerAll(blockStateModelGenerator, titaniumPool,
                 ModBlocks.TITANIUM_DOOR, ModBlocks.TITANIUM_TRAPDOOR,
@@ -74,12 +95,8 @@ public class ModModelProvider extends FabricModelProvider {
                 ModBlocks.BLACK_OPAL_PRESSURE_PLATE, ModBlocks.BLACK_OPAL_BUTTON,
                 ModBlocks.BLACK_OPAL_WALL);
 
-        registerAll(blockStateModelGenerator, citrinePool,
-                ModBlocks.CITRINE_DOOR, ModBlocks.CITRINE_TRAPDOOR,
-                ModBlocks.CITRINE_STAIRS, ModBlocks.CITRINE_SLAB,
-                ModBlocks.CITRINE_FENCE, ModBlocks.CITRINE_FENCE_GATE,
-                ModBlocks.CITRINE_PRESSURE_PLATE, ModBlocks.CITRINE_BUTTON,
-                ModBlocks.CITRINE_WALL);
+
+
 
         registerAll(blockStateModelGenerator, fluoritePool,
                 ModBlocks.FLUORITE_DOOR, ModBlocks.FLUORITE_TRAPDOOR,
@@ -88,19 +105,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModBlocks.FLUORITE_PRESSURE_PLATE, ModBlocks.FLUORITE_BUTTON,
                 ModBlocks.FLUORITE_WALL);
 
-        registerAll(blockStateModelGenerator, lithiumPool,
-                ModBlocks.LITHIUM_DOOR, ModBlocks.LITHIUM_TRAPDOOR,
-                ModBlocks.LITHIUM_STAIRS, ModBlocks.LITHIUM_SLAB,
-                ModBlocks.LITHIUM_FENCE, ModBlocks.LITHIUM_FENCE_GATE,
-                ModBlocks.LITHIUM_PRESSURE_PLATE, ModBlocks.LITHIUM_BUTTON,
-                ModBlocks.LITHIUM_WALL);
 
-        registerAll(blockStateModelGenerator, mythrilPool,
-                ModBlocks.MYTHRIL_DOOR, ModBlocks.MYTHRIL_TRAPDOOR,
-                ModBlocks.MYTHRIL_STAIRS, ModBlocks.MYTHRIL_SLAB,
-                ModBlocks.MYTHRIL_FENCE, ModBlocks.MYTHRIL_FENCE_GATE,
-                ModBlocks.MYTHRIL_PRESSURE_PLATE, ModBlocks.MYTHRIL_BUTTON,
-                ModBlocks.MYTHRIL_WALL);
 
         registerAll(blockStateModelGenerator, sapphirePool,
                 ModBlocks.SAPPHIRE_DOOR, ModBlocks.SAPPHIRE_TRAPDOOR,
@@ -109,12 +114,39 @@ public class ModModelProvider extends FabricModelProvider {
                 ModBlocks.SAPPHIRE_PRESSURE_PLATE, ModBlocks.SAPPHIRE_BUTTON,
                 ModBlocks.SAPPHIRE_WALL);
 
-        registerAll(blockStateModelGenerator, tanzanitePool,
-                ModBlocks.TANZANITE_DOOR, ModBlocks.TANZANITE_TRAPDOOR,
-                ModBlocks.TANZANITE_STAIRS, ModBlocks.TANZANITE_SLAB,
-                ModBlocks.TANZANITE_FENCE, ModBlocks.TANZANITE_FENCE_GATE,
-                ModBlocks.TANZANITE_PRESSURE_PLATE, ModBlocks.TANZANITE_BUTTON,
-                ModBlocks.TANZANITE_WALL);
+
+        citrinePool.stairs(ModBlocks.CITRINE_STAIRS);
+        citrinePool.slab(ModBlocks.CITRINE_SLAB);
+        citrinePool.fence(ModBlocks.CITRINE_FENCE);
+        citrinePool.fenceGate(ModBlocks.CITRINE_FENCE_GATE);
+        citrinePool.pressurePlate(ModBlocks.CITRINE_PRESSURE_PLATE);
+        citrinePool.button(ModBlocks.CITRINE_BUTTON);
+        citrinePool.wall(ModBlocks.CITRINE_WALL);
+
+        tanzanitePool.stairs(ModBlocks.TANZANITE_STAIRS);
+        tanzanitePool.slab(ModBlocks.TANZANITE_SLAB);
+        tanzanitePool.fence(ModBlocks.TANZANITE_FENCE);
+        tanzanitePool.fenceGate(ModBlocks.TANZANITE_FENCE_GATE);
+        tanzanitePool.pressurePlate(ModBlocks.TANZANITE_PRESSURE_PLATE);
+        tanzanitePool.button(ModBlocks.TANZANITE_BUTTON);
+        tanzanitePool.wall(ModBlocks.TANZANITE_WALL);
+
+        lithiumPool.stairs(ModBlocks.LITHIUM_STAIRS);
+        lithiumPool.slab(ModBlocks.LITHIUM_SLAB);
+        lithiumPool.fence(ModBlocks.LITHIUM_FENCE);
+        lithiumPool.fenceGate(ModBlocks.LITHIUM_FENCE_GATE);
+        lithiumPool.pressurePlate(ModBlocks.LITHIUM_PRESSURE_PLATE);
+        lithiumPool.button(ModBlocks.LITHIUM_BUTTON);
+        lithiumPool.wall(ModBlocks.LITHIUM_WALL);
+
+        mythrilPool.stairs(ModBlocks.MYTHRIL_STAIRS);
+        mythrilPool.slab(ModBlocks.MYTHRIL_SLAB);
+        mythrilPool.fence(ModBlocks.MYTHRIL_FENCE);
+        mythrilPool.fenceGate(ModBlocks.MYTHRIL_FENCE_GATE);
+        mythrilPool.pressurePlate(ModBlocks.MYTHRIL_PRESSURE_PLATE);
+        mythrilPool.button(ModBlocks.MYTHRIL_BUTTON);
+        mythrilPool.wall(ModBlocks.MYTHRIL_WALL);
+
 
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
@@ -193,7 +225,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.UNOBTAINIUM_ORE);
 
 
-
         pinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
         pinkGarnetPool.slab(ModBlocks.PINK_GARNET_SLAB);
         pinkGarnetPool.fence(ModBlocks.PINK_GARNET_FENCE);
@@ -230,6 +261,164 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.BISMUTH_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.BISMUTH_TRAPDOOR);
+
+        adamantitePool.stairs(ModBlocks.ADAMANTITE_STAIRS);
+        adamantitePool.slab(ModBlocks.ADAMANTITE_SLAB);
+        adamantitePool.fence(ModBlocks.ADAMANTITE_FENCE);
+        adamantitePool.fenceGate(ModBlocks.ADAMANTITE_FENCE_GATE);
+        adamantitePool.pressurePlate(ModBlocks.ADAMANTITE_PRESSURE_PLATE);
+        adamantitePool.button(ModBlocks.ADAMANTITE_BUTTON);
+        adamantitePool.wall(ModBlocks.ADAMANTITE_WALL);
+        aquariumPool.stairs(ModBlocks.AQUARIUM_STAIRS);
+        aquariumPool.slab(ModBlocks.AQUARIUM_SLAB);
+        aquariumPool.fence(ModBlocks.AQUARIUM_FENCE);
+        aquariumPool.fenceGate(ModBlocks.AQUARIUM_FENCE_GATE);
+        aquariumPool.pressurePlate(ModBlocks.AQUARIUM_PRESSURE_PLATE);
+        aquariumPool.button(ModBlocks.AQUARIUM_BUTTON);
+        aquariumPool.wall(ModBlocks.AQUARIUM_WALL);
+        banglumPool.stairs(ModBlocks.BANGLUM_STAIRS);
+        banglumPool.slab(ModBlocks.BANGLUM_SLAB);
+        banglumPool.fence(ModBlocks.BANGLUM_FENCE);
+        banglumPool.fenceGate(ModBlocks.BANGLUM_FENCE_GATE);
+        banglumPool.pressurePlate(ModBlocks.BANGLUM_PRESSURE_PLATE);
+        banglumPool.button(ModBlocks.BANGLUM_BUTTON);
+        banglumPool.wall(ModBlocks.BANGLUM_WALL);
+        carmotPool.stairs(ModBlocks.CARMOT_STAIRS);
+        carmotPool.slab(ModBlocks.CARMOT_SLAB);
+        carmotPool.fence(ModBlocks.CARMOT_FENCE);
+        carmotPool.fenceGate(ModBlocks.CARMOT_FENCE_GATE);
+        carmotPool.pressurePlate(ModBlocks.CARMOT_PRESSURE_PLATE);
+        carmotPool.button(ModBlocks.CARMOT_BUTTON);
+        carmotPool.wall(ModBlocks.CARMOT_WALL);
+
+        kyberPool.stairs(ModBlocks.KYBER_STAIRS);
+        kyberPool.slab(ModBlocks.KYBER_SLAB);
+        kyberPool.fence(ModBlocks.KYBER_FENCE);
+        kyberPool.fenceGate(ModBlocks.KYBER_FENCE_GATE);
+        kyberPool.pressurePlate(ModBlocks.KYBER_PRESSURE_PLATE);
+        kyberPool.button(ModBlocks.KYBER_BUTTON);
+        kyberPool.wall(ModBlocks.KYBER_WALL);
+
+        manganesePool.stairs(ModBlocks.MANGANESE_STAIRS);
+        manganesePool.slab(ModBlocks.MANGANESE_SLAB);
+        manganesePool.fence(ModBlocks.MANGANESE_FENCE);
+        manganesePool.fenceGate(ModBlocks.MANGANESE_FENCE_GATE);
+        manganesePool.pressurePlate(ModBlocks.MANGANESE_PRESSURE_PLATE);
+        manganesePool.button(ModBlocks.MANGANESE_BUTTON);
+        manganesePool.wall(ModBlocks.MANGANESE_WALL);
+
+        midasGoldPool.stairs(ModBlocks.MIDAS_GOLD_STAIRS);
+        midasGoldPool.slab(ModBlocks.MIDAS_GOLD_SLAB);
+        midasGoldPool.fence(ModBlocks.MIDAS_GOLD_FENCE);
+        midasGoldPool.fenceGate(ModBlocks.MIDAS_GOLD_FENCE_GATE);
+        midasGoldPool.pressurePlate(ModBlocks.MIDAS_GOLD_PRESSURE_PLATE);
+        midasGoldPool.button(ModBlocks.MIDAS_GOLD_BUTTON);
+        midasGoldPool.wall(ModBlocks.MIDAS_GOLD_WALL);
+
+        morkitePool.stairs(ModBlocks.MORKITE_STAIRS);
+        morkitePool.slab(ModBlocks.MORKITE_SLAB);
+        morkitePool.fence(ModBlocks.MORKITE_FENCE);
+        morkitePool.fenceGate(ModBlocks.MORKITE_FENCE_GATE);
+        morkitePool.pressurePlate(ModBlocks.MORKITE_PRESSURE_PLATE);
+        morkitePool.button(ModBlocks.MORKITE_BUTTON);
+        morkitePool.wall(ModBlocks.MORKITE_WALL);
+
+        orichalcumPool.stairs(ModBlocks.ORICHALCUM_STAIRS);
+        orichalcumPool.slab(ModBlocks.ORICHALCUM_SLAB);
+        orichalcumPool.fence(ModBlocks.ORICHALCUM_FENCE);
+        orichalcumPool.fenceGate(ModBlocks.ORICHALCUM_FENCE_GATE);
+        orichalcumPool.pressurePlate(ModBlocks.ORICHALCUM_PRESSURE_PLATE);
+        orichalcumPool.button(ModBlocks.ORICHALCUM_BUTTON);
+        orichalcumPool.wall(ModBlocks.ORICHALCUM_WALL);
+
+        osmiumPool.stairs(ModBlocks.OSMIUM_STAIRS);
+        osmiumPool.slab(ModBlocks.OSMIUM_SLAB);
+        osmiumPool.fence(ModBlocks.OSMIUM_FENCE);
+        osmiumPool.fenceGate(ModBlocks.OSMIUM_FENCE_GATE);
+        osmiumPool.pressurePlate(ModBlocks.OSMIUM_PRESSURE_PLATE);
+        osmiumPool.button(ModBlocks.OSMIUM_BUTTON);
+        osmiumPool.wall(ModBlocks.OSMIUM_WALL);
+
+        palladiumPool.stairs(ModBlocks.PALLADIUM_STAIRS);
+        palladiumPool.slab(ModBlocks.PALLADIUM_SLAB);
+        palladiumPool.fence(ModBlocks.PALLADIUM_FENCE);
+        palladiumPool.fenceGate(ModBlocks.PALLADIUM_FENCE_GATE);
+        palladiumPool.pressurePlate(ModBlocks.PALLADIUM_PRESSURE_PLATE);
+        palladiumPool.button(ModBlocks.PALLADIUM_BUTTON);
+        palladiumPool.wall(ModBlocks.PALLADIUM_WALL);
+
+        platinumPool.stairs(ModBlocks.PLATINUM_STAIRS);
+        platinumPool.slab(ModBlocks.PLATINUM_SLAB);
+        platinumPool.fence(ModBlocks.PLATINUM_FENCE);
+        platinumPool.fenceGate(ModBlocks.PLATINUM_FENCE_GATE);
+        platinumPool.pressurePlate(ModBlocks.PLATINUM_PRESSURE_PLATE);
+        platinumPool.button(ModBlocks.PLATINUM_BUTTON);
+        platinumPool.wall(ModBlocks.PLATINUM_WALL);
+
+        prometheumPool.stairs(ModBlocks.PROMETHEUM_STAIRS);
+        prometheumPool.slab(ModBlocks.PROMETHEUM_SLAB);
+        prometheumPool.fence(ModBlocks.PROMETHEUM_FENCE);
+        prometheumPool.fenceGate(ModBlocks.PROMETHEUM_FENCE_GATE);
+        prometheumPool.pressurePlate(ModBlocks.PROMETHEUM_PRESSURE_PLATE);
+        prometheumPool.button(ModBlocks.PROMETHEUM_BUTTON);
+        prometheumPool.wall(ModBlocks.PROMETHEUM_WALL);
+
+        quadrillumPool.stairs(ModBlocks.QUADRILLUM_STAIRS);
+        quadrillumPool.slab(ModBlocks.QUADRILLUM_SLAB);
+        quadrillumPool.fence(ModBlocks.QUADRILLUM_FENCE);
+        quadrillumPool.fenceGate(ModBlocks.QUADRILLUM_FENCE_GATE);
+        quadrillumPool.pressurePlate(ModBlocks.QUADRILLUM_PRESSURE_PLATE);
+        quadrillumPool.button(ModBlocks.QUADRILLUM_BUTTON);
+        quadrillumPool.wall(ModBlocks.QUADRILLUM_WALL);
+
+        runitePool.stairs(ModBlocks.RUNITE_STAIRS);
+        runitePool.slab(ModBlocks.RUNITE_SLAB);
+        runitePool.fence(ModBlocks.RUNITE_FENCE);
+        runitePool.fenceGate(ModBlocks.RUNITE_FENCE_GATE);
+        runitePool.pressurePlate(ModBlocks.RUNITE_PRESSURE_PLATE);
+        runitePool.button(ModBlocks.RUNITE_BUTTON);
+        runitePool.wall(ModBlocks.RUNITE_WALL);
+
+        silverPool.stairs(ModBlocks.SILVER_STAIRS);
+        silverPool.slab(ModBlocks.SILVER_SLAB);
+        silverPool.fence(ModBlocks.SILVER_FENCE);
+        silverPool.fenceGate(ModBlocks.SILVER_FENCE_GATE);
+        silverPool.pressurePlate(ModBlocks.SILVER_PRESSURE_PLATE);
+        silverPool.button(ModBlocks.SILVER_BUTTON);
+        silverPool.wall(ModBlocks.SILVER_WALL);
+
+        starritePool.stairs(ModBlocks.STARRITE_STAIRS);
+        starritePool.slab(ModBlocks.STARRITE_SLAB);
+        starritePool.fence(ModBlocks.STARRITE_FENCE);
+        starritePool.fenceGate(ModBlocks.STARRITE_FENCE_GATE);
+        starritePool.pressurePlate(ModBlocks.STARRITE_PRESSURE_PLATE);
+        starritePool.button(ModBlocks.STARRITE_BUTTON);
+        starritePool.wall(ModBlocks.STARRITE_WALL);
+
+        stormyxPool.stairs(ModBlocks.STORMYX_STAIRS);
+        stormyxPool.slab(ModBlocks.STORMYX_SLAB);
+        stormyxPool.fence(ModBlocks.STORMYX_FENCE);
+        stormyxPool.fenceGate(ModBlocks.STORMYX_FENCE_GATE);
+        stormyxPool.pressurePlate(ModBlocks.STORMYX_PRESSURE_PLATE);
+        stormyxPool.button(ModBlocks.STORMYX_BUTTON);
+        stormyxPool.wall(ModBlocks.STORMYX_WALL);
+
+        tinPool.stairs(ModBlocks.TIN_STAIRS);
+        tinPool.slab(ModBlocks.TIN_SLAB);
+        tinPool.fence(ModBlocks.TIN_FENCE);
+        tinPool.fenceGate(ModBlocks.TIN_FENCE_GATE);
+        tinPool.pressurePlate(ModBlocks.TIN_PRESSURE_PLATE);
+        tinPool.button(ModBlocks.TIN_BUTTON);
+        tinPool.wall(ModBlocks.TIN_WALL);
+
+        unobtainiumPool.stairs(ModBlocks.UNOBTAINIUM_STAIRS);
+        unobtainiumPool.slab(ModBlocks.UNOBTAINIUM_SLAB);
+        unobtainiumPool.fence(ModBlocks.UNOBTAINIUM_FENCE);
+        unobtainiumPool.fenceGate(ModBlocks.UNOBTAINIUM_FENCE_GATE);
+        unobtainiumPool.pressurePlate(ModBlocks.UNOBTAINIUM_PRESSURE_PLATE);
+        unobtainiumPool.button(ModBlocks.UNOBTAINIUM_BUTTON);
+        unobtainiumPool.wall(ModBlocks.UNOBTAINIUM_WALL);
+
 
 
         Identifier lampOffIdentifier =
@@ -312,8 +501,86 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_SAPPHIRE, Models.GENERATED);
 
-
         itemModelGenerator.register(ModItems.ADAMANTITE_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AQUARIUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANGLUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARMOT_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KYBER_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGANESE_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MIDAS_GOLD_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORICHALCUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OSMIUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROMETHEUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.QUADRILLUM_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUNITE_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STORMYX_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_DUST, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RAW_ADAMANTITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_AQUARIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_BANGLUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_CARMOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_KYBER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MANGANESE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MIDAS_GOLD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ORICHALCUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_OSMIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_PALLADIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_PLATINUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_PROMETHEUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_QUADRILLUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_RUNITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_SILVER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_STORMYX, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
+
+
+
+        itemModelGenerator.register(ModItems.ADAMANTITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AQUARIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANGLUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARMOT_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KYBER_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGANESE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MIDAS_GOLD_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MORKITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORICHALCUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OSMIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROMETHEUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.QUADRILLUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUNITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STARRITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STORMYX_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.ADAMANTITE_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AQUARIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANGLUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARMOT_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KYBER_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGANESE_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MIDAS_GOLD_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORICHALCUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OSMIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROMETHEUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.QUADRILLUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUNITE_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STORMYX_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_NUGGET, Models.GENERATED);
+
+
 
 
 

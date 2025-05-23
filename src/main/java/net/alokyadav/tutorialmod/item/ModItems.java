@@ -77,7 +77,6 @@ public class ModItems {
     public static final Item KYBER_DUST = registerItem("kyber_dust", new Item(new Item.Settings()));
     public static final Item MANGANESE_DUST = registerItem("manganese_dust", new Item(new Item.Settings()));
     public static final Item MIDAS_GOLD_DUST = registerItem("midas_gold_dust", new Item(new Item.Settings()));
-    public static final Item MORKITE_DUST = registerItem("morkite_dust", new Item(new Item.Settings()));
     public static final Item MYTHRIL_DUST = registerItem("mythril_dust", new Item(new Item.Settings()));
     public static final Item ORICHALCUM_DUST = registerItem("orichalcum_dust", new Item(new Item.Settings()));
     public static final Item OSMIUM_DUST = registerItem("osmium_dust", new Item(new Item.Settings()));
@@ -87,10 +86,9 @@ public class ModItems {
     public static final Item QUADRILLUM_DUST = registerItem("quadrillum_dust", new Item(new Item.Settings()));
     public static final Item RUNITE_DUST = registerItem("runite_dust", new Item(new Item.Settings()));
     public static final Item SILVER_DUST = registerItem("silver_dust", new Item(new Item.Settings()));
-    public static final Item STARRITE_DUST = registerItem("starrite_dust", new Item(new Item.Settings()));
     public static final Item STORMYX_DUST = registerItem("stormyx_dust", new Item(new Item.Settings()));
     public static final Item TIN_DUST = registerItem("tin_dust", new Item(new Item.Settings()));
-    public static final Item UNOBTAINIUM_DUST = registerItem("unobtainium_dust", new Item(new Item.Settings()));
+
 
 
     public static final Item ADAMANTITE_INGOT = registerItem("adamantite_ingot", new Item(new Item.Settings()));
@@ -100,7 +98,7 @@ public class ModItems {
     public static final Item KYBER_INGOT = registerItem("kyber_ingot", new Item(new Item.Settings()));
     public static final Item MANGANESE_INGOT = registerItem("manganese_ingot", new Item(new Item.Settings()));
     public static final Item MIDAS_GOLD_INGOT = registerItem("midas_gold_ingot", new Item(new Item.Settings()));
-    public static final Item MORKITE_INGOT = registerItem("morkite_ingot", new Item(new Item.Settings()));
+    public static final Item MORKITE = registerItem("morkite", new Item(new Item.Settings()));
     public static final Item ORICHALCUM_INGOT = registerItem("orichalcum_ingot", new Item(new Item.Settings()));
     public static final Item OSMIUM_INGOT = registerItem("osmium_ingot", new Item(new Item.Settings()));
     public static final Item PALLADIUM_INGOT = registerItem("palladium_ingot", new Item(new Item.Settings()));
@@ -109,10 +107,10 @@ public class ModItems {
     public static final Item QUADRILLUM_INGOT = registerItem("quadrillum_ingot", new Item(new Item.Settings()));
     public static final Item RUNITE_INGOT = registerItem("runite_ingot", new Item(new Item.Settings()));
     public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new Item.Settings()));
-    public static final Item STARRITE_INGOT = registerItem("starrite_ingot", new Item(new Item.Settings()));
+    public static final Item STARRITE = registerItem("starrite", new Item(new Item.Settings()));
     public static final Item STORMYX_INGOT = registerItem("stormyx_ingot", new Item(new Item.Settings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
-    public static final Item UNOBTAINIUM_INGOT = registerItem("unobtainium_ingot", new Item(new Item.Settings()));
+    public static final Item UNOBTAINIUM = registerItem("unobtainium", new Item(new Item.Settings()));
 
     public static final Item ADAMANTITE_NUGGET = registerItem("adamantite_nugget", new Item(new Item.Settings()));
     public static final Item AQUARIUM_NUGGET = registerItem("aquarium_nugget", new Item(new Item.Settings()));
@@ -121,7 +119,6 @@ public class ModItems {
     public static final Item KYBER_NUGGET = registerItem("kyber_nugget", new Item(new Item.Settings()));
     public static final Item MANGANESE_NUGGET = registerItem("manganese_nugget", new Item(new Item.Settings()));
     public static final Item MIDAS_GOLD_NUGGET = registerItem("midas_gold_nugget", new Item(new Item.Settings()));
-    public static final Item MORKITE_NUGGET = registerItem("morkite_nugget", new Item(new Item.Settings()));
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget", new Item(new Item.Settings()));
     public static final Item ORICHALCUM_NUGGET = registerItem("orichalcum_nugget", new Item(new Item.Settings()));
     public static final Item OSMIUM_NUGGET = registerItem("osmium_nugget", new Item(new Item.Settings()));
@@ -131,10 +128,32 @@ public class ModItems {
     public static final Item QUADRILLUM_NUGGET = registerItem("quadrillum_nugget", new Item(new Item.Settings()));
     public static final Item RUNITE_NUGGET = registerItem("runite_nugget", new Item(new Item.Settings()));
     public static final Item SILVER_NUGGET = registerItem("silver_nugget", new Item(new Item.Settings()));
-    public static final Item STARRITE_NUGGET = registerItem("starrite_nugget", new Item(new Item.Settings()));
     public static final Item STORMYX_NUGGET = registerItem("stormyx_nugget", new Item(new Item.Settings()));
     public static final Item TIN_NUGGET = registerItem("tin_nugget", new Item(new Item.Settings()));
-    public static final Item UNOBTAINIUM_NUGGET = registerItem("unobtainium_nugget", new Item(new Item.Settings()));
+
+
+    public static final Item RAW_ADAMANTITE = registerItem("raw_adamantite", new Item(new Item.Settings()));
+    public static final Item RAW_AQUARIUM = registerItem("raw_aquarium", new Item(new Item.Settings()));
+    public static final Item RAW_BANGLUM = registerItem("raw_banglum", new Item(new Item.Settings()));
+    public static final Item RAW_CARMOT = registerItem("raw_carmot", new Item(new Item.Settings()));
+    public static final Item RAW_KYBER = registerItem("raw_kyber", new Item(new Item.Settings()));
+    public static final Item RAW_MANGANESE = registerItem("raw_manganese", new Item(new Item.Settings()));
+    public static final Item RAW_MIDAS_GOLD = registerItem("raw_midas_gold", new Item(new Item.Settings()));
+    public static final Item RAW_ORICHALCUM = registerItem("raw_orichalcum", new Item(new Item.Settings()));
+    public static final Item RAW_OSMIUM = registerItem("raw_osmium", new Item(new Item.Settings()));
+    public static final Item RAW_PALLADIUM = registerItem("raw_palladium", new Item(new Item.Settings()));
+    public static final Item RAW_PLATINUM = registerItem("raw_platinum", new Item(new Item.Settings()));
+    public static final Item RAW_PROMETHEUM = registerItem("raw_prometheum", new Item(new Item.Settings()));
+    public static final Item RAW_QUADRILLUM = registerItem("raw_quadrillum", new Item(new Item.Settings()));
+    public static final Item RAW_RUNITE = registerItem("raw_runite", new Item(new Item.Settings()));
+    public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new Item.Settings()));
+    public static final Item RAW_STORMYX = registerItem("raw_stormyx", new Item(new Item.Settings()));
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+
+
+
+
+
 
 
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/manganese_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/manganese_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/manganese_slab_top"
+    }
+  }
+}

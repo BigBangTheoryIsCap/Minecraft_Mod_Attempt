@@ -11,16 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "tutorial-mod:lithium_door",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "half": "lower"
-              }
-            }
-          ],
-          "name": "tutorial-mod:lithium_door"
+          "name": "tutorial-mod:lithium_plate"
         }
       ],
       "rolls": 1.0

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_left",
-  "textures": {
-    "bottom": "tutorial-mod:block/mythril_door_bottom",
-    "top": "tutorial-mod:block/mythril_door_top"
-  }
-}

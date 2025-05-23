@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/aquarium_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/aquarium_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/aquarium_slab_top"
+    }
+  }
+}

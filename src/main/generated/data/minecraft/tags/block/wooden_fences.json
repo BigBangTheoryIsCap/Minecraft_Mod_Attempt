@@ -13,6 +13,26 @@
     "tutorial-mod:lithium_fence",
     "tutorial-mod:mythril_fence",
     "tutorial-mod:sapphire_fence",
-    "tutorial-mod:tanzanite_fence"
+    "tutorial-mod:tanzanite_fence",
+    "tutorial-mod:adamantite_fence",
+    "tutorial-mod:aquarium_fence",
+    "tutorial-mod:banglum_fence",
+    "tutorial-mod:carmot_fence",
+    "tutorial-mod:kyber_fence",
+    "tutorial-mod:manganese_fence",
+    "tutorial-mod:midas_gold_fence",
+    "tutorial-mod:morkite_fence",
+    "tutorial-mod:orichalcum_fence",
+    "tutorial-mod:osmium_fence",
+    "tutorial-mod:palladium_fence",
+    "tutorial-mod:platinum_fence",
+    "tutorial-mod:prometheum_fence",
+    "tutorial-mod:quadrillum_fence",
+    "tutorial-mod:runite_fence",
+    "tutorial-mod:silver_fence",
+    "tutorial-mod:starrite_fence",
+    "tutorial-mod:stormyx_fence",
+    "tutorial-mod:tin_fence",
+    "tutorial-mod:unobtainium_fence"
   ]
 }

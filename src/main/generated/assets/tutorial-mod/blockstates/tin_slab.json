@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/tin_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/tin_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/tin_slab_top"
+    }
+  }
+}

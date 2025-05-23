@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tutorial-mod:block/bismuth_lamp"
+    "all": "tutorial-mod:block/bismuth_lamp_off"
   }
 }

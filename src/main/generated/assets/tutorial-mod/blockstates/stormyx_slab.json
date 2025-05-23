@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/stormyx_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/stormyx_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/stormyx_slab_top"
+    }
+  }
+}

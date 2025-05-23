@@ -31,8 +31,7 @@ public class TutorialModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_TRAPDOOR, RenderLayer.getCutout());
 
 // Zircon
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ZIRCON_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ZIRCON_TRAPDOOR, RenderLayer.getCutout());
+
 
 // Titanium
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TITANIUM_DOOR, RenderLayer.getCutout());
@@ -42,29 +41,22 @@ public class TutorialModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_OPAL_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_OPAL_TRAPDOOR, RenderLayer.getCutout());
 
-// Citrine
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CITRINE_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CITRINE_TRAPDOOR, RenderLayer.getCutout());
+
 
 // Fluorite
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLUORITE_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLUORITE_TRAPDOOR, RenderLayer.getCutout());
 
 // Lithium
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LITHIUM_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LITHIUM_TRAPDOOR, RenderLayer.getCutout());
 
-// Mythril
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MYTHRIL_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MYTHRIL_TRAPDOOR, RenderLayer.getCutout());
 
 // Sapphire
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SAPPHIRE_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SAPPHIRE_TRAPDOOR, RenderLayer.getCutout());
 
 // Tanzanite
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TANZANITE_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TANZANITE_TRAPDOOR, RenderLayer.getCutout());
+
+
 
 
         ModModelPredicates.registerModelPredicates();

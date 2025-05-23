@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/banglum_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/banglum_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/banglum_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/carmot_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/carmot_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/carmot_slab_top"
+    }
+  }
+}

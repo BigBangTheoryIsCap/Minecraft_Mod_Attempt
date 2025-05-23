@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/quadrillum_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/quadrillum_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/quadrillum_slab_top"
+    }
+  }
+}

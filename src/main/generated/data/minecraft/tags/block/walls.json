@@ -13,6 +13,26 @@
     "tutorial-mod:lithium_wall",
     "tutorial-mod:mythril_wall",
     "tutorial-mod:sapphire_wall",
-    "tutorial-mod:tanzanite_wall"
+    "tutorial-mod:tanzanite_wall",
+    "tutorial-mod:adamantite_wall",
+    "tutorial-mod:aquarium_wall",
+    "tutorial-mod:banglum_wall",
+    "tutorial-mod:carmot_wall",
+    "tutorial-mod:kyber_wall",
+    "tutorial-mod:manganese_wall",
+    "tutorial-mod:midas_gold_wall",
+    "tutorial-mod:morkite_wall",
+    "tutorial-mod:orichalcum_wall",
+    "tutorial-mod:osmium_wall",
+    "tutorial-mod:palladium_wall",
+    "tutorial-mod:platinum_wall",
+    "tutorial-mod:prometheum_wall",
+    "tutorial-mod:quadrillum_wall",
+    "tutorial-mod:runite_wall",
+    "tutorial-mod:silver_wall",
+    "tutorial-mod:starrite_wall",
+    "tutorial-mod:stormyx_wall",
+    "tutorial-mod:tin_wall",
+    "tutorial-mod:unobtainium_wall"
   ]
 }

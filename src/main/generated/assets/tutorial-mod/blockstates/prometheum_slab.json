@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/prometheum_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/prometheum_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/prometheum_slab_top"
+    }
+  }
+}

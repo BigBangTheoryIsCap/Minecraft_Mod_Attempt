@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tutorial-mod:block/starrite_block",
+    "side": "tutorial-mod:block/starrite_block",
+    "top": "tutorial-mod:block/starrite_block"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorial-mod:item/dust/adamantite_dust"
+    "layer0": "tutorial-mod:item/adamantite_dust"
   }
 }

@@ -13,6 +13,26 @@
     "tutorial-mod:lithium_gate",
     "tutorial-mod:mythril_gate",
     "tutorial-mod:sapphire_gate",
-    "tutorial-mod:tanzanite_gate"
+    "tutorial-mod:tanzanite_gate",
+    "tutorial-mod:adamantite_gate",
+    "tutorial-mod:aquarium_gate",
+    "tutorial-mod:banglum_gate",
+    "tutorial-mod:carmot_gate",
+    "tutorial-mod:kyber_gate",
+    "tutorial-mod:manganese_gate",
+    "tutorial-mod:midas_gold_gate",
+    "tutorial-mod:morkite_gate",
+    "tutorial-mod:orichalcum_gate",
+    "tutorial-mod:osmium_gate",
+    "tutorial-mod:palladium_gate",
+    "tutorial-mod:platinum_gate",
+    "tutorial-mod:prometheum_gate",
+    "tutorial-mod:quadrillum_gate",
+    "tutorial-mod:runite_gate",
+    "tutorial-mod:silver_gate",
+    "tutorial-mod:starrite_gate",
+    "tutorial-mod:stormyx_gate",
+    "tutorial-mod:tin_gate",
+    "tutorial-mod:unobtainium_gate"
   ]
 }

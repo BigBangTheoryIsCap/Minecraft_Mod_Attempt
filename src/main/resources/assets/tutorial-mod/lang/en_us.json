@@ -29,8 +29,6 @@
   "item.tutorial-mod.raw_azurite": "Raw Azurite",
 
   "item.tutorial-mod.magic_mythril_dust": "Mythril Powder",
-  "item.tutorial-mod.mythril_ingot": "Mythril Ingot",
-  "item.tutorial-mod.raw_mythril": "Raw Mythril",
 
   "item.tutorial-mod.citrine": "Citrine",
   "item.tutorial-mod.raw_citrine": "Raw Citrine",
@@ -142,11 +140,7 @@
   "item.tutorial-mod.lithium_axe": "Lithium Axe",
   "item.tutorial-mod.lithium_hoe": "Lithium Hoe",
 
-  "item.tutorial-mod.mythril_sword": "Mythril Sword",
-  "item.tutorial-mod.mythril_pickaxe": "Mythril Pickaxe",
-  "item.tutorial-mod.mythril_shovel": "Mythril Shovel",
-  "item.tutorial-mod.mythril_axe": "Mythril Axe",
-  "item.tutorial-mod.mythril_hoe": "Mythril Hoe",
+
 
 
   "item.tutorial-mod.ruby_sword": "Ruby Sword",
@@ -208,11 +202,6 @@
   "item.tutorial-mod.lithium_chestplate": "Lithium Chestplate",
   "item.tutorial-mod.lithium_leggings": "Lithium Leggings",
   "item.tutorial-mod.lithium_boots": "Lithium Boots",
-
-  "item.tutorial-mod.mythril_helmet": "Mythril Helmet",
-  "item.tutorial-mod.mythril_chestplate": "Mythril Chestplate",
-  "item.tutorial-mod.mythril_leggings": "Mythril Leggings",
-  "item.tutorial-mod.mythril_boots": "Mythril Boots",
 
   "item.tutorial-mod.ruby_helmet": "Ruby Helmet",
   "item.tutorial-mod.ruby_chestplate": "Ruby Chestplate",
@@ -1165,33 +1154,7 @@
   "tooltip.mythril_drill.upgrade_slot": "Upgrade Slot %s: %s",
   "tooltip.mythril_drill.upgrade_slot_1": "Upgrade Slot 1: %s",
   "tooltip.mythril_drill.upgrade_slot_2":  "Upgrade Slot 2: %s",
-  "tooltip.upgrade_component.tooltip":[
-    {"text": "Craft with a "},
-    {"text": "Drill Upgrade", "color": "#3485C8"},
-    {"text": " in a Smithing Table"}
-  ],
-  "tooltip.mythril_drill.refuel":[
-    {"text": "Right-click with "},
-    {"text": "Morkite", "color": "#00e3d6"},
-    {"text": " to re-fuel"}
-  ],
-  "tooltip.mythril_drill.upgrade.prometheum": [
-    {"text": "Auto Repair", "color": "#3A6A56"}
-  ],
-  "tooltip.mythril_drill.upgrade.midas_gold": [
-    {"text": "Golden Luck", "color": "#FFAA00"}
-  ],
-  "tooltip.mythril_drill.upgrade.stormyx": [
-    {"text": "Bangl", "color": "#812FC2"},
-    {"text": "um De", "color": "#692FC2"},
-    {"text": "fuser", "color": "#512FC2"}
-  ],
-  "tooltip.mythril_drill.upgrade.aquarium": [
-    {"text": "Aqua Affinity", "color": "#55FFFF"}
-  ],
-  "tooltip.mythril_drill.upgrade.carmot": [
-    {"text": "+1 Fortune", "color": "#E63E73"}
-  ],
+
   "tooltip.mythril_drill.upgrade.empty": "Empty",
 
 
@@ -1214,9 +1177,7 @@
   "tooltip.carmot_staff.disabled": "This power has been disabled",
 
 
-  "tooltip.palladium_rail.info": [
-    {"text":  "Works as a Booster Rail when lavalogged", "color":  "#DF7323"}
-  ],
+
   "tooltip.prometheum.engrained": "Engrained",
   "tooltip.prometheum.overgrown": "Overgrown",
 
@@ -1734,5 +1695,346 @@
   "tag.item.tutorial-mod.tools.shield": "Mythic Metals Shields",
   "tag.item.tutorial-mod.tools.mining_tool": "Mythic Metals Mining Tools",
   "tag.item.tutorial-mod.abilities.bonus_fortune": "Tools with Bonus Fortune",
-  "tag.item.tutorial-mod.abilities.bonus_looting": "Tools with Bonus Looting"
+  "tag.item.tutorial-mod.abilities.bonus_looting": "Tools with Bonus Looting",
+  "itemgroup.tutorial-mod.adamantite": "Adamantite Items",
+  "itemgroup.tutorial-mod.aquarium": "Aquarium",
+  "itemgroup.tutorial-mod.banglum": "Banglum",
+  "itemgroup.tutorial-mod.carmot": "Carmot",
+  "itemgroup.tutorial-mod.kyber": "Kyber",
+  "itemgroup.tutorial-mod.manganese": "Manganese",
+  "itemgroup.tutorial-mod.midas_gold": "Midas Gold",
+  "itemgroup.tutorial-mod.morkite": "Morkite",
+  "itemgroup.tutorial-mod.orichalcum": "Orichalcum",
+  "itemgroup.tutorial-mod.osmium": "Osmium",
+  "itemgroup.tutorial-mod.palladium": "Palladium",
+  "itemgroup.tutorial-mod.platinum": "Platinum",
+  "itemgroup.tutorial-mod.prometheum": "Prometheum",
+  "itemgroup.tutorial-mod.quadrillum": "Quadrillum",
+  "itemgroup.tutorial-mod.runite": "Runite",
+  "itemgroup.tutorial-mod.silver": "Silver",
+  "itemgroup.tutorial-mod.starrite": "Starrite",
+  "itemgroup.tutorial-mod.stormyx": "Stormyx",
+  "itemgroup.tutorial-mod.tin": "Tin",
+  "itemgroup.tutorial-mod.unobtainium": "Unobtainium",
+
+
+  "block.tutorial-mod.tanzanite_block": "Tanzanite Block",
+  "block.tutorial-mod.tanzanite_stairs": "Tanzanite Stairs",
+  "block.tutorial-mod.tanzanite_slab": "Tanzanite Slab",
+  "block.tutorial-mod.tanzanite_fence": "Tanzanite Fence",
+  "block.tutorial-mod.tanzanite_gate": "Tanzanite Fence Gate",
+  "block.tutorial-mod.tanzanite_wall": "Tanzanite Wall",
+  "block.tutorial-mod.tanzanite_button": "Tanzanite Button",
+  "block.tutorial-mod.tanzanite_plate": "Tanzanite Pressure Plate",
+  "block.tutorial-mod.tanzanite_door": "Tanzanite Door",
+  "block.tutorial-mod.tanzanite_trapdoor": "Tanzanite Trapdoor",
+
+
+  "block.tutorial-mod.adamantite_stairs": "Adamantite Stairs",
+  "block.tutorial-mod.adamantite_slab": "Adamantite Slab",
+  "block.tutorial-mod.adamantite_fence": "Adamantite Fence",
+  "block.tutorial-mod.adamantite_gate": "Adamantite Fence Gate",
+  "block.tutorial-mod.adamantite_wall": "Adamantite Wall",
+  "block.tutorial-mod.adamantite_button": "Adamantite Button",
+  "block.tutorial-mod.adamantite_plate": "Adamantite Pressure Plate",
+  "block.tutorial-mod.adamantite_door": "Adamantite Door",
+  "block.tutorial-mod.adamantite_trapdoor": "Adamantite Trapdoor",
+
+
+  "block.tutorial-mod.aquarium_stairs": "Aquarium Stairs",
+  "block.tutorial-mod.aquarium_slab": "Aquarium Slab",
+  "block.tutorial-mod.aquarium_fence": "Aquarium Fence",
+  "block.tutorial-mod.aquarium_gate": "Aquarium Fence Gate",
+  "block.tutorial-mod.aquarium_wall": "Aquarium Wall",
+  "block.tutorial-mod.aquarium_button": "Aquarium Button",
+  "block.tutorial-mod.aquarium_plate": "Aquarium Pressure Plate",
+  "block.tutorial-mod.aquarium_door": "Aquarium Door",
+  "block.tutorial-mod.aquarium_trapdoor": "Aquarium Trapdoor",
+
+
+  "block.tutorial-mod.banglum_stairs": "Banglum Stairs",
+  "block.tutorial-mod.banglum_slab": "Banglum Slab",
+  "block.tutorial-mod.banglum_fence": "Banglum Fence",
+  "block.tutorial-mod.banglum_gate": "Banglum Fence Gate",
+  "block.tutorial-mod.banglum_wall": "Banglum Wall",
+  "block.tutorial-mod.banglum_button": "Banglum Button",
+  "block.tutorial-mod.banglum_plate": "Banglum Pressure Plate",
+  "block.tutorial-mod.banglum_door": "Banglum Door",
+  "block.tutorial-mod.banglum_trapdoor": "Banglum Trapdoor",
+
+
+  "block.tutorial-mod.carmot_stairs": "Carmot Stairs",
+  "block.tutorial-mod.carmot_slab": "Carmot Slab",
+  "block.tutorial-mod.carmot_fence": "Carmot Fence",
+  "block.tutorial-mod.carmot_gate": "Carmot Fence Gate",
+  "block.tutorial-mod.carmot_wall": "Carmot Wall",
+  "block.tutorial-mod.carmot_button": "Carmot Button",
+  "block.tutorial-mod.carmot_plate": "Carmot Pressure Plate",
+  "block.tutorial-mod.carmot_door": "Carmot Door",
+  "block.tutorial-mod.carmot_trapdoor": "Carmot Trapdoor",
+
+
+  "block.tutorial-mod.kyber_stairs": "Kyber Stairs",
+  "block.tutorial-mod.kyber_slab": "Kyber Slab",
+  "block.tutorial-mod.kyber_fence": "Kyber Fence",
+  "block.tutorial-mod.kyber_gate": "Kyber Fence Gate",
+  "block.tutorial-mod.kyber_wall": "Kyber Wall",
+  "block.tutorial-mod.kyber_button": "Kyber Button",
+  "block.tutorial-mod.kyber_plate": "Kyber Pressure Plate",
+  "block.tutorial-mod.kyber_door": "Kyber Door",
+  "block.tutorial-mod.kyber_trapdoor": "Kyber Trapdoor",
+
+
+  "block.tutorial-mod.manganese_stairs": "Manganese Stairs",
+  "block.tutorial-mod.manganese_slab": "Manganese Slab",
+  "block.tutorial-mod.manganese_fence": "Manganese Fence",
+  "block.tutorial-mod.manganese_gate": "Manganese Fence Gate",
+  "block.tutorial-mod.manganese_wall": "Manganese Wall",
+  "block.tutorial-mod.manganese_button": "Manganese Button",
+  "block.tutorial-mod.manganese_plate": "Manganese Pressure Plate",
+  "block.tutorial-mod.manganese_door": "Manganese Door",
+  "block.tutorial-mod.manganese_trapdoor": "Manganese Trapdoor",
+
+
+  "block.tutorial-mod.midas_gold_stairs": "Midas Gold Stairs",
+  "block.tutorial-mod.midas_gold_slab": "Midas Gold Slab",
+  "block.tutorial-mod.midas_gold_fence": "Midas Gold Fence",
+  "block.tutorial-mod.midas_gold_gate": "Midas Gold Fence Gate",
+  "block.tutorial-mod.midas_gold_wall": "Midas Gold Wall",
+  "block.tutorial-mod.midas_gold_button": "Midas Gold Button",
+  "block.tutorial-mod.midas_gold_plate": "Midas Gold Pressure Plate",
+  "block.tutorial-mod.midas_gold_door": "Midas Gold Door",
+  "block.tutorial-mod.midas_gold_trapdoor": "Midas Gold Trapdoor",
+
+
+  "block.tutorial-mod.morkite_stairs": "Morkite Stairs",
+  "block.tutorial-mod.morkite_slab": "Morkite Slab",
+  "block.tutorial-mod.morkite_fence": "Morkite Fence",
+  "block.tutorial-mod.morkite_gate": "Morkite Fence Gate",
+  "block.tutorial-mod.morkite_wall": "Morkite Wall",
+  "block.tutorial-mod.morkite_button": "Morkite Button",
+  "block.tutorial-mod.morkite_plate": "Morkite Pressure Plate",
+  "block.tutorial-mod.morkite_door": "Morkite Door",
+  "block.tutorial-mod.morkite_trapdoor": "Morkite Trapdoor",
+
+
+  "block.tutorial-mod.orichalcum_stairs": "Orichalcum Stairs",
+  "block.tutorial-mod.orichalcum_slab": "Orichalcum Slab",
+  "block.tutorial-mod.orichalcum_fence": "Orichalcum Fence",
+  "block.tutorial-mod.orichalcum_gate": "Orichalcum Fence Gate",
+  "block.tutorial-mod.orichalcum_wall": "Orichalcum Wall",
+  "block.tutorial-mod.orichalcum_button": "Orichalcum Button",
+  "block.tutorial-mod.orichalcum_plate": "Orichalcum Pressure Plate",
+  "block.tutorial-mod.orichalcum_door": "Orichalcum Door",
+  "block.tutorial-mod.orichalcum_trapdoor": "Orichalcum Trapdoor",
+
+
+  "block.tutorial-mod.osmium_stairs": "Osmium Stairs",
+  "block.tutorial-mod.osmium_slab": "Osmium Slab",
+  "block.tutorial-mod.osmium_fence": "Osmium Fence",
+  "block.tutorial-mod.osmium_gate": "Osmium Fence Gate",
+  "block.tutorial-mod.osmium_wall": "Osmium Wall",
+  "block.tutorial-mod.osmium_button": "Osmium Button",
+  "block.tutorial-mod.osmium_plate": "Osmium Pressure Plate",
+  "block.tutorial-mod.osmium_door": "Osmium Door",
+  "block.tutorial-mod.osmium_trapdoor": "Osmium Trapdoor",
+
+
+  "block.tutorial-mod.palladium_stairs": "Palladium Stairs",
+  "block.tutorial-mod.palladium_slab": "Palladium Slab",
+  "block.tutorial-mod.palladium_fence": "Palladium Fence",
+  "block.tutorial-mod.palladium_gate": "Palladium Fence Gate",
+  "block.tutorial-mod.palladium_wall": "Palladium Wall",
+  "block.tutorial-mod.palladium_button": "Palladium Button",
+  "block.tutorial-mod.palladium_plate": "Palladium Pressure Plate",
+  "block.tutorial-mod.palladium_door": "Palladium Door",
+  "block.tutorial-mod.palladium_trapdoor": "Palladium Trapdoor",
+
+
+  "block.tutorial-mod.platinum_stairs": "Platinum Stairs",
+  "block.tutorial-mod.platinum_slab": "Platinum Slab",
+  "block.tutorial-mod.platinum_fence": "Platinum Fence",
+  "block.tutorial-mod.platinum_gate": "Platinum Fence Gate",
+  "block.tutorial-mod.platinum_wall": "Platinum Wall",
+  "block.tutorial-mod.platinum_button": "Platinum Button",
+  "block.tutorial-mod.platinum_plate": "Platinum Pressure Plate",
+  "block.tutorial-mod.platinum_door": "Platinum Door",
+  "block.tutorial-mod.platinum_trapdoor": "Platinum Trapdoor",
+
+
+  "block.tutorial-mod.prometheum_stairs": "Prometheum Stairs",
+  "block.tutorial-mod.prometheum_slab": "Prometheum Slab",
+  "block.tutorial-mod.prometheum_fence": "Prometheum Fence",
+  "block.tutorial-mod.prometheum_gate": "Prometheum Fence Gate",
+  "block.tutorial-mod.prometheum_wall": "Prometheum Wall",
+  "block.tutorial-mod.prometheum_button": "Prometheum Button",
+  "block.tutorial-mod.prometheum_plate": "Prometheum Pressure Plate",
+  "block.tutorial-mod.prometheum_door": "Prometheum Door",
+  "block.tutorial-mod.prometheum_trapdoor": "Prometheum Trapdoor",
+
+
+  "block.tutorial-mod.quadrillum_stairs": "Quadrillum Stairs",
+  "block.tutorial-mod.quadrillum_slab": "Quadrillum Slab",
+  "block.tutorial-mod.quadrillum_fence": "Quadrillum Fence",
+  "block.tutorial-mod.quadrillum_gate": "Quadrillum Fence Gate",
+  "block.tutorial-mod.quadrillum_wall": "Quadrillum Wall",
+  "block.tutorial-mod.quadrillum_button": "Quadrillum Button",
+  "block.tutorial-mod.quadrillum_plate": "Quadrillum Pressure Plate",
+  "block.tutorial-mod.quadrillum_door": "Quadrillum Door",
+  "block.tutorial-mod.quadrillum_trapdoor": "Quadrillum Trapdoor",
+
+  "block.tutorial-mod.runite_stairs": "Runite Stairs",
+  "block.tutorial-mod.runite_slab": "Runite Slab",
+  "block.tutorial-mod.runite_fence": "Runite Fence",
+  "block.tutorial-mod.runite_gate": "Runite Fence Gate",
+  "block.tutorial-mod.runite_wall": "Runite Wall",
+  "block.tutorial-mod.runite_button": "Runite Button",
+  "block.tutorial-mod.runite_plate": "Runite Pressure Plate",
+  "block.tutorial-mod.runite_door": "Runite Door",
+  "block.tutorial-mod.runite_trapdoor": "Runite Trapdoor",
+
+
+  "block.tutorial-mod.silver_stairs": "Silver Stairs",
+  "block.tutorial-mod.silver_slab": "Silver Slab",
+  "block.tutorial-mod.silver_fence": "Silver Fence",
+  "block.tutorial-mod.silver_gate": "Silver Fence Gate",
+  "block.tutorial-mod.silver_wall": "Silver Wall",
+  "block.tutorial-mod.silver_button": "Silver Button",
+  "block.tutorial-mod.silver_plate": "Silver Pressure Plate",
+  "block.tutorial-mod.silver_door": "Silver Door",
+  "block.tutorial-mod.silver_trapdoor": "Silver Trapdoor",
+
+
+  "block.tutorial-mod.starrite_stairs": "Starrite Stairs",
+  "block.tutorial-mod.starrite_slab": "Starrite Slab",
+  "block.tutorial-mod.starrite_fence": "Starrite Fence",
+  "block.tutorial-mod.starrite_gate": "Starrite Fence Gate",
+  "block.tutorial-mod.starrite_wall": "Starrite Wall",
+  "block.tutorial-mod.starrite_button": "Starrite Button",
+  "block.tutorial-mod.starrite_plate": "Starrite Pressure Plate",
+  "block.tutorial-mod.starrite_door": "Starrite Door",
+  "block.tutorial-mod.starrite_trapdoor": "Starrite Trapdoor",
+
+
+  "block.tutorial-mod.stormyx_stairs": "Stormyx Stairs",
+  "block.tutorial-mod.stormyx_slab": "Stormyx Slab",
+  "block.tutorial-mod.stormyx_fence": "Stormyx Fence",
+  "block.tutorial-mod.stormyx_gate": "Stormyx Fence Gate",
+  "block.tutorial-mod.stormyx_wall": "Stormyx Wall",
+  "block.tutorial-mod.stormyx_button": "Stormyx Button",
+  "block.tutorial-mod.stormyx_plate": "Stormyx Pressure Plate",
+  "block.tutorial-mod.stormyx_door": "Stormyx Door",
+  "block.tutorial-mod.stormyx_trapdoor": "Stormyx Trapdoor",
+
+
+  "block.tutorial-mod.tin_stairs": "Tin Stairs",
+  "block.tutorial-mod.tin_slab": "Tin Slab",
+  "block.tutorial-mod.tin_fence": "Tin Fence",
+  "block.tutorial-mod.tin_gate": "Tin Fence Gate",
+  "block.tutorial-mod.tin_wall": "Tin Wall",
+  "block.tutorial-mod.tin_button": "Tin Button",
+  "block.tutorial-mod.tin_plate": "Tin Pressure Plate",
+  "block.tutorial-mod.tin_door": "Tin Door",
+  "block.tutorial-mod.tin_trapdoor": "Tin Trapdoor",
+
+
+  "block.tutorial-mod.unobtainium_stairs": "Unobtainium Stairs",
+  "block.tutorial-mod.unobtainium_slab": "Unobtainium Slab",
+  "block.tutorial-mod.unobtainium_fence": "Unobtainium Fence",
+  "block.tutorial-mod.unobtainium_gate": "Unobtainium Fence Gate",
+  "block.tutorial-mod.unobtainium_wall": "Unobtainium Wall",
+  "block.tutorial-mod.unobtainium_button": "Unobtainium Button",
+  "block.tutorial-mod.unobtainium_plate": "Unobtainium Pressure Plate",
+  "block.tutorial-mod.unobtainium_door": "Unobtainium Door",
+  "block.tutorial-mod.unobtainium_trapdoor": "Unobtainium Trapdoor",
+
+  "block.tutorial-mod.sapphire_block": "Sapphire Block",
+  "block.tutorial-mod.sapphire_stairs": "Sapphire Stairs",
+  "block.tutorial-mod.sapphire_slab": "Sapphire Slab",
+  "block.tutorial-mod.sapphire_fence": "Sapphire Fence",
+  "block.tutorial-mod.sapphire_gate": "Sapphire Fence Gate",
+  "block.tutorial-mod.sapphire_wall": "Sapphire Wall",
+  "block.tutorial-mod.sapphire_button": "Sapphire Button",
+  "block.tutorial-mod.sapphire_plate": "Sapphire Pressure Plate",
+
+  "block.tutorial-mod.ruby_stairs": "Ruby Stairs",
+  "block.tutorial-mod.ruby_slab": "Ruby Slab",
+  "block.tutorial-mod.ruby_fence": "Ruby Fence",
+  "block.tutorial-mod.ruby_gate": "Ruby Fence Gate",
+  "block.tutorial-mod.ruby_wall": "Ruby Wall",
+  "block.tutorial-mod.ruby_button": "Ruby Button",
+  "block.tutorial-mod.ruby_plate": "Ruby Pressure Plate",
+
+  "block.tutorial-mod.zircon_block": "Zircon Block",
+  "block.tutorial-mod.zircon_stairs": "Zircon Stairs",
+  "block.tutorial-mod.zircon_slab": "Zircon Slab",
+  "block.tutorial-mod.zircon_fence": "Zircon Fence",
+  "block.tutorial-mod.zircon_gate": "Zircon Fence Gate",
+  "block.tutorial-mod.zircon_wall": "Zircon Wall",
+  "block.tutorial-mod.zircon_button": "Zircon Button",
+  "block.tutorial-mod.zircon_plate": "Zircon Pressure Plate",
+
+  "block.tutorial-mod.titanium_block": "Titanium Block",
+  "block.tutorial-mod.titanium_stairs": "Titanium Stairs",
+  "block.tutorial-mod.titanium_slab": "Titanium Slab",
+  "block.tutorial-mod.titanium_fence": "Titanium Fence",
+  "block.tutorial-mod.titanium_gate": "Titanium Fence Gate",
+  "block.tutorial-mod.titanium_wall": "Titanium Wall",
+  "block.tutorial-mod.titanium_button": "Titanium Button",
+  "block.tutorial-mod.titanium_plate": "Titanium Pressure Plate",
+
+
+  "block.tutorial-mod.mythril_stairs": "Mythril Stairs",
+  "block.tutorial-mod.mythril_slab": "Mythril Slab",
+  "block.tutorial-mod.mythril_fence": "Mythril Fence",
+  "block.tutorial-mod.mythril_gate": "Mythril Fence Gate",
+  "block.tutorial-mod.mythril_wall": "Mythril Wall",
+  "block.tutorial-mod.mythril_button": "Mythril Button",
+  "block.tutorial-mod.mythril_plate": "Mythril Pressure Plate",
+
+  "block.tutorial-mod.lithium_block": "Lithium Block",
+  "block.tutorial-mod.lithium_stairs": "Lithium Stairs",
+  "block.tutorial-mod.lithium_slab": "Lithium Slab",
+  "block.tutorial-mod.lithium_fence": "Lithium Fence",
+  "block.tutorial-mod.lithium_gate": "Lithium Fence Gate",
+  "block.tutorial-mod.lithium_wall": "Lithium Wall",
+  "block.tutorial-mod.lithium_button": "Lithium Button",
+  "block.tutorial-mod.lithium_plate": "Lithium Pressure Plate",
+
+  "block.tutorial-mod.fluorite_block": "Fluorite Block",
+  "block.tutorial-mod.fluorite_stairs": "Fluorite Stairs",
+  "block.tutorial-mod.fluorite_slab": "Fluorite Slab",
+  "block.tutorial-mod.fluorite_fence": "Fluorite Fence",
+  "block.tutorial-mod.fluorite_gate": "Fluorite Fence Gate",
+  "block.tutorial-mod.fluorite_wall": "Fluorite Wall",
+  "block.tutorial-mod.fluorite_button": "Fluorite Button",
+  "block.tutorial-mod.fluorite_plate": "Fluorite Pressure Plate",
+
+  "block.tutorial-mod.azurite_block": "Azurite Block",
+  "block.tutorial-mod.azurite_stairs": "Azurite Stairs",
+  "block.tutorial-mod.azurite_slab": "Azurite Slab",
+  "block.tutorial-mod.azurite_fence": "Azurite Fence",
+  "block.tutorial-mod.azurite_gate": "Azurite Fence Gate",
+  "block.tutorial-mod.azurite_wall": "Azurite Wall",
+  "block.tutorial-mod.azurite_button": "Azurite Button",
+  "block.tutorial-mod.azurite_plate": "Azurite Pressure Plate",
+
+  "block.tutorial-mod.black_opal_block": "Black Opal Block",
+  "block.tutorial-mod.black_opal_stairs": "Black Opal Stairs",
+  "block.tutorial-mod.black_opal_slab": "Black Opal Slab",
+  "block.tutorial-mod.black_opal_fence": "Black Opal Fence",
+  "block.tutorial-mod.black_opal_gate": "Black Opal Fence Gate",
+  "block.tutorial-mod.black_opal_wall": "Black Opal Wall",
+  "block.tutorial-mod.black_opal_button": "Black Opal Button",
+  "block.tutorial-mod.black_opal_plate": "Black Opal Pressure Plate",
+
+  "block.tutorial-mod.citrine_block": "Citrine Block",
+  "block.tutorial-mod.citrine_stairs": "Citrine Stairs",
+  "block.tutorial-mod.citrine_slab": "Citrine Slab",
+  "block.tutorial-mod.citrine_fence": "Citrine Fence",
+  "block.tutorial-mod.citrine_gate": "Citrine Fence Gate",
+  "block.tutorial-mod.citrine_wall": "Citrine Wall",
+  "block.tutorial-mod.citrine_button": "Citrine Button",
+  "block.tutorial-mod.citrine_pressure_plate": "Citrine Pressure Plate"
 }
+

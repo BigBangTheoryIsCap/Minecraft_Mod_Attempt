@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tutorial-mod:block/banglum_block",
+    "side": "tutorial-mod:block/banglum_block",
+    "top": "tutorial-mod:block/banglum_block"
+  }
+}
